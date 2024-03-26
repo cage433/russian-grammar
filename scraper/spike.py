@@ -45,7 +45,7 @@ def extract_verb_data():
         print(f"Extracting data for verb {i}, {verb}")
         text = query_pages_for_verb(verb)
         soup = BeautifulSoup(text, 'html.parser')
-        ConjugationParser.parse_conjugation_from_soup(soup)
+        ConjugationParser(soup).parse_conjugation_from_soup
 
 if __name__ == '__main__':
     extract_verb_data()

@@ -1,4 +1,5 @@
 import re
+from functools import cached_property
 from typing import List, Optional
 
 from bs4 import BeautifulSoup
@@ -6,6 +7,7 @@ from bs4 import BeautifulSoup
 from grammar.conjugation import Conjugation, Aspect, IRREGULAR, RegularCategory, ZaliznyakClass, VerbType, \
     StressPattern, StressRule, Participle, ParticipleType, Tense, LongOrShort, PresentOrFutureConjugation, Imperative, \
     PastConjugation
+from utils.types import checked_type
 
 
 class ConjugationParser:
@@ -14,27 +16,32 @@ class ConjugationParser:
     STRESS_RE = re.compile(r'(?:-|\d)?([abc].*) ')
     STRESS2_RE = re.compile(r'(?:-|\d)?([abc].*)/([abc].*) ')
 
-    @staticmethod
-    def conjugaton_frame(soup: BeautifulSoup) -> BeautifulSoup:
-        frames = soup.body.find_all("div", {"class": 'NavFrame'})
+    def __init__(self, soup: BeautifulSoup):
+        self.soup: BeautifulSoup = checked_type(soup, BeautifulSoup)
+
+    @cached_property
+    def conjugation_frame(self) -> BeautifulSoup:
+        frames = self.soup.body.find_all("div", {"class": 'NavFrame'})
         return [f for f in frames if "Conjugation of" in f.text and "fective" in f.text][0]
 
-    @staticmethod
-    def extract_infinitive(soup: BeautifulSoup) -> str:
-        divs = ConjugationParser.conjugaton_frame(soup).find("div", {"class": 'NavHead'})
-        return divs.i.text
+    @cached_property
+    def table_header(self):
+        return self.conjugation_frame.find("div", {"class": 'NavHead'})
 
-    @staticmethod
-    def extract_verb_type(soup: BeautifulSoup) -> VerbType:
-        divs = ConjugationParser.conjugaton_frame(soup).find("div", {"class": 'NavHead'})
-        class_text = divs.contents[-1].lower()
+    @cached_property
+    def extract_infinitive(self) -> str:
+        return self.table_header.i.text
+
+    @cached_property
+    def extract_verb_type(self) -> VerbType:
+        class_text = self.table_header.contents[-1].lower()
         is_intransitive = "intransitive" in class_text
         is_reflexive = "reflexive" in class_text
         if "irreg" in class_text:
             category = IRREGULAR
-        elif match := ConjugationParser.CATEGORY_RE.search(class_text):
+        elif match := self.CATEGORY_RE.search(class_text):
             category = RegularCategory(int(match.groups()[0]), modifier=None)
-        elif match := ConjugationParser.CATEGORY_RE_WITH_MODIFIER.search(class_text):
+        elif match := self.CATEGORY_RE_WITH_MODIFIER.search(class_text):
             category = RegularCategory(int(match.groups()[0]), modifier=match.groups()[1])
         else:
             raise ValueError(f"Category not found in class text: {class_text}")
@@ -46,12 +53,12 @@ class ConjugationParser:
         else:
             raise ValueError(f"Aspect not found in class text: {class_text}")
 
-        if stress_2 := ConjugationParser.STRESS2_RE.search(class_text):
+        if stress_2 := self.STRESS2_RE.search(class_text):
             present_stress, past_stress = stress_2.groups()
             stress_rule = StressRule(
                 StressPattern(present_stress), StressPattern(past_stress)
             )
-        elif stress := ConjugationParser.STRESS_RE.search(class_text):
+        elif stress := self.STRESS_RE.search(class_text):
             stress = StressPattern(stress.groups()[0])
             stress_rule = StressRule(stress, past_stress=None)
         else:
@@ -67,8 +74,7 @@ class ConjugationParser:
             reflexive=is_reflexive
         )
 
-    @staticmethod
-    def extract_participles_from_row(table_row: BeautifulSoup) -> List[Participle]:
+    def extract_participles_from_row(self, table_row: BeautifulSoup) -> List[Participle]:
         row_header = table_row.find('th').text.strip()
         participle_type = ParticipleType(row_header)
         present_cell, past_cell = table_row.find_all('td')
@@ -96,22 +102,27 @@ class ConjugationParser:
         participles += get_participles(past_participles, Tense.PAST)
         return participles
 
-    @staticmethod
-    def extract_participles(soup: BeautifulSoup) -> List[Participle]:
-        table = ConjugationParser.conjugaton_frame(soup).find("div", {"class": 'NavContent'})
-        rows = table.find_all('tr')
+    @cached_property
+    def table(self):
+        return self.conjugation_frame.find("div", {"class": 'NavContent'})
+
+    @cached_property
+    def table_rows(self):
+        return self.table.find_all('tr')
+
+    @cached_property
+    def extract_participles(self) -> List[Participle]:
+        rows = self.table_rows
         for i_row in [2, 6]:
             assert rows[i_row].attrs["class"] == ["rowgroup"], f" row {i_row} is not rowgroup"
         participle_rows = rows[3:6]
         participles = []
         for row in participle_rows:
-            participles += ConjugationParser.extract_participles_from_row(row)
+            participles += self.extract_participles_from_row(row)
         return participles
 
-    @staticmethod
-    def extract_present_or_future(soup: BeautifulSoup, aspect: Aspect) -> PresentOrFutureConjugation:
-        table = ConjugationParser.conjugaton_frame(soup).find("div", {"class": 'NavContent'})
-        rows = table.find_all('tr')
+    def extract_present_or_future(self, aspect: Aspect) -> PresentOrFutureConjugation:
+        rows = self.table_rows
         for i_row in [6, 13]:
             assert rows[i_row].attrs["class"] == ["rowgroup"], f" row {i_row} is not rowgroup"
         p_or_f_rows = rows[7:13]
@@ -131,10 +142,9 @@ class ConjugationParser:
             third_person_plural=texts[5],
         )
 
-    @staticmethod
-    def extract_imperative(soup: BeautifulSoup) -> Optional[Imperative]:
-        table = ConjugationParser.conjugaton_frame(soup).find("div", {"class": 'NavContent'})
-        rows = table.find_all('tr')
+    @cached_property
+    def extract_imperative(self) -> Optional[Imperative]:
+        rows = self.table_rows
         for i_row in [13, 15]:
             assert rows[i_row].attrs["class"] == ["rowgroup"], f" row {i_row} is not rowgroup"
         imperative_row = rows[14]
@@ -142,17 +152,16 @@ class ConjugationParser:
         texts = [
             a.text.strip()
             for c in cells
-            for a in c.find_all('a')[:1] # Sometimes there are multiple links
+            for a in c.find_all('a')[:1]  # Sometimes there are multiple links
         ]
         if texts == []:
             return None
         singular, plural = texts
         return Imperative(singular, plural)
 
-    @staticmethod
-    def extract_past_conjugation(soup: BeautifulSoup) -> PastConjugation:
-        table = ConjugationParser.conjugaton_frame(soup).find("div", {"class": 'NavContent'})
-        rows = table.find_all('tr')
+    @cached_property
+    def extract_past_conjugation(self) -> PastConjugation:
+        rows = self.table_rows
         singular_texts = []
         for row in rows[16:19]:
             text = row.find('td').find('a').text.strip()
@@ -168,20 +177,19 @@ class ConjugationParser:
             plural=plural_text
         )
 
-    @staticmethod
-    def parse_conjugation_from_soup(soup: BeautifulSoup) -> Conjugation:
-        infinitive = ConjugationParser.extract_infinitive(soup)
-        verb_type = ConjugationParser.extract_verb_type(soup)
-        participles = ConjugationParser.extract_participles(soup)
-        present_or_future = ConjugationParser.extract_present_or_future(soup, verb_type.aspect)
-        imperative = ConjugationParser.extract_imperative(soup)
-        past_conjugaton = ConjugationParser.extract_past_conjugation(soup)
+    @cached_property
+    def parse_conjugation_from_soup(self) -> Conjugation:
+        infinitive = self.extract_infinitive
+        verb_type = self.extract_verb_type
+        participles = self.extract_participles
+        present_or_future = self.extract_present_or_future(verb_type.aspect)
+        imperative = self.extract_imperative
+        past_conjugation = self.extract_past_conjugation
         return Conjugation(
             infinitive=infinitive,
             verb_type=verb_type,
             participles=participles,
             present_or_future=present_or_future,
-            past=past_conjugaton,
+            past=past_conjugation,
             imperative=imperative
         )
-        return present_or_future
