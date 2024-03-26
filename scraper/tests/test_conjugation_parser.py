@@ -13,5 +13,5 @@ class ConjugationParserTestCase(TestCase):
             with open(page) as p:
                 text = p.read()
             soup = BeautifulSoup(text, 'html.parser')
-            conjugaton = ConjugationParser.parse_conjugation_from_soup(soup)
-            print(conjugaton)
+            # Not throwing an exception is a good sign
+            ConjugationParser.parse_conjugation_from_soup(soup)

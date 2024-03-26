@@ -1,5 +1,5 @@
 import re
-from typing import List
+from typing import List, Optional
 
 from bs4 import BeautifulSoup
 
@@ -9,28 +9,35 @@ from grammar.conjugation import Conjugation, Aspect, IRREGULAR, RegularCategory,
 
 
 class ConjugationParser:
-    CATEGORY_RE = re.compile(r' (\d{1,2})[abc]')
-    STRESS_RE = re.compile(r'(?:-|\d)([abc]) ')
-    STRESS2_RE = re.compile(r'(?:-|\d)([abc])/([abc])')
+    CATEGORY_RE = re.compile(r' (\d{1,2})[abc] ')
+    CATEGORY_RE_WITH_MODIFIER = re.compile(r' (\d{1,2})(.*)[abc]')
+    STRESS_RE = re.compile(r'(?:-|\d)?([abc].*) ')
+    STRESS2_RE = re.compile(r'(?:-|\d)?([abc].*)/([abc].*) ')
+
+    @staticmethod
+    def conjugaton_frame(soup: BeautifulSoup) -> BeautifulSoup:
+        frames = soup.body.find_all("div", {"class": 'NavFrame'})
+        return [f for f in frames if "Conjugation of" in f.text and "fective" in f.text][0]
 
     @staticmethod
     def extract_infinitive(soup: BeautifulSoup) -> str:
-        divs = soup.body.find("div", {"class": 'NavHead'})
+        divs = ConjugationParser.conjugaton_frame(soup).find("div", {"class": 'NavHead'})
         return divs.i.text
 
     @staticmethod
     def extract_verb_type(soup: BeautifulSoup) -> VerbType:
-        divs = soup.body.find("div", {"class": 'NavHead'})
+        divs = ConjugationParser.conjugaton_frame(soup).find("div", {"class": 'NavHead'})
         class_text = divs.contents[-1].lower()
         is_intransitive = "intransitive" in class_text
         is_reflexive = "reflexive" in class_text
         if "irreg" in class_text:
             category = IRREGULAR
+        elif match := ConjugationParser.CATEGORY_RE.search(class_text):
+            category = RegularCategory(int(match.groups()[0]), modifier=None)
+        elif match := ConjugationParser.CATEGORY_RE_WITH_MODIFIER.search(class_text):
+            category = RegularCategory(int(match.groups()[0]), modifier=match.groups()[1])
         else:
-            match = ConjugationParser.CATEGORY_RE.search(class_text)
-            if match is None:
-                raise ValueError(f"Category not found in class text: {class_text}")
-            category = RegularCategory(int(match.groups()[0]))
+            raise ValueError(f"Category not found in class text: {class_text}")
 
         if "imperfective" in class_text:
             aspect = Aspect.IMPERFECTIVE
@@ -67,6 +74,8 @@ class ConjugationParser:
         present_cell, past_cell = table_row.find_all('td')
 
         def get_participles(texts: List[str], tense: Tense):
+            # Sometimes obsolete participles are also shown
+            texts = texts[:2]
             if len(texts) == 2:
                 short, long = texts
                 return [
@@ -89,7 +98,7 @@ class ConjugationParser:
 
     @staticmethod
     def extract_participles(soup: BeautifulSoup) -> List[Participle]:
-        table = soup.body.find("div", {"class": 'NavContent'})
+        table = ConjugationParser.conjugaton_frame(soup).find("div", {"class": 'NavContent'})
         rows = table.find_all('tr')
         for i_row in [2, 6]:
             assert rows[i_row].attrs["class"] == ["rowgroup"], f" row {i_row} is not rowgroup"
@@ -101,7 +110,7 @@ class ConjugationParser:
 
     @staticmethod
     def extract_present_or_future(soup: BeautifulSoup, aspect: Aspect) -> PresentOrFutureConjugation:
-        table = soup.body.find("div", {"class": 'NavContent'})
+        table = ConjugationParser.conjugaton_frame(soup).find("div", {"class": 'NavContent'})
         rows = table.find_all('tr')
         for i_row in [6, 13]:
             assert rows[i_row].attrs["class"] == ["rowgroup"], f" row {i_row} is not rowgroup"
@@ -123,21 +132,26 @@ class ConjugationParser:
         )
 
     @staticmethod
-    def extract_imperative(soup: BeautifulSoup) -> Imperative:
-        table = soup.body.find("div", {"class": 'NavContent'})
+    def extract_imperative(soup: BeautifulSoup) -> Optional[Imperative]:
+        table = ConjugationParser.conjugaton_frame(soup).find("div", {"class": 'NavContent'})
         rows = table.find_all('tr')
         for i_row in [13, 15]:
             assert rows[i_row].attrs["class"] == ["rowgroup"], f" row {i_row} is not rowgroup"
         imperative_row = rows[14]
+        cells = imperative_row.find_all('td')
         texts = [
-            a.text.strip() for a in imperative_row.find_all('a')
+            a.text.strip()
+            for c in cells
+            for a in c.find_all('a')[:1] # Sometimes there are multiple links
         ]
+        if texts == []:
+            return None
         singular, plural = texts
         return Imperative(singular, plural)
 
     @staticmethod
     def extract_past_conjugation(soup: BeautifulSoup) -> PastConjugation:
-        table = soup.body.find("div", {"class": 'NavContent'})
+        table = ConjugationParser.conjugaton_frame(soup).find("div", {"class": 'NavContent'})
         rows = table.find_all('tr')
         singular_texts = []
         for row in rows[16:19]:

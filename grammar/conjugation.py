@@ -10,10 +10,9 @@ class Aspect(StrEnum):
     IMPERFECTIVE = "imperfective"
 
 
-class StressPattern(StrEnum):
-    A = "a"
-    B = "b"
-    C = "c"
+class StressPattern:
+    def __init__(self, pattern: str):
+        self.pattern: str = checked_type(pattern, str)
 
 
 class StressRule:
@@ -32,8 +31,9 @@ class Category(ABC):
 
 
 class RegularCategory(Category):
-    def __init__(self, number: int):
+    def __init__(self, number: int, modifier: Optional[str]):
         self.number: int = checked_type(number, int)
+        self.modifier: Optional[str] = checked_optional_type(modifier, str)
 
     def __str__(self):
         return f"{self.number}"
@@ -194,14 +194,14 @@ class Conjugation:
             participles: List[Participle],
             present_or_future: PresentOrFutureConjugation,
             past: PastConjugation,
-            imperative: Imperative,
+            imperative: Optional[Imperative],
     ):
         self.infinitive: str = checked_type(infinitive, str)
         self.verb_type: VerbType = checked_type(verb_type, VerbType)
         self.participles: List[Participle] = checked_list_type(participles, Participle)
         self.present_or_future: PresentOrFutureConjugation = checked_type(present_or_future, PresentOrFutureConjugation)
         self.past: PastConjugation = checked_type(past, PastConjugation)
-        self.imperative: Imperative = checked_optional_type(imperative, Imperative)
+        self.imperative: Optional[Imperative] = checked_optional_type(imperative, Imperative)
 
     def __str__(self):
         result = ""
@@ -212,5 +212,6 @@ class Conjugation:
             result += f"\t{p}\n"
         result += f"Present/Future:\n{self.present_or_future}\n"
         result += f"Past:\n{self.past}\n"
-        result += f"Imperative:\n{self.imperative}\n"
+        if self.imperative is not None:
+            result += f"Imperative:\n{self.imperative}\n"
         return result
