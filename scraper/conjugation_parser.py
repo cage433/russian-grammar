@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 from grammar.conjugation import Conjugation, Aspect, IRREGULAR, RegularCategory, ZaliznyakClass, VerbType, \
     StressPattern, StressRule, Participle, ParticipleType, Tense, LongOrShort, PresentOrFutureConjugation, Imperative, \
-    PastConjugation
+    PastConjugation, Participles
 from utils.types import checked_type
 
 
@@ -119,7 +119,7 @@ class ConjugationParser:
         participles = []
         for row in participle_rows:
             participles += self.extract_participles_from_row(row)
-        return participles
+        return Participles(participles)
 
     def extract_present_or_future(self, aspect: Aspect) -> PresentOrFutureConjugation:
         rows = self.table_rows
