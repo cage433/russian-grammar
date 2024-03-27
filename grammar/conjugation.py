@@ -113,7 +113,7 @@ class IrregularCategory(Category):
         return "irregular"
 
     def to_table(self) -> List[List[str]]:
-        return [[Category.IRREGULAR, ""]]
+        return [[Category.IRREGULAR_LABEL, ""]]
 
     def __eq__(self, other):
         return isinstance(other, IrregularCategory)
