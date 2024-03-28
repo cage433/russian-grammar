@@ -262,42 +262,46 @@ class PresentOrFutureConjugation:
     POF_1P = "1st Pl"
     POF_2P = "2nd Pl"
     POF_3P = "3rd Pl"
+    TITLES = [POF_1S, POF_2S, POF_3S, POF_1P, POF_2P, POF_3P]
 
     def __init__(
             self,
-            first_person_singular: str,
-            second_person_singular: str,
-            third_person_singular: str,
-            first_person_plural: str,
-            second_person_plural: str,
-            third_person_plural: str,
+            first_person_singular: Optional[str],
+            second_person_singular: Optional[str],
+            third_person_singular: Optional[str],
+            first_person_plural: Optional[str],
+            second_person_plural: Optional[str],
+            third_person_plural: Optional[str],
     ):
-        self.first_person_singular: str = checked_type(first_person_singular, str)
-        self.second_person_singular: str = checked_type(second_person_singular, str)
-        self.third_person_singular: str = checked_type(third_person_singular, str)
-        self.first_person_plural: str = checked_type(first_person_plural, str)
-        self.second_person_plural: str = checked_type(second_person_plural, str)
-        self.third_person_plural: str = checked_type(third_person_plural, str)
+        self.first_person_singular: Optional[str] = checked_optional_type(first_person_singular, str)
+        self.second_person_singular: Optional[str] = checked_optional_type(second_person_singular, str)
+        self.third_person_singular: Optional[str] = checked_optional_type(third_person_singular, str)
+        self.first_person_plural: Optional[str] = checked_optional_type(first_person_plural, str)
+        self.second_person_plural: Optional[str] = checked_optional_type(second_person_plural, str)
+        self.third_person_plural: Optional[str] = checked_optional_type(third_person_plural, str)
+
+        self.terms = [
+            self.first_person_singular,
+            self.second_person_singular,
+            self.third_person_singular,
+            self.first_person_plural,
+            self.second_person_plural,
+            self.third_person_plural
+        ]
 
     def __str__(self):
         result = ""
-        result += f"1st Sing: {self.first_person_singular}\n"
-        result += f"2nd Sing: {self.second_person_singular}\n"
-        result += f"3rd Sing: {self.third_person_singular}\n"
-        result += f"2nd Pl: {self.first_person_plural}\n"
-        result += f"2nd Pl: {self.second_person_plural}\n"
-        result += f"3rd Pl: {self.third_person_plural}\n"
+        for title, term in zip(self.TITLES, self.terms):
+            if term is not None:
+                result += f"{title}: {term}\n"
         return result
 
     def to_table(self) -> List[List[str]]:
-        return [
-            [self.POF_1S, self.first_person_singular],
-            [self.POF_2S, self.second_person_singular],
-            [self.POF_3S, self.third_person_singular],
-            [self.POF_1P, self.first_person_plural],
-            [self.POF_2P, self.second_person_plural],
-            [self.POF_3P, self.third_person_plural]
-        ]
+        table = []
+        for title, term in zip(self.TITLES, self.terms):
+            if term is not None:
+                table.append([title, term])
+        return table
 
     @staticmethod
     def from_table(table: List[List[str]]) -> 'PresentOrFutureConjugation':
@@ -335,15 +339,15 @@ class PastConjugation:
 
     def __init__(
             self,
-            masculine: str,
-            feminine: str,
-            neuter: str,
-            plural: str,
+            masculine: Optional[str],
+            feminine: Optional[str],
+            neuter: Optional[str],
+            plural: Optional[str],
     ):
-        self.masculine: str = checked_type(masculine, str)
-        self.feminine: str = checked_type(feminine, str)
-        self.neuter: str = checked_type(neuter, str)
-        self.plural: str = checked_type(plural, str)
+        self.masculine: Optional[str] = checked_optional_type(masculine, str)
+        self.feminine: Optional[str] = checked_optional_type(feminine, str)
+        self.neuter: Optional[str] = checked_optional_type(neuter, str)
+        self.plural: Optional[str] = checked_optional_type(plural, str)
 
     def __str__(self):
         result = ""
@@ -462,6 +466,7 @@ class Conjugation:
     def __init__(
             self,
             infinitive: str,
+            other_aspect: Optional[str],
             verb_type: VerbType,
             participles: Participles,
             present_or_future: PresentOrFutureConjugation,
@@ -469,6 +474,7 @@ class Conjugation:
             imperative: Optional[Imperative],
     ):
         self.infinitive: str = checked_type(infinitive, str)
+        self.other_aspect: Optional[str] = checked_optional_type(other_aspect, str)
         self.verb_type: VerbType = checked_type(verb_type, VerbType)
         self.participles: Participles = checked_type(participles, Participles)
         self.present_or_future: PresentOrFutureConjugation = checked_type(present_or_future, PresentOrFutureConjugation)
@@ -490,8 +496,10 @@ class Conjugation:
 
     def to_table(self) -> List[List[str]]:
         table = [
-            ["Infinitive", self.infinitive]
+            ["Infinitive", self.infinitive],
         ]
+        if self.other_aspect is not None:
+            table.append(["Other Aspect", self.other_aspect])
         table += self.verb_type.to_table()
         table += self.participles.to_table()
         table += self.present_or_future.to_table()
@@ -503,6 +511,7 @@ class Conjugation:
     @staticmethod
     def from_table(table: List[List[str]]) -> 'Conjugation':
         infinitive = find_table_value(table, "Infinitive")
+        other_aspect = find_table_value(table, "Other Aspect")
         verb_type = VerbType.from_table(table)
         participles = Participles.from_table(table)
         present_or_future = PresentOrFutureConjugation.from_table(table)

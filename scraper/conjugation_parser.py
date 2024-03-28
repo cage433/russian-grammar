@@ -2,7 +2,7 @@ import re
 from functools import cached_property
 from typing import List, Optional
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag, NavigableString
 
 from grammar.conjugation import Conjugation, Aspect, IRREGULAR, RegularCategory, ZaliznyakClass, VerbType, \
     StressPattern, StressRule, Participle, ParticipleType, Tense, LongOrShort, PresentOrFutureConjugation, Imperative, \
@@ -20,9 +20,12 @@ class ConjugationParser:
         self.soup: BeautifulSoup = checked_type(soup, BeautifulSoup)
 
     @cached_property
-    def conjugation_frame(self) -> BeautifulSoup:
+    def conjugation_frame(self) -> Optional[BeautifulSoup]:
         frames = self.soup.body.find_all("div", {"class": 'NavFrame'})
-        return [f for f in frames if "Conjugation of" in f.text and "fective" in f.text][0]
+        matching_frames = [f for f in frames if "Conjugation of" in f.text and "fective" in f.text and "class" in f.text]
+        if matching_frames == []:
+            return None
+        return matching_frames[0]
 
     @cached_property
     def table_header(self):
@@ -33,8 +36,19 @@ class ConjugationParser:
         return self.table_header.i.text
 
     @cached_property
+    def table_header_text(self):
+        text = ""
+        for t in self.table_header.contents:
+            if isinstance(t, NavigableString):
+                text += t
+            if isinstance(t, Tag):
+                text += t.text
+
+        return text
+
+    @cached_property
     def extract_verb_type(self) -> VerbType:
-        class_text = self.table_header.contents[-1].lower()
+        class_text = self.table_header_text
         is_intransitive = "intransitive" in class_text
         is_reflexive = "reflexive" in class_text
         if "irreg" in class_text:
@@ -111,7 +125,7 @@ class ConjugationParser:
         return self.table.find_all('tr')
 
     @cached_property
-    def extract_participles(self) -> List[Participle]:
+    def extract_participles(self) -> Participles:
         rows = self.table_rows
         for i_row in [2, 6]:
             assert rows[i_row].attrs["class"] == ["rowgroup"], f" row {i_row} is not rowgroup"
@@ -130,7 +144,11 @@ class ConjugationParser:
         for row in p_or_f_rows:
             cells = row.find_all('td')
             cell = cells[0] if aspect == Aspect.IMPERFECTIVE else cells[1]
-            text = cell.find('a').text.strip()
+            links = cell.find_all('a')
+            if len(links) == 0:
+                text = None
+            else:
+                text = links[0].text.strip()
             texts.append(text)
 
         return PresentOrFutureConjugation(
@@ -149,44 +167,69 @@ class ConjugationParser:
             assert rows[i_row].attrs["class"] == ["rowgroup"], f" row {i_row} is not rowgroup"
         imperative_row = rows[14]
         cells = imperative_row.find_all('td')
-        texts = [
-            a.text.strip()
-            for c in cells
-            for a in c.find_all('a')[:1]  # Sometimes there are multiple links
-        ]
-        if texts == []:
-            return None
-        singular, plural = texts
+        def text_from_cell(cell):
+            links = cell.find_all('a')
+            if len(links) > 0:
+                return links[0].text.strip()
+            return cell.text.strip()
+
+        singular = text_from_cell(cells[0])
+        plural = text_from_cell(cells[1])
+        # texts = [
+        #     a.text.strip()
+        #     for c in cells
+        #     for a in c.find_all('a')[:1]  # Sometimes there are multiple links
+        # ]
+        # if texts == []:
+        #     return None
+        # singular, plural = texts
         return Imperative(singular, plural)
 
     @cached_property
     def extract_past_conjugation(self) -> PastConjugation:
         rows = self.table_rows
         singular_texts = []
-        for row in rows[16:19]:
-            text = row.find('td').find('a').text.strip()
-            singular_texts.append(text)
-        row_16_cells = rows[16].find_all('td')
-        assert len(row_16_cells) == 2, f"Expected 2 cells in row 16, got {len(row_16_cells)}"
-        plural_text = row_16_cells[1].find('a').text.strip()
+        def get_text_from_cell(cell: Tag) -> Optional[str]:
+            links = cell.find_all('a')
+            if len(links) == 0:
+                return None
+            return links[0].text.strip()
+
+        masculine = get_text_from_cell(rows[16].find('td'))
+        feminine = get_text_from_cell(rows[17].find('td'))
+        neuter = get_text_from_cell(rows[18].find('td'))
+        plural = get_text_from_cell(rows[16].find_all('td')[1])
 
         return PastConjugation(
-            masculine=singular_texts[0],
-            feminine=singular_texts[1],
-            neuter=singular_texts[2],
-            plural=plural_text
+            masculine=masculine,
+            feminine=feminine,
+            neuter=neuter,
+            plural=plural
         )
 
+    def extract_other_aspect_infinitive(self, self_aspect) -> Optional[PresentOrFutureConjugation]:
+        if self_aspect == Aspect.IMPERFECTIVE:
+            other_aspect = self.soup.find_all('i', text='perfective')
+        else:
+            other_aspect = self.soup.find_all('i', text='imperfective')
+        if len(other_aspect) >= 1:
+            return other_aspect[0].text.strip()
+        return None
+
     @cached_property
-    def parse_conjugation_from_soup(self) -> Conjugation:
+    def parse_conjugation_from_soup(self) -> Optional[Conjugation]:
+        if self.conjugation_frame is None:
+            return None
         infinitive = self.extract_infinitive
         verb_type = self.extract_verb_type
+        other_aspect_infinitive = self.extract_other_aspect_infinitive(verb_type.aspect)
         participles = self.extract_participles
         present_or_future = self.extract_present_or_future(verb_type.aspect)
         imperative = self.extract_imperative
         past_conjugation = self.extract_past_conjugation
         return Conjugation(
             infinitive=infinitive,
+            other_aspect=other_aspect_infinitive,
             verb_type=verb_type,
             participles=participles,
             present_or_future=present_or_future,
