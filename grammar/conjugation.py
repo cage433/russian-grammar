@@ -1,4 +1,3 @@
-from abc import ABC, abstractmethod
 from enum import StrEnum
 from typing import Optional, List
 
@@ -10,14 +9,6 @@ class Aspect(StrEnum):
     IMPERFECTIVE = "imperfective"
 
 
-class StressPattern:
-    def __init__(self, pattern: str):
-        self.pattern: str = checked_type(pattern, str)
-
-    def __eq__(self, other):
-        return self.pattern == other.pattern
-
-
 def find_table_value(table: List[List[str]], key: str) -> Optional[str]:
     for row in table:
         if row[0] == key:
@@ -25,131 +16,26 @@ def find_table_value(table: List[List[str]], key: str) -> Optional[str]:
     return None
 
 
-class StressRule:
-    PRESENT_STRESS = "present stress"
-    PAST_STRESS = "past stress"
-
-    def __init__(self, present_stress: StressPattern, past_stress: Optional[StressPattern]):
-        self.present_stress: StressPattern = checked_type(present_stress, StressPattern)
-        self.past_stress: Optional[StressPattern] = checked_optional_type(past_stress, StressPattern)
-
-    def __str__(self):
-        if self.past_stress is not None:
-            return f"{self.present_stress}/{self.past_stress}"
-        return f"{self.present_stress}"
-
-    def to_table(self):
-        table = [[self.PRESENT_STRESS, self.present_stress.pattern]]
-        if self.past_stress is not None:
-            table.append([self.PAST_STRESS, self.past_stress.pattern])
-        return table
-
-    @staticmethod
-    def from_table(table: List[List[str]]):
-        present_stress = find_table_value(table, StressRule.PRESENT_STRESS)
-        past_stress = find_table_value(table, StressRule.PAST_STRESS)
-        return StressRule(
-            StressPattern(present_stress),
-            StressPattern(past_stress) if past_stress is not None else None
-        )
-
-    def __eq__(self, other):
-        return (
-                self.present_stress == other.present_stress
-                and self.past_stress == other.past_stress
-        )
-
-
-class Category(ABC):
-    NUMBER = "Category Number"
-    MODIFIER = "Category Modifier"
-    IRREGULAR_LABEL = "Irregular"
-
-    @abstractmethod
-    def to_table(self) -> List[List[str]]:
-        pass
-
-    @staticmethod
-    def from_table(table: List[List[str]]) -> 'Category':
-        if find_table_value(table, Category.IRREGULAR_LABEL):
-            return IRREGULAR
-
-        number = int(find_table_value(table, Category.NUMBER))
-        modifier = find_table_value(table, Category.MODIFIER)
-        return RegularCategory(number, modifier)
-
-
-class RegularCategory(Category):
-
-    def __init__(self, number: int, modifier: Optional[str]):
-        self.number: int = checked_type(number, int)
-        self.modifier: Optional[str] = checked_optional_type(modifier, str)
-
-    def __str__(self):
-        if self.modifier is not None:
-            return f"{self.number}{self.modifier}"
-        return f"{self.number}"
-
-    def to_table(self) -> List[List[str]]:
-        table = [[Category.NUMBER, str(self.number)]]
-        if self.modifier is not None:
-            table.append([Category.MODIFIER, self.modifier])
-        return table
-
-    def __eq__(self, other):
-
-        return (
-            isinstance(other, RegularCategory)
-                and self.number == other.number
-                and self.modifier == other.modifier
-        )
-
-
-class IrregularCategory(Category):
-    def __init__(self):
-        pass
-
-    def __str__(self):
-        return "irregular"
-
-    def to_table(self) -> List[List[str]]:
-        return [[Category.IRREGULAR_LABEL, ""]]
-
-    def __eq__(self, other):
-        return isinstance(other, IrregularCategory)
-
-
-IRREGULAR = IrregularCategory()
-
-
 class ZaliznyakClass:
+    CLASS_LABEL = "Zaliznyak Class"
     def __init__(
             self,
-            category: Category,
-            stress_rule: StressRule,
+            class_name: str,
     ):
-        self.category: Category = checked_type(category, Category)
-        self.stress_rule: StressRule = checked_type(stress_rule, StressRule)
+        self.class_name: str = checked_type(class_name, str)
 
     def __str__(self):
-        return f"{self.category}{self.stress_rule}"
+        return f"{self.class_name}"
 
     def to_table(self) -> List[List[str]]:
-        category_table = self.category.to_table()
-        stress_table = self.stress_rule.to_table()
-        return category_table + stress_table
+        return [[self.CLASS_LABEL, self.class_name]]
 
     @staticmethod
     def from_table(table: List[List[str]]) -> 'ZaliznyakClass':
-        category = Category.from_table(table)
-        stress_rule = StressRule.from_table(table)
-        return ZaliznyakClass(category, stress_rule)
+        return ZaliznyakClass(find_table_value(table, ZaliznyakClass.CLASS_LABEL))
 
     def __eq__(self, other):
-        return (
-                self.category == other.category
-                and self.stress_rule == other.stress_rule
-        )
+        return self.class_name == other.class_name
 
 
 class Tense(StrEnum):
@@ -466,7 +352,6 @@ class Conjugation:
     def __init__(
             self,
             infinitive: str,
-            other_aspect: Optional[str],
             verb_type: VerbType,
             participles: Participles,
             present_or_future: PresentOrFutureConjugation,
@@ -474,7 +359,6 @@ class Conjugation:
             imperative: Optional[Imperative],
     ):
         self.infinitive: str = checked_type(infinitive, str)
-        self.other_aspect: Optional[str] = checked_optional_type(other_aspect, str)
         self.verb_type: VerbType = checked_type(verb_type, VerbType)
         self.participles: Participles = checked_type(participles, Participles)
         self.present_or_future: PresentOrFutureConjugation = checked_type(present_or_future, PresentOrFutureConjugation)
@@ -498,8 +382,6 @@ class Conjugation:
         table = [
             ["Infinitive", self.infinitive],
         ]
-        if self.other_aspect is not None:
-            table.append(["Other Aspect", self.other_aspect])
         table += self.verb_type.to_table()
         table += self.participles.to_table()
         table += self.present_or_future.to_table()
@@ -511,7 +393,6 @@ class Conjugation:
     @staticmethod
     def from_table(table: List[List[str]]) -> 'Conjugation':
         infinitive = find_table_value(table, "Infinitive")
-        other_aspect = find_table_value(table, "Other Aspect")
         verb_type = VerbType.from_table(table)
         participles = Participles.from_table(table)
         present_or_future = PresentOrFutureConjugation.from_table(table)

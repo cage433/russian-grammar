@@ -4,17 +4,18 @@ from typing import List, Optional
 
 from bs4 import BeautifulSoup, Tag, NavigableString
 
-from grammar.conjugation import Conjugation, Aspect, IRREGULAR, RegularCategory, ZaliznyakClass, VerbType, \
-    StressPattern, StressRule, Participle, ParticipleType, Tense, LongOrShort, PresentOrFutureConjugation, Imperative, \
+from grammar.conjugation import Conjugation, Aspect, ZaliznyakClass, VerbType, \
+    Participle, ParticipleType, Tense, LongOrShort, PresentOrFutureConjugation, Imperative, \
     PastConjugation, Participles
 from utils.types import checked_type
 
 
 class ConjugationParser:
-    CATEGORY_RE = re.compile(r' (\d{1,2})[abc] ')
-    CATEGORY_RE_WITH_MODIFIER = re.compile(r' (\d{1,2})(.*)[abc]')
-    STRESS_RE = re.compile(r'(?:-|\d)?([abc].*) ')
-    STRESS2_RE = re.compile(r'(?:-|\d)?([abc].*)/([abc].*) ')
+    zaliznyak_class_re = re.compile(r'class (.*) (?:im)?perfective')
+    # CATEGORY_RE = re.compile(r' (\d{1,2})[abc] ')
+    # CATEGORY_RE_WITH_MODIFIER = re.compile(r' (\d{1,2})(.*)[abc]')
+    # STRESS_RE = re.compile(r'(?:-|\d)?([abc].*) ')
+    # STRESS2_RE = re.compile(r'(?:-|\d)?([abc].*)/([abc].*) ')
 
     def __init__(self, soup: BeautifulSoup):
         self.soup: BeautifulSoup = checked_type(soup, BeautifulSoup)
@@ -51,14 +52,15 @@ class ConjugationParser:
         class_text = self.table_header_text
         is_intransitive = "intransitive" in class_text
         is_reflexive = "reflexive" in class_text
-        if "irreg" in class_text:
-            category = IRREGULAR
-        elif match := self.CATEGORY_RE.search(class_text):
-            category = RegularCategory(int(match.groups()[0]), modifier=None)
-        elif match := self.CATEGORY_RE_WITH_MODIFIER.search(class_text):
-            category = RegularCategory(int(match.groups()[0]), modifier=match.groups()[1])
-        else:
-            raise ValueError(f"Category not found in class text: {class_text}")
+        zaliznyak_class = self.zaliznyak_class_re.search(class_text).groups()[0]
+        # if "irreg" in class_text:
+        #     category = IRREGULAR
+        # elif match := self.CATEGORY_RE.search(class_text):
+        #     category = RegularCategory(int(match.groups()[0]), modifier=None)
+        # elif match := self.CATEGORY_RE_WITH_MODIFIER.search(class_text):
+        #     category = RegularCategory(int(match.groups()[0]), modifier=match.groups()[1])
+        # else:
+        #     raise ValueError(f"Category not found in class text: {class_text}")
 
         if "imperfective" in class_text:
             aspect = Aspect.IMPERFECTIVE
@@ -67,21 +69,20 @@ class ConjugationParser:
         else:
             raise ValueError(f"Aspect not found in class text: {class_text}")
 
-        if stress_2 := self.STRESS2_RE.search(class_text):
-            present_stress, past_stress = stress_2.groups()
-            stress_rule = StressRule(
-                StressPattern(present_stress), StressPattern(past_stress)
-            )
-        elif stress := self.STRESS_RE.search(class_text):
-            stress = StressPattern(stress.groups()[0])
-            stress_rule = StressRule(stress, past_stress=None)
-        else:
-            raise ValueError(f"Stress not found in class text: {class_text}")
+        # if stress_2 := self.STRESS2_RE.search(class_text):
+        #     present_stress, past_stress = stress_2.groups()
+        #     stress_rule = StressRule(
+        #         StressPattern(present_stress), StressPattern(past_stress)
+        #     )
+        # elif stress := self.STRESS_RE.search(class_text):
+        #     stress = StressPattern(stress.groups()[0])
+        #     stress_rule = StressRule(stress, past_stress=None)
+        # else:
+        #     raise ValueError(f"Stress not found in class text: {class_text}")
 
         return VerbType(
             ZaliznyakClass(
-                category=category,
-                stress_rule=stress_rule
+                zaliznyak_class
             ),
             aspect=aspect,
             transitive=not is_intransitive,
@@ -207,29 +208,18 @@ class ConjugationParser:
             plural=plural
         )
 
-    def extract_other_aspect_infinitive(self, self_aspect) -> Optional[PresentOrFutureConjugation]:
-        if self_aspect == Aspect.IMPERFECTIVE:
-            other_aspect = self.soup.find_all('i', text='perfective')
-        else:
-            other_aspect = self.soup.find_all('i', text='imperfective')
-        if len(other_aspect) >= 1:
-            return other_aspect[0].text.strip()
-        return None
-
     @cached_property
     def parse_conjugation_from_soup(self) -> Optional[Conjugation]:
         if self.conjugation_frame is None:
             return None
         infinitive = self.extract_infinitive
         verb_type = self.extract_verb_type
-        other_aspect_infinitive = self.extract_other_aspect_infinitive(verb_type.aspect)
         participles = self.extract_participles
         present_or_future = self.extract_present_or_future(verb_type.aspect)
         imperative = self.extract_imperative
         past_conjugation = self.extract_past_conjugation
         return Conjugation(
             infinitive=infinitive,
-            other_aspect=other_aspect_infinitive,
             verb_type=verb_type,
             participles=participles,
             present_or_future=present_or_future,
