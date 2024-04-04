@@ -1,0 +1,37 @@
+Infinitive,виля́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,виля́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,виля́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,виля́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,виля́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,виля́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,виля́ю
+2nd Sing,виля́ешь
+3rd Sing,виля́ет
+1st Pl,виля́ем
+2nd Pl,виля́ете
+3rd Pl,виля́ют
+Past M,виля́л
+Past F,виля́ла
+Past N,виля́ло
+Past PL,виля́ли
+Imp S,виля́й
+Imp PL,виля́йте

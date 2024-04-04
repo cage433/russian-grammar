@@ -1,0 +1,45 @@
+Infinitive,плани́ровать
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,плани́рующий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,плани́ровавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,плани́руемый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,плани́рованный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,плани́руя
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,плани́ровав
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,плани́ровавши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,плани́рую
+2nd Sing,плани́руешь
+3rd Sing,плани́рует
+1st Pl,плани́руем
+2nd Pl,плани́руете
+3rd Pl,плани́руют
+Past M,плани́ровал
+Past F,плани́ровала
+Past N,плани́ровало
+Past PL,плани́ровали
+Imp S,плани́руй
+Imp PL,плани́руйте

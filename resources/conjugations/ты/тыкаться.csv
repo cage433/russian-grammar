@@ -1,0 +1,41 @@
+Infinitive,ты́каться
+Zaliznyak Class,6a // 1a
+Aspect,imperfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,ты́чущийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,ты́кающийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,present
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,ты́кавшийся
+PART:2:Participle Type,active
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ты́чась
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,ты́каясь
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,ты́кавшись
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,ты́чусь
+2nd Sing,ты́чешься
+3rd Sing,ты́чется
+1st Pl,ты́чемся
+2nd Pl,ты́четесь
+3rd Pl,ты́чутся
+Past M,ты́кался
+Past F,ты́калась
+Past N,ты́калось
+Past PL,ты́кались
+Imp S,ты́чься
+Imp PL,ты́чьтесь

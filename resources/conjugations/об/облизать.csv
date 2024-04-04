@@ -1,0 +1,33 @@
+Infinitive,облиза́ть
+Zaliznyak Class,6c
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,облиза́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,обли́занный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,облиза́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,облиза́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,оближу́
+2nd Sing,обли́жешь
+3rd Sing,обли́жет
+1st Pl,обли́жем
+2nd Pl,обли́жете
+3rd Pl,обли́жут
+Past M,облиза́л
+Past F,облиза́ла
+Past N,облиза́ло
+Past PL,облиза́ли
+Imp S,оближи́
+Imp PL,оближи́те

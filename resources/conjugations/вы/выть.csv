@@ -1,0 +1,37 @@
+Infinitive,вы́ть
+Zaliznyak Class,12a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,во́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,вы́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,во́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,вы́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,вы́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,во́ю
+2nd Sing,во́ешь
+3rd Sing,во́ет
+1st Pl,во́ем
+2nd Pl,во́ете
+3rd Pl,во́ют
+Past M,вы́л
+Past F,вы́ла
+Past N,вы́ло
+Past PL,вы́ли
+Imp S,во́й
+Imp PL,во́йте

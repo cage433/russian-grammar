@@ -1,0 +1,37 @@
+Infinitive,лопота́ть
+Zaliznyak Class,6c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,лопо́чущий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,лопота́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,лопоча́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,лопота́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,лопота́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,лопочу́
+2nd Sing,лопо́чешь
+3rd Sing,лопо́чет
+1st Pl,лопо́чем
+2nd Pl,лопо́чете
+3rd Pl,лопо́чут
+Past M,лопота́л
+Past F,лопота́ла
+Past N,лопота́ло
+Past PL,лопота́ли
+Imp S,лопочи́
+Imp PL,лопочи́те

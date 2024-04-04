@@ -1,0 +1,37 @@
+Infinitive,гну́ть
+Zaliznyak Class,3b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,гну́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,гну́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,гну́тый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,гну́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,гну́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,гну́
+2nd Sing,гнёшь
+3rd Sing,гнёт
+1st Pl,гнём
+2nd Pl,гнёте
+3rd Pl,гну́т
+Past M,гну́л
+Past F,гну́ла
+Past N,гну́ло
+Past PL,гну́ли
+Imp S,гни́
+Imp PL,гни́те

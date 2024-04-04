@@ -1,0 +1,41 @@
+Infinitive,броса́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,броса́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,броса́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,броса́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,броса́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,броса́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,броса́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,броса́ю
+2nd Sing,броса́ешь
+3rd Sing,броса́ет
+1st Pl,броса́ем
+2nd Pl,броса́ете
+3rd Pl,броса́ют
+Past M,броса́л
+Past F,броса́ла
+Past N,броса́ло
+Past PL,броса́ли
+Imp S,броса́й
+Imp PL,броса́йте

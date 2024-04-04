@@ -1,0 +1,45 @@
+Infinitive,твори́ть
+Zaliznyak Class,4b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,творя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,твори́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,твори́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,творённый
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,творя́
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,твори́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,твори́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,творю́
+2nd Sing,твори́шь
+3rd Sing,твори́т
+1st Pl,твори́м
+2nd Pl,твори́те
+3rd Pl,творя́т
+Past M,твори́л
+Past F,твори́ла
+Past N,твори́ло
+Past PL,твори́ли
+Imp S,твори́
+Imp PL,твори́те

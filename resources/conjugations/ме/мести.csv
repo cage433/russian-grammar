@@ -1,0 +1,37 @@
+Infinitive,мести́
+Zaliznyak Class,7b/b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,мету́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,мётший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,метённый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,метя́
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,мётши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,мету́
+2nd Sing,метёшь
+3rd Sing,метёт
+1st Pl,метём
+2nd Pl,метёте
+3rd Pl,мету́т
+Past M,мёл
+Past F,мела́
+Past N,мело́
+Past PL,мели́
+Imp S,мети́
+Imp PL,мети́те

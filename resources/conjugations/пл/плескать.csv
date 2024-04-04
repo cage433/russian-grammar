@@ -1,0 +1,53 @@
+Infinitive,плеска́ть
+Zaliznyak Class,6c // 1a(-ё-)
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,пле́щущий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,плеска́ющий
+PART:1:Participle Type,active
+PART:1:Participle Tense,present
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,плеска́вший
+PART:2:Participle Type,active
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,плеска́емый
+PART:3:Participle Type,passive
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,плёсканный
+PART:4:Participle Type,passive
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,плеща́
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,present
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,плеска́я
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,present
+PART:6:Participle Long or Short,long
+PART:7:Participle Text,плеска́в
+PART:7:Participle Type,adverbial
+PART:7:Participle Tense,past
+PART:7:Participle Long or Short,short
+PART:8:Participle Text,плеска́вши
+PART:8:Participle Type,adverbial
+PART:8:Participle Tense,past
+PART:8:Participle Long or Short,long
+1st Sing,плещу́
+2nd Sing,пле́щешь
+3rd Sing,пле́щет
+1st Pl,пле́щем
+2nd Pl,пле́щете
+3rd Pl,пле́щут
+Past M,плеска́л
+Past F,плеска́ла
+Past N,плеска́ло
+Past PL,плеска́ли
+Imp S,плещи́
+Imp PL,плещи́те

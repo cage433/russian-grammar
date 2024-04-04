@@ -1,0 +1,53 @@
+Infinitive,пры́скать
+Zaliznyak Class,6a // 1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,пры́щущий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,пры́скающий
+PART:1:Participle Type,active
+PART:1:Participle Tense,present
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,пры́скавший
+PART:2:Participle Type,active
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,пры́скаемый
+PART:3:Participle Type,passive
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,пры́сканный
+PART:4:Participle Type,passive
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,пры́ская
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,present
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,пры́ща
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,present
+PART:6:Participle Long or Short,long
+PART:7:Participle Text,пры́скав
+PART:7:Participle Type,adverbial
+PART:7:Participle Tense,past
+PART:7:Participle Long or Short,short
+PART:8:Participle Text,пры́скавши
+PART:8:Participle Type,adverbial
+PART:8:Participle Tense,past
+PART:8:Participle Long or Short,long
+1st Sing,пры́щу
+2nd Sing,пры́щешь
+3rd Sing,пры́щет
+1st Pl,пры́щем
+2nd Pl,пры́щете
+3rd Pl,пры́щут
+Past M,пры́скал
+Past F,пры́скала
+Past N,пры́скало
+Past PL,пры́скали
+Imp S,пры́скай
+Imp PL,пры́скайте

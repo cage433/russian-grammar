@@ -1,0 +1,37 @@
+Infinitive,пища́ть
+Zaliznyak Class,5b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,пища́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,пища́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,пища́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,пища́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,пища́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,пищу́
+2nd Sing,пищи́шь
+3rd Sing,пищи́т
+1st Pl,пищи́м
+2nd Pl,пищи́те
+3rd Pl,пища́т
+Past M,пища́л
+Past F,пища́ла
+Past N,пища́ло
+Past PL,пища́ли
+Imp S,пищи́
+Imp PL,пищи́те

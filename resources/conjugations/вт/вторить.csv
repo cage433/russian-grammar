@@ -1,0 +1,37 @@
+Infinitive,вто́рить
+Zaliznyak Class,4a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,вто́рящий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,вто́ривший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,вто́ря
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,вто́рив
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,вто́ривши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,вто́рю
+2nd Sing,вто́ришь
+3rd Sing,вто́рит
+1st Pl,вто́рим
+2nd Pl,вто́рите
+3rd Pl,вто́рят
+Past M,вто́рил
+Past F,вто́рила
+Past N,вто́рило
+Past PL,вто́рили
+Imp S,вто́рь
+Imp PL,вто́рьте

@@ -1,0 +1,37 @@
+Infinitive,бе́гать
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,бе́гающий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,бе́гавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,бе́гая
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,бе́гав
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,бе́гавши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,бе́гаю
+2nd Sing,бе́гаешь
+3rd Sing,бе́гает
+1st Pl,бе́гаем
+2nd Pl,бе́гаете
+3rd Pl,бе́гают
+Past M,бе́гал
+Past F,бе́гала
+Past N,бе́гало
+Past PL,бе́гали
+Imp S,бе́гай
+Imp PL,бе́гайте

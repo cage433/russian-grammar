@@ -1,0 +1,45 @@
+Infinitive,меня́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,меня́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,меня́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,меня́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ме́нянный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,меня́я
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,меня́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,меня́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,меня́ю
+2nd Sing,меня́ешь
+3rd Sing,меня́ет
+1st Pl,меня́ем
+2nd Pl,меня́ете
+3rd Pl,меня́ют
+Past M,меня́л
+Past F,меня́ла
+Past N,меня́ло
+Past PL,меня́ли
+Imp S,меня́й
+Imp PL,меня́йте

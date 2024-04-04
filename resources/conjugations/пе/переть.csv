@@ -1,0 +1,33 @@
+Infinitive,пере́ть
+Zaliznyak Class,9b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,пру́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,пёрший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,пёртый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,пёрши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,пру́
+2nd Sing,прёшь
+3rd Sing,прёт
+1st Pl,прём
+2nd Pl,прёте
+3rd Pl,пру́т
+Past M,пёр
+Past F,пёрла
+Past N,пёрло
+Past PL,пёрли
+Imp S,при́
+Imp PL,при́те

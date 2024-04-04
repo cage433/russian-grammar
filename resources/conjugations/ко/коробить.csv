@@ -1,0 +1,45 @@
+Infinitive,коро́бить
+Zaliznyak Class,4a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,коро́бящий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,коро́бивший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,коро́бимый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,коро́бленный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,коро́бя
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,коро́бив
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,коро́бивши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,коро́блю
+2nd Sing,коро́бишь
+3rd Sing,коро́бит
+1st Pl,коро́бим
+2nd Pl,коро́бите
+3rd Pl,коро́бят
+Past M,коро́бил
+Past F,коро́била
+Past N,коро́било
+Past PL,коро́били
+Imp S,коро́бь
+Imp PL,коро́бьте

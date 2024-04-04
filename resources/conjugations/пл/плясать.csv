@@ -1,0 +1,37 @@
+Infinitive,пляса́ть
+Zaliznyak Class,6c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,пля́шущий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,пляса́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,пля́санный
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,пляса́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,пляса́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,пляшу́
+2nd Sing,пля́шешь
+3rd Sing,пля́шет
+1st Pl,пля́шем
+2nd Pl,пля́шете
+3rd Pl,пля́шут
+Past M,пляса́л
+Past F,пляса́ла
+Past N,пляса́ло
+Past PL,пляса́ли
+Imp S,пляши́
+Imp PL,пляши́те

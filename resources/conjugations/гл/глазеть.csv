@@ -1,0 +1,37 @@
+Infinitive,глазе́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,глазе́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,глазе́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,глазе́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,глазе́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,глазе́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,глазе́ю
+2nd Sing,глазе́ешь
+3rd Sing,глазе́ет
+1st Pl,глазе́ем
+2nd Pl,глазе́ете
+3rd Pl,глазе́ют
+Past M,глазе́л
+Past F,глазе́ла
+Past N,глазе́ло
+Past PL,глазе́ли
+Imp S,глазе́й
+Imp PL,глазе́йте

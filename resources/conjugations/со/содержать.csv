@@ -1,0 +1,41 @@
+Infinitive,содержа́ть
+Zaliznyak Class,5c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,содержа́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,содержа́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,содержи́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,содержа́
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,содержа́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,содержа́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,содержу́
+2nd Sing,соде́ржишь
+3rd Sing,соде́ржит
+1st Pl,соде́ржим
+2nd Pl,соде́ржите
+3rd Pl,соде́ржат
+Past M,содержа́л
+Past F,содержа́ла
+Past N,содержа́ло
+Past PL,содержа́ли
+Imp S,содержи́
+Imp PL,содержи́те

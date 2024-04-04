@@ -1,0 +1,37 @@
+Infinitive,гости́ть
+Zaliznyak Class,4b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,гостя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,гости́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,гостя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,гости́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,гости́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,гощу́
+2nd Sing,гости́шь
+3rd Sing,гости́т
+1st Pl,гости́м
+2nd Pl,гости́те
+3rd Pl,гостя́т
+Past M,гости́л
+Past F,гости́ла
+Past N,гости́ло
+Past PL,гости́ли
+Imp S,гости́
+Imp PL,гости́те

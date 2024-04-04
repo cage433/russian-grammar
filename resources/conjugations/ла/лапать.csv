@@ -1,0 +1,45 @@
+Infinitive,ла́пать
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,ла́пающий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,ла́павший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,ла́паемый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ла́панный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,ла́пая
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,ла́пав
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,ла́павши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,ла́паю
+2nd Sing,ла́паешь
+3rd Sing,ла́пает
+1st Pl,ла́паем
+2nd Pl,ла́паете
+3rd Pl,ла́пают
+Past M,ла́пал
+Past F,ла́пала
+Past N,ла́пало
+Past PL,ла́пали
+Imp S,ла́пай
+Imp PL,ла́пайте

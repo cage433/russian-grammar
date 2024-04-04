@@ -1,0 +1,41 @@
+Infinitive,сжима́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,сжима́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,сжима́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,сжима́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,сжима́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,сжима́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,сжима́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,сжима́ю
+2nd Sing,сжима́ешь
+3rd Sing,сжима́ет
+1st Pl,сжима́ем
+2nd Pl,сжима́ете
+3rd Pl,сжима́ют
+Past M,сжима́л
+Past F,сжима́ла
+Past N,сжима́ло
+Past PL,сжима́ли
+Imp S,сжима́й
+Imp PL,сжима́йте

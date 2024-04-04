@@ -1,0 +1,33 @@
+Infinitive,помы́ть
+Zaliznyak Class,12a
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,помы́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,помы́тый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,помы́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,помы́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,помо́ю
+2nd Sing,помо́ешь
+3rd Sing,помо́ет
+1st Pl,помо́ем
+2nd Pl,помо́ете
+3rd Pl,помо́ют
+Past M,помы́л
+Past F,помы́ла
+Past N,помы́ло
+Past PL,помы́ли
+Imp S,помо́й
+Imp PL,помо́йте

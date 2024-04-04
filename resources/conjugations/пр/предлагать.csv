@@ -1,0 +1,41 @@
+Infinitive,предлага́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,предлага́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,предлага́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,предлага́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,предлага́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,предлага́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,предлага́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,предлага́ю
+2nd Sing,предлага́ешь
+3rd Sing,предлага́ет
+1st Pl,предлага́ем
+2nd Pl,предлага́ете
+3rd Pl,предлага́ют
+Past M,предлага́л
+Past F,предлага́ла
+Past N,предлага́ло
+Past PL,предлага́ли
+Imp S,предлага́й
+Imp PL,предлага́йте

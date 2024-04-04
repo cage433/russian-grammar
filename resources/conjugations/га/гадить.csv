@@ -1,0 +1,45 @@
+Infinitive,га́дить
+Zaliznyak Class,4a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,га́дящий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,га́дивший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,га́димый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,га́женный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,га́дя
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,га́див
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,га́дивши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,га́жу
+2nd Sing,га́дишь
+3rd Sing,га́дит
+1st Pl,га́дим
+2nd Pl,га́дите
+3rd Pl,га́дят
+Past M,га́дил
+Past F,га́дила
+Past N,га́дило
+Past PL,га́дили
+Imp S,га́дь
+Imp PL,га́дьте

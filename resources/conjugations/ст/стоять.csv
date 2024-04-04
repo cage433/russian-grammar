@@ -1,0 +1,37 @@
+Infinitive,стоя́ть
+Zaliznyak Class,5b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,стоя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,стоя́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,сто́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,стоя́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,стоя́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,стою́
+2nd Sing,стои́шь
+3rd Sing,стои́т
+1st Pl,стои́м
+2nd Pl,стои́те
+3rd Pl,стоя́т
+Past M,стоя́л
+Past F,стоя́ла
+Past N,стоя́ло
+Past PL,стоя́ли
+Imp S,сто́й
+Imp PL,сто́йте

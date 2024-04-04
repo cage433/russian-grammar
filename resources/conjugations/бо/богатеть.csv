@@ -1,0 +1,37 @@
+Infinitive,богате́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,богате́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,богате́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,богате́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,богате́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,богате́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,богате́ю
+2nd Sing,богате́ешь
+3rd Sing,богате́ет
+1st Pl,богате́ем
+2nd Pl,богате́ете
+3rd Pl,богате́ют
+Past M,богате́л
+Past F,богате́ла
+Past N,богате́ло
+Past PL,богате́ли
+Imp S,богате́й
+Imp PL,богате́йте

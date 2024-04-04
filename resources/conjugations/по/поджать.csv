@@ -1,0 +1,33 @@
+Infinitive,поджа́ть
+Zaliznyak Class,14b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,поджа́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,поджа́тый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,поджа́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,поджа́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,поджму́
+2nd Sing,поджмёшь
+3rd Sing,поджмёт
+1st Pl,поджмём
+2nd Pl,поджмёте
+3rd Pl,поджму́т
+Past M,поджа́л
+Past F,поджа́ла
+Past N,поджа́ло
+Past PL,поджа́ли
+Imp S,поджми́
+Imp PL,поджми́те

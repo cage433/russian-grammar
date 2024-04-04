@@ -1,0 +1,41 @@
+Infinitive,изыма́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,изыма́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,изыма́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,изыма́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,изыма́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,изыма́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,изыма́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,изыма́ю
+2nd Sing,изыма́ешь
+3rd Sing,изыма́ет
+1st Pl,изыма́ем
+2nd Pl,изыма́ете
+3rd Pl,изыма́ют
+Past M,изыма́л
+Past F,изыма́ла
+Past N,изыма́ло
+Past PL,изыма́ли
+Imp S,изыма́й
+Imp PL,изыма́йте

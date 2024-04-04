@@ -1,0 +1,37 @@
+Infinitive,вя́кать
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,вя́кающий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,вя́кавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,вя́кая
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,вя́кав
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,вя́кавши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,вя́каю
+2nd Sing,вя́каешь
+3rd Sing,вя́кает
+1st Pl,вя́каем
+2nd Pl,вя́каете
+3rd Pl,вя́кают
+Past M,вя́кал
+Past F,вя́кала
+Past N,вя́кало
+Past PL,вя́кали
+Imp S,вя́кай
+Imp PL,вя́кайте

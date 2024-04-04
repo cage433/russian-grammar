@@ -1,0 +1,37 @@
+Infinitive,включи́ть
+Zaliznyak Class,4b // 4c
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,включи́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,включённый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,short
+PART:2:Participle Text,-
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,включи́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,включи́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,включу́
+2nd Sing,включи́шь
+3rd Sing,включи́т
+1st Pl,включи́м
+2nd Pl,включи́те
+3rd Pl,включа́т
+Past M,включи́л
+Past F,включи́ла
+Past N,включи́ло
+Past PL,включи́ли
+Imp S,включи́
+Imp PL,включи́те

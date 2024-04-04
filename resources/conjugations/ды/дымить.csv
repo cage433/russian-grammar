@@ -1,0 +1,37 @@
+Infinitive,дыми́ть
+Zaliznyak Class,4b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,дымя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,дыми́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,дымя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,дыми́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,дыми́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,дымлю́
+2nd Sing,дыми́шь
+3rd Sing,дыми́т
+1st Pl,дыми́м
+2nd Pl,дыми́те
+3rd Pl,дымя́т
+Past M,дыми́л
+Past F,дыми́ла
+Past N,дыми́ло
+Past PL,дыми́ли
+Imp S,дыми́
+Imp PL,дыми́те

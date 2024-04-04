@@ -1,0 +1,45 @@
+Infinitive,бинтова́ть
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,бинту́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,бинтова́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,бинту́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,бинто́ванный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,бинту́я
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,бинтова́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,бинтова́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,бинту́ю
+2nd Sing,бинту́ешь
+3rd Sing,бинту́ет
+1st Pl,бинту́ем
+2nd Pl,бинту́ете
+3rd Pl,бинту́ют
+Past M,бинтова́л
+Past F,бинтова́ла
+Past N,бинтова́ло
+Past PL,бинтова́ли
+Imp S,бинту́й
+Imp PL,бинту́йте

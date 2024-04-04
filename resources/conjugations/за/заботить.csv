@@ -1,0 +1,45 @@
+Infinitive,забо́тить
+Zaliznyak Class,4a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,забо́тящий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,забо́тивший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,забо́тимый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,забо́ченный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,забо́тя
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,забо́тив
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,забо́тивши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,забо́чу
+2nd Sing,забо́тишь
+3rd Sing,забо́тит
+1st Pl,забо́тим
+2nd Pl,забо́тите
+3rd Pl,забо́тят
+Past M,забо́тил
+Past F,забо́тила
+Past N,забо́тило
+Past PL,забо́тили
+Imp S,забо́ть
+Imp PL,забо́тьте

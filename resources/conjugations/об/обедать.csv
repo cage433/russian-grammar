@@ -1,0 +1,37 @@
+Infinitive,обе́дать
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,обе́дающий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,обе́давший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,обе́дая
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,обе́дав
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,обе́давши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,обе́даю
+2nd Sing,обе́даешь
+3rd Sing,обе́дает
+1st Pl,обе́даем
+2nd Pl,обе́даете
+3rd Pl,обе́дают
+Past M,обе́дал
+Past F,обе́дала
+Past N,обе́дало
+Past PL,обе́дали
+Imp S,обе́дай
+Imp PL,обе́дайте

@@ -1,0 +1,41 @@
+Infinitive,выводи́ть
+Zaliznyak Class,4c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,выводя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,выводи́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,выводи́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,выводя́
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,выводи́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,выводи́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,вывожу́
+2nd Sing,выво́дишь
+3rd Sing,выво́дит
+1st Pl,выво́дим
+2nd Pl,выво́дите
+3rd Pl,выво́дят
+Past M,выводи́л
+Past F,выводи́ла
+Past N,выводи́ло
+Past PL,выводи́ли
+Imp S,выводи́
+Imp PL,выводи́те

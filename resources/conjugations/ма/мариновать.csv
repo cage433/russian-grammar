@@ -1,0 +1,45 @@
+Infinitive,маринова́ть
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,марину́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,маринова́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,марину́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,марино́ванный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,марину́я
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,маринова́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,маринова́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,марину́ю
+2nd Sing,марину́ешь
+3rd Sing,марину́ет
+1st Pl,марину́ем
+2nd Pl,марину́ете
+3rd Pl,марину́ют
+Past M,маринова́л
+Past F,маринова́ла
+Past N,маринова́ло
+Past PL,маринова́ли
+Imp S,марину́й
+Imp PL,марину́йте

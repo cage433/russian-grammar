@@ -1,0 +1,29 @@
+Infinitive,поже́чь
+Zaliznyak Class,8b/b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,пожёгший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,пожжённый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,пожёгши
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+1st Sing,пожгу́
+2nd Sing,пожжёшь
+3rd Sing,пожжёт
+1st Pl,пожжём
+2nd Pl,пожжёте
+3rd Pl,пожгу́т
+Past M,пожёг
+Past F,пожгла́
+Past N,пожгло́
+Past PL,пожгли́
+Imp S,пожги́
+Imp PL,пожги́те

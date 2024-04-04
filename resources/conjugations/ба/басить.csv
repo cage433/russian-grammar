@@ -1,0 +1,37 @@
+Infinitive,баси́ть
+Zaliznyak Class,4b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,бася́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,баси́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,бася́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,баси́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,баси́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,башу́
+2nd Sing,баси́шь
+3rd Sing,баси́т
+1st Pl,баси́м
+2nd Pl,баси́те
+3rd Pl,бася́т
+Past M,баси́л
+Past F,баси́ла
+Past N,баси́ло
+Past PL,баси́ли
+Imp S,баси́
+Imp PL,баси́те

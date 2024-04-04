@@ -1,0 +1,37 @@
+Infinitive,е́хать
+Zaliznyak Class,irreg-a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,е́дущий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,е́хавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,е́дучи
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,е́хав
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,е́хавши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,е́ду
+2nd Sing,е́дешь
+3rd Sing,е́дет
+1st Pl,е́дем
+2nd Pl,е́дете
+3rd Pl,е́дут
+Past M,е́хал
+Past F,е́хала
+Past N,е́хало
+Past PL,е́хали
+Imp S,поезжа́й
+Imp PL,поезжа́йте

@@ -1,0 +1,65 @@
+Infinitive,"са́днить, садни́ть"
+Zaliznyak Class,4a // 4b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,са́днящий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,садня́щий
+PART:1:Participle Type,active
+PART:1:Participle Tense,present
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,са́днивший
+PART:2:Participle Type,active
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,садни́вший
+PART:3:Participle Type,active
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,са́днимый
+PART:4:Participle Type,passive
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,садни́мый
+PART:5:Participle Type,passive
+PART:5:Participle Tense,present
+PART:5:Participle Long or Short,long
+PART:6:Participle Text,са́дненный
+PART:6:Participle Type,passive
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,short
+PART:7:Participle Text,саднённый
+PART:7:Participle Type,passive
+PART:7:Participle Tense,past
+PART:7:Participle Long or Short,long
+PART:8:Participle Text,са́дня
+PART:8:Participle Type,adverbial
+PART:8:Participle Tense,present
+PART:8:Participle Long or Short,short
+PART:9:Participle Text,садня́
+PART:9:Participle Type,adverbial
+PART:9:Participle Tense,present
+PART:9:Participle Long or Short,long
+PART:10:Participle Text,са́днив
+PART:10:Participle Type,adverbial
+PART:10:Participle Tense,past
+PART:10:Participle Long or Short,short
+PART:11:Participle Text,садни́в
+PART:11:Participle Type,adverbial
+PART:11:Participle Tense,past
+PART:11:Participle Long or Short,long
+1st Sing,са́дню
+2nd Sing,са́днишь
+3rd Sing,са́днит
+1st Pl,са́дним
+2nd Pl,са́дните
+3rd Pl,са́днят
+Past M,са́днил
+Past F,са́днила
+Past N,са́днило
+Past PL,са́днили
+Imp S,са́дни
+Imp PL,са́дните

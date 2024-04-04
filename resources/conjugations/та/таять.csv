@@ -1,0 +1,37 @@
+Infinitive,та́ять
+Zaliznyak Class,6a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,та́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,та́явший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,та́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,та́яв
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,та́явши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,та́ю
+2nd Sing,та́ешь
+3rd Sing,та́ет
+1st Pl,та́ем
+2nd Pl,та́ете
+3rd Pl,та́ют
+Past M,та́ял
+Past F,та́яла
+Past N,та́яло
+Past PL,та́яли
+Imp S,та́й
+Imp PL,та́йте

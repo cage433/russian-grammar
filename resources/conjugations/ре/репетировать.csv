@@ -1,0 +1,45 @@
+Infinitive,репети́ровать
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,репети́рующий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,репети́ровавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,репети́руемый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,репети́рованный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,репети́руя
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,репети́ровав
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,репети́ровавши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,репети́рую
+2nd Sing,репети́руешь
+3rd Sing,репети́рует
+1st Pl,репети́руем
+2nd Pl,репети́руете
+3rd Pl,репети́руют
+Past M,репети́ровал
+Past F,репети́ровала
+Past N,репети́ровало
+Past PL,репети́ровали
+Imp S,репети́руй
+Imp PL,репети́руйте

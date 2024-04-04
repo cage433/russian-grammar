@@ -1,0 +1,41 @@
+Infinitive,кукова́ть
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,куку́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,кукова́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,куку́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,куку́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,кукова́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,кукова́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,куку́ю
+2nd Sing,куку́ешь
+3rd Sing,куку́ет
+1st Pl,куку́ем
+2nd Pl,куку́ете
+3rd Pl,куку́ют
+Past M,кукова́л
+Past F,кукова́ла
+Past N,кукова́ло
+Past PL,кукова́ли
+Imp S,куку́й
+Imp PL,куку́йте

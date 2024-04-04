@@ -1,0 +1,33 @@
+Infinitive,пора́нить
+Zaliznyak Class,4a
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,пора́нивший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,пора́ненный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,пора́нив
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,пора́нивши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,пора́ню
+2nd Sing,пора́нишь
+3rd Sing,пора́нит
+1st Pl,пора́ним
+2nd Pl,пора́ните
+3rd Pl,пора́нят
+Past M,пора́нил
+Past F,пора́нила
+Past N,пора́нило
+Past PL,пора́нили
+Imp S,пора́нь
+Imp PL,пора́ньте

@@ -1,0 +1,37 @@
+Infinitive,бра́ть
+Zaliznyak Class,6°b/c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,беру́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,бра́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,беря́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,бра́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,бра́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,беру́
+2nd Sing,берёшь
+3rd Sing,берёт
+1st Pl,берём
+2nd Pl,берёте
+3rd Pl,беру́т
+Past M,бра́л
+Past F,брала́
+Past N,бра́ло
+Past PL,бра́ли
+Imp S,бери́
+Imp PL,бери́те

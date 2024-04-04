@@ -1,0 +1,37 @@
+Infinitive,почива́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,почива́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,почива́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,почива́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,почива́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,почива́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,почива́ю
+2nd Sing,почива́ешь
+3rd Sing,почива́ет
+1st Pl,почива́ем
+2nd Pl,почива́ете
+3rd Pl,почива́ют
+Past M,почива́л
+Past F,почива́ла
+Past N,почива́ло
+Past PL,почива́ли
+Imp S,почива́й
+Imp PL,почива́йте

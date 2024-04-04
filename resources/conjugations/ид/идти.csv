@@ -1,0 +1,37 @@
+Infinitive,идти́
+Zaliznyak Class,irreg-b/b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,иду́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,ше́дший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,идя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,и́дучи
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,ше́дши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,иду́
+2nd Sing,идёшь
+3rd Sing,идёт
+1st Pl,идём
+2nd Pl,идёте
+3rd Pl,иду́т
+Past M,шёл
+Past F,шла́
+Past N,шло́
+Past PL,шли́
+Imp S,иди́
+Imp PL,иди́те

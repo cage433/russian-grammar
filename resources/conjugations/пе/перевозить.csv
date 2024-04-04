@@ -1,0 +1,41 @@
+Infinitive,перевози́ть
+Zaliznyak Class,4c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,перевозя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,перевози́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,перевози́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,перевозя́
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,перевози́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,перевози́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,перевожу́
+2nd Sing,перево́зишь
+3rd Sing,перево́зит
+1st Pl,перево́зим
+2nd Pl,перево́зите
+3rd Pl,перево́зят
+Past M,перевози́л
+Past F,перевози́ла
+Past N,перевози́ло
+Past PL,перевози́ли
+Imp S,перевози́
+Imp PL,перевози́те

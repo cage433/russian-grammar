@@ -1,0 +1,45 @@
+Infinitive,яри́ть
+Zaliznyak Class,4b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,яря́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,яри́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,яри́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ярённый
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,яря́
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,яри́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,яри́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,ярю́
+2nd Sing,яри́шь
+3rd Sing,яри́т
+1st Pl,яри́м
+2nd Pl,яри́те
+3rd Pl,яря́т
+Past M,яри́л
+Past F,яри́ла
+Past N,яри́ло
+Past PL,яри́ли
+Imp S,яри́
+Imp PL,яри́те

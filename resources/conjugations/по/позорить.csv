@@ -1,0 +1,45 @@
+Infinitive,позо́рить
+Zaliznyak Class,4a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,позо́рящий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,позо́ривший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,позо́римый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,позо́ренный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,позо́ря
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,позо́рив
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,позо́ривши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,позо́рю
+2nd Sing,позо́ришь
+3rd Sing,позо́рит
+1st Pl,позо́рим
+2nd Pl,позо́рите
+3rd Pl,позо́рят
+Past M,позо́рил
+Past F,позо́рила
+Past N,позо́рило
+Past PL,позо́рили
+Imp S,позо́рь
+Imp PL,позо́рьте

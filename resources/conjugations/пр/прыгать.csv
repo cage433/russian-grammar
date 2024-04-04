@@ -1,0 +1,37 @@
+Infinitive,пры́гать
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,пры́гающий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,пры́гавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,пры́гая
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,пры́гав
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,пры́гавши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,пры́гаю
+2nd Sing,пры́гаешь
+3rd Sing,пры́гает
+1st Pl,пры́гаем
+2nd Pl,пры́гаете
+3rd Pl,пры́гают
+Past M,пры́гал
+Past F,пры́гала
+Past N,пры́гало
+Past PL,пры́гали
+Imp S,пры́гай
+Imp PL,пры́гайте

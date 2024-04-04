@@ -1,0 +1,37 @@
+Infinitive,спо́рить
+Zaliznyak Class,4a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,спо́рящий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,спо́ривший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,спо́ря
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,спо́рив
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,спо́ривши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,спо́рю
+2nd Sing,спо́ришь
+3rd Sing,спо́рит
+1st Pl,спо́рим
+2nd Pl,спо́рите
+3rd Pl,спо́рят
+Past M,спо́рил
+Past F,спо́рила
+Past N,спо́рило
+Past PL,спо́рили
+Imp S,спо́рь
+Imp PL,спо́рьте

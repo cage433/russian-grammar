@@ -1,0 +1,33 @@
+Infinitive,сла́ть
+Zaliznyak Class,6b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,шлю́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,сла́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,сла́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,сла́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,шлю́
+2nd Sing,шлёшь
+3rd Sing,шлёт
+1st Pl,шлём
+2nd Pl,шлёте
+3rd Pl,шлю́т
+Past M,сла́л
+Past F,сла́ла
+Past N,сла́ло
+Past PL,сла́ли
+Imp S,шли́
+Imp PL,шли́те

@@ -1,0 +1,29 @@
+Infinitive,пойти́
+Zaliznyak Class,irreg-b/b
+Aspect,perfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,поше́дший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,пойдя́
+PART:1:Participle Type,adverbial
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,short
+PART:2:Participle Text,поше́дши
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+1st Sing,пойду́
+2nd Sing,пойдёшь
+3rd Sing,пойдёт
+1st Pl,пойдём
+2nd Pl,пойдёте
+3rd Pl,пойду́т
+Past M,пошёл
+Past F,пошла́
+Past N,пошло́
+Past PL,пошли́
+Imp S,пойди́
+Imp PL,пойди́те

@@ -1,0 +1,37 @@
+Infinitive,це́лить
+Zaliznyak Class,4a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,це́лящий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,це́ливший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,це́ля
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,це́лив
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,це́ливши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,це́лю
+2nd Sing,це́лишь
+3rd Sing,це́лит
+1st Pl,це́лим
+2nd Pl,це́лите
+3rd Pl,це́лят
+Past M,це́лил
+Past F,це́лила
+Past N,це́лило
+Past PL,це́лили
+Imp S,це́ль
+Imp PL,це́льте

@@ -1,0 +1,37 @@
+Infinitive,плы́ть
+Zaliznyak Class,16b/c'
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,плыву́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,плы́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,плывя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,плы́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,плы́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,плыву́
+2nd Sing,плывёшь
+3rd Sing,плывёт
+1st Pl,плывём
+2nd Pl,плывёте
+3rd Pl,плыву́т
+Past M,плы́л
+Past F,плыла́
+Past N,плы́ло
+Past PL,плы́ли
+Imp S,плыви́
+Imp PL,плыви́те

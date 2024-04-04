@@ -1,0 +1,37 @@
+Infinitive,заседа́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,заседа́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,заседа́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,заседа́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,заседа́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,заседа́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,заседа́ю
+2nd Sing,заседа́ешь
+3rd Sing,заседа́ет
+1st Pl,заседа́ем
+2nd Pl,заседа́ете
+3rd Pl,заседа́ют
+Past M,заседа́л
+Past F,заседа́ла
+Past N,заседа́ло
+Past PL,заседа́ли
+Imp S,заседа́й
+Imp PL,заседа́йте

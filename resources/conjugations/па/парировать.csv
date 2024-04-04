@@ -1,0 +1,45 @@
+Infinitive,пари́ровать
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,пари́рующий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,пари́ровавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,пари́руемый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,пари́рованный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,пари́руя
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,пари́ровав
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,пари́ровавши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,пари́рую
+2nd Sing,пари́руешь
+3rd Sing,пари́рует
+1st Pl,пари́руем
+2nd Pl,пари́руете
+3rd Pl,пари́руют
+Past M,пари́ровал
+Past F,пари́ровала
+Past N,пари́ровало
+Past PL,пари́ровали
+Imp S,пари́руй
+Imp PL,пари́руйте

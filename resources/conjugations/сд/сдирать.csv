@@ -1,0 +1,41 @@
+Infinitive,сдира́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,сдира́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,сдира́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,сдира́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,сдира́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,сдира́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,сдира́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,сдира́ю
+2nd Sing,сдира́ешь
+3rd Sing,сдира́ет
+1st Pl,сдира́ем
+2nd Pl,сдира́ете
+3rd Pl,сдира́ют
+Past M,сдира́л
+Past F,сдира́ла
+Past N,сдира́ло
+Past PL,сдира́ли
+Imp S,сдира́й
+Imp PL,сдира́йте

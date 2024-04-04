@@ -1,0 +1,45 @@
+Infinitive,соли́ть
+Zaliznyak Class,4c // 4b⑧
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,соля́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,соли́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,соли́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,со́ленный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,соля́
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,соли́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,соли́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,солю́
+2nd Sing,со́лишь
+3rd Sing,со́лит
+1st Pl,со́лим
+2nd Pl,со́лите
+3rd Pl,со́лят
+Past M,соли́л
+Past F,соли́ла
+Past N,соли́ло
+Past PL,соли́ли
+Imp S,соли́
+Imp PL,соли́те

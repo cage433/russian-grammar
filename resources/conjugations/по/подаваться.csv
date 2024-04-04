@@ -1,0 +1,33 @@
+Infinitive,подава́ться
+Zaliznyak Class,13b
+Aspect,imperfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,подаю́щийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,подава́вшийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,подава́ясь
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,подава́вшись
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,подаю́сь
+2nd Sing,подаёшься
+3rd Sing,подаётся
+1st Pl,подаёмся
+2nd Pl,подаётесь
+3rd Pl,подаю́тся
+Past M,подава́лся
+Past F,подава́лась
+Past N,подава́лось
+Past PL,подава́лись
+Imp S,подава́йся
+Imp PL,подава́йтесь

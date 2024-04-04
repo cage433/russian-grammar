@@ -1,0 +1,33 @@
+Infinitive,ползти́
+Zaliznyak Class,7b/b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,ползу́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,по́лзший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,ползя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,по́лзши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,ползу́
+2nd Sing,ползёшь
+3rd Sing,ползёт
+1st Pl,ползём
+2nd Pl,ползёте
+3rd Pl,ползу́т
+Past M,по́лз
+Past F,ползла́
+Past N,ползло́
+Past PL,ползли́
+Imp S,ползи́
+Imp PL,ползи́те

@@ -1,0 +1,33 @@
+Infinitive,зажа́ть
+Zaliznyak Class,14b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,зажа́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,зажа́тый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,зажа́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,зажа́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,зажму́
+2nd Sing,зажмёшь
+3rd Sing,зажмёт
+1st Pl,зажмём
+2nd Pl,зажмёте
+3rd Pl,зажму́т
+Past M,зажа́л
+Past F,зажа́ла
+Past N,зажа́ло
+Past PL,зажа́ли
+Imp S,зажми́
+Imp PL,зажми́те

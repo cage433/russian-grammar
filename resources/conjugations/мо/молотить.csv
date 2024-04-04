@@ -1,0 +1,45 @@
+Infinitive,молоти́ть
+Zaliznyak Class,4c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,молотя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,молоти́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,молоти́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,моло́ченный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,молотя́
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,молоти́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,молоти́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,молочу́
+2nd Sing,моло́тишь
+3rd Sing,моло́тит
+1st Pl,моло́тим
+2nd Pl,моло́тите
+3rd Pl,моло́тят
+Past M,молоти́л
+Past F,молоти́ла
+Past N,молоти́ло
+Past PL,молоти́ли
+Imp S,молоти́
+Imp PL,молоти́те

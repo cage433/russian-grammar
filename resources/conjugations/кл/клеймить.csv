@@ -1,0 +1,45 @@
+Infinitive,клейми́ть
+Zaliznyak Class,4b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,клеймя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,клейми́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,клейми́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,клеймённый
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,клеймя́
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,клейми́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,клейми́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,клеймлю́
+2nd Sing,клейми́шь
+3rd Sing,клейми́т
+1st Pl,клейми́м
+2nd Pl,клейми́те
+3rd Pl,клеймя́т
+Past M,клейми́л
+Past F,клейми́ла
+Past N,клейми́ло
+Past PL,клейми́ли
+Imp S,клейми́
+Imp PL,клейми́те

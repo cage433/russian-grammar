@@ -1,0 +1,41 @@
+Infinitive,сиде́ть
+Zaliznyak Class,5b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,сидя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,сиде́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,си́дя
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,си́дячи
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,сиде́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,сиде́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,сижу́
+2nd Sing,сиди́шь
+3rd Sing,сиди́т
+1st Pl,сиди́м
+2nd Pl,сиди́те
+3rd Pl,сидя́т
+Past M,сиде́л
+Past F,сиде́ла
+Past N,сиде́ло
+Past PL,сиде́ли
+Imp S,сиди́
+Imp PL,сиди́те

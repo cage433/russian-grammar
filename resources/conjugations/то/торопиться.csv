@@ -1,0 +1,33 @@
+Infinitive,торопи́ться
+Zaliznyak Class,4c
+Aspect,imperfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,торопя́щийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,торопи́вшийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,торопя́сь
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,торопи́вшись
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,тороплю́сь
+2nd Sing,торо́пишься
+3rd Sing,торо́пится
+1st Pl,торо́пимся
+2nd Pl,торо́питесь
+3rd Pl,торо́пятся
+Past M,торопи́лся
+Past F,торопи́лась
+Past N,торопи́лось
+Past PL,торопи́лись
+Imp S,торопи́сь
+Imp PL,торопи́тесь

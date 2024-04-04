@@ -1,0 +1,45 @@
+Infinitive,учи́ть
+Zaliznyak Class,4c④
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,у́чащий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,учи́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,учи́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,у́ченный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,уча́
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,учи́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,учи́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,учу́
+2nd Sing,у́чишь
+3rd Sing,у́чит
+1st Pl,у́чим
+2nd Pl,у́чите
+3rd Pl,у́чат
+Past M,учи́л
+Past F,учи́ла
+Past N,учи́ло
+Past PL,учи́ли
+Imp S,учи́
+Imp PL,учи́те

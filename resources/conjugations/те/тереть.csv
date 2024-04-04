@@ -1,0 +1,33 @@
+Infinitive,тере́ть
+Zaliznyak Class,9b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,тру́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,тёрший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,тёртый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,тёрши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,тру́
+2nd Sing,трёшь
+3rd Sing,трёт
+1st Pl,трём
+2nd Pl,трёте
+3rd Pl,тру́т
+Past M,тёр
+Past F,тёрла
+Past N,тёрло
+Past PL,тёрли
+Imp S,три́
+Imp PL,три́те

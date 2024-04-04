@@ -1,0 +1,45 @@
+Infinitive,ска́лить
+Zaliznyak Class,4a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,ска́лящий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,ска́ливший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,ска́лимый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ска́ленный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,ска́ля
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,ска́лив
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,ска́ливши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,ска́лю
+2nd Sing,ска́лишь
+3rd Sing,ска́лит
+1st Pl,ска́лим
+2nd Pl,ска́лите
+3rd Pl,ска́лят
+Past M,ска́лил
+Past F,ска́лила
+Past N,ска́лило
+Past PL,ска́лили
+Imp S,ска́ль
+Imp PL,ска́льте

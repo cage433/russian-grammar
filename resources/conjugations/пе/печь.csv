@@ -1,0 +1,33 @@
+Infinitive,пе́чь
+Zaliznyak Class,8b/b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,пеку́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,пёкший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,печённый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,пёкши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,пеку́
+2nd Sing,печёшь
+3rd Sing,печёт
+1st Pl,печём
+2nd Pl,печёте
+3rd Pl,пеку́т
+Past M,пёк
+Past F,пекла́
+Past N,пекло́
+Past PL,пекли́
+Imp S,пеки́
+Imp PL,пеки́те

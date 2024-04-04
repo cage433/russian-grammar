@@ -1,0 +1,37 @@
+Infinitive,ши́ть
+Zaliznyak Class,11b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,шью́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,ши́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,ши́тый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ши́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,ши́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,шью́
+2nd Sing,шьёшь
+3rd Sing,шьёт
+1st Pl,шьём
+2nd Pl,шьёте
+3rd Pl,шью́т
+Past M,ши́л
+Past F,ши́ла
+Past N,ши́ло
+Past PL,ши́ли
+Imp S,ше́й
+Imp PL,ше́йте

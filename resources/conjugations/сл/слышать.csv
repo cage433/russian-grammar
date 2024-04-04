@@ -1,0 +1,45 @@
+Infinitive,слы́шать
+Zaliznyak Class,5a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,слы́шащий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,слы́шавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,слы́шимый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,слы́шанный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,слы́ша
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,слы́шав
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,слы́шавши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,слы́шу
+2nd Sing,слы́шишь
+3rd Sing,слы́шит
+1st Pl,слы́шим
+2nd Pl,слы́шите
+3rd Pl,слы́шат
+Past M,слы́шал
+Past F,слы́шала
+Past N,слы́шало
+Past PL,слы́шали
+Imp S,—
+Imp PL,—

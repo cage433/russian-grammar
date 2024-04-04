@@ -1,0 +1,41 @@
+Infinitive,переводи́ть
+Zaliznyak Class,4c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,переводя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,переводи́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,переводи́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,переводя́
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,переводи́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,переводи́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,перевожу́
+2nd Sing,перево́дишь
+3rd Sing,перево́дит
+1st Pl,перево́дим
+2nd Pl,перево́дите
+3rd Pl,перево́дят
+Past M,переводи́л
+Past F,переводи́ла
+Past N,переводи́ло
+Past PL,переводи́ли
+Imp S,переводи́
+Imp PL,переводи́те

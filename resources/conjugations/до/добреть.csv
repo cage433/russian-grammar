@@ -1,0 +1,37 @@
+Infinitive,добре́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,добре́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,добре́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,добре́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,добре́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,добре́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,добре́ю
+2nd Sing,добре́ешь
+3rd Sing,добре́ет
+1st Pl,добре́ем
+2nd Pl,добре́ете
+3rd Pl,добре́ют
+Past M,добре́л
+Past F,добре́ла
+Past N,добре́ло
+Past PL,добре́ли
+Imp S,добре́й
+Imp PL,добре́йте

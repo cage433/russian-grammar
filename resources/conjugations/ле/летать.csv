@@ -1,0 +1,37 @@
+Infinitive,лета́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,лета́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,лета́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,лета́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,лета́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,лета́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,лета́ю
+2nd Sing,лета́ешь
+3rd Sing,лета́ет
+1st Pl,лета́ем
+2nd Pl,лета́ете
+3rd Pl,лета́ют
+Past M,лета́л
+Past F,лета́ла
+Past N,лета́ло
+Past PL,лета́ли
+Imp S,лета́й
+Imp PL,лета́йте

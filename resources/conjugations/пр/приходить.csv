@@ -1,0 +1,37 @@
+Infinitive,приходи́ть
+Zaliznyak Class,4c
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,приходя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,приходи́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,приходя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,приходи́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,приходи́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,прихожу́
+2nd Sing,прихо́дишь
+3rd Sing,прихо́дит
+1st Pl,прихо́дим
+2nd Pl,прихо́дите
+3rd Pl,прихо́дят
+Past M,приходи́л
+Past F,приходи́ла
+Past N,приходи́ло
+Past PL,приходи́ли
+Imp S,приходи́
+Imp PL,приходи́те

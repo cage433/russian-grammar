@@ -1,0 +1,41 @@
+Infinitive,отдава́ть
+Zaliznyak Class,13b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,отдаю́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,отдава́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,отдава́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,отдава́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,отдава́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,отдава́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,отдаю́
+2nd Sing,отдаёшь
+3rd Sing,отдаёт
+1st Pl,отдаём
+2nd Pl,отдаёте
+3rd Pl,отдаю́т
+Past M,отдава́л
+Past F,отдава́ла
+Past N,отдава́ло
+Past PL,отдава́ли
+Imp S,отдава́й
+Imp PL,отдава́йте

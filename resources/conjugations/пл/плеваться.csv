@@ -1,0 +1,33 @@
+Infinitive,плева́ться
+Zaliznyak Class,2b
+Aspect,imperfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,плюю́щийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,плева́вшийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,плюя́сь
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,плева́вшись
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,плюю́сь
+2nd Sing,плюёшься
+3rd Sing,плюётся
+1st Pl,плюёмся
+2nd Pl,плюётесь
+3rd Pl,плюю́тся
+Past M,плева́лся
+Past F,плева́лась
+Past N,плева́лось
+Past PL,плева́лись
+Imp S,плю́йся
+Imp PL,плю́йтесь

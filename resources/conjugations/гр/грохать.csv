@@ -1,0 +1,45 @@
+Infinitive,гро́хать
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,гро́хающий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,гро́хавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,гро́хаемый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,гро́ханный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,гро́хая
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,гро́хав
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,гро́хавши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,гро́хаю
+2nd Sing,гро́хаешь
+3rd Sing,гро́хает
+1st Pl,гро́хаем
+2nd Pl,гро́хаете
+3rd Pl,гро́хают
+Past M,гро́хал
+Past F,гро́хала
+Past N,гро́хало
+Past PL,гро́хали
+Imp S,гро́хай
+Imp PL,гро́хайте

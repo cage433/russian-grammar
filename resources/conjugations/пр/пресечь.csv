@@ -1,0 +1,37 @@
+Infinitive,пресе́чь
+Zaliznyak Class,8b/b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,пресе́кший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,пресёкший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,пресечённый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,пресе́кши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,пресёкши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,пресеку́
+2nd Sing,пресечёшь
+3rd Sing,пресечёт
+1st Pl,пресечём
+2nd Pl,пресечёте
+3rd Pl,пресеку́т
+Past M,пресёк
+Past F,пресекла́
+Past N,пресекло́
+Past PL,пресекли́
+Imp S,пресеки́
+Imp PL,пресеки́те

@@ -1,0 +1,45 @@
+Infinitive,хлеба́ть
+Zaliznyak Class,1a(-ё-)
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,хлеба́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,хлеба́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,хлеба́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,хлёбанный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,хлеба́я
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,хлеба́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,хлеба́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,хлеба́ю
+2nd Sing,хлеба́ешь
+3rd Sing,хлеба́ет
+1st Pl,хлеба́ем
+2nd Pl,хлеба́ете
+3rd Pl,хлеба́ют
+Past M,хлеба́л
+Past F,хлеба́ла
+Past N,хлеба́ло
+Past PL,хлеба́ли
+Imp S,хлеба́й
+Imp PL,хлеба́йте

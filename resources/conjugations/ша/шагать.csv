@@ -1,0 +1,37 @@
+Infinitive,шага́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,шага́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,шага́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,шага́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,шага́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,шага́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,шага́ю
+2nd Sing,шага́ешь
+3rd Sing,шага́ет
+1st Pl,шага́ем
+2nd Pl,шага́ете
+3rd Pl,шага́ют
+Past M,шага́л
+Past F,шага́ла
+Past N,шага́ло
+Past PL,шага́ли
+Imp S,шага́й
+Imp PL,шага́йте

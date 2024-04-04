@@ -1,0 +1,41 @@
+Infinitive,обмыва́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,обмыва́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,обмыва́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,обмыва́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,обмыва́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,обмыва́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,обмыва́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,обмыва́ю
+2nd Sing,обмыва́ешь
+3rd Sing,обмыва́ет
+1st Pl,обмыва́ем
+2nd Pl,обмыва́ете
+3rd Pl,обмыва́ют
+Past M,обмыва́л
+Past F,обмыва́ла
+Past N,обмыва́ло
+Past PL,обмыва́ли
+Imp S,обмыва́й
+Imp PL,обмыва́йте

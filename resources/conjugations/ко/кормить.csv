@@ -1,0 +1,45 @@
+Infinitive,корми́ть
+Zaliznyak Class,4c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,кормя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,корми́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,корми́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ко́рмленный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,кормя́
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,корми́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,корми́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,кормлю́
+2nd Sing,ко́рмишь
+3rd Sing,ко́рмит
+1st Pl,ко́рмим
+2nd Pl,ко́рмите
+3rd Pl,ко́рмят
+Past M,корми́л
+Past F,корми́ла
+Past N,корми́ло
+Past PL,корми́ли
+Imp S,корми́
+Imp PL,корми́те

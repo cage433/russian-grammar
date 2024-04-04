@@ -1,0 +1,45 @@
+Infinitive,копти́ть
+Zaliznyak Class,4b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,коптя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,копти́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,копти́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,копчённый
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,коптя́
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,копти́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,копти́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,копчу́
+2nd Sing,копти́шь
+3rd Sing,копти́т
+1st Pl,копти́м
+2nd Pl,копти́те
+3rd Pl,коптя́т
+Past M,копти́л
+Past F,копти́ла
+Past N,копти́ло
+Past PL,копти́ли
+Imp S,копти́
+Imp PL,копти́те

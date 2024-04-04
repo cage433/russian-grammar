@@ -1,0 +1,37 @@
+Infinitive,у́жинать
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,у́жинающий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,у́жинавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,у́жиная
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,у́жинав
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,у́жинавши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,у́жинаю
+2nd Sing,у́жинаешь
+3rd Sing,у́жинает
+1st Pl,у́жинаем
+2nd Pl,у́жинаете
+3rd Pl,у́жинают
+Past M,у́жинал
+Past F,у́жинала
+Past N,у́жинало
+Past PL,у́жинали
+Imp S,у́жинай
+Imp PL,у́жинайте

@@ -1,0 +1,37 @@
+Infinitive,розове́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,розове́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,розове́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,розове́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,розове́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,розове́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,розове́ю
+2nd Sing,розове́ешь
+3rd Sing,розове́ет
+1st Pl,розове́ем
+2nd Pl,розове́ете
+3rd Pl,розове́ют
+Past M,розове́л
+Past F,розове́ла
+Past N,розове́ло
+Past PL,розове́ли
+Imp S,розове́й
+Imp PL,розове́йте

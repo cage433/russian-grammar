@@ -1,0 +1,37 @@
+Infinitive,ликова́ть
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,лику́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,ликова́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,лику́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ликова́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,ликова́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,лику́ю
+2nd Sing,лику́ешь
+3rd Sing,лику́ет
+1st Pl,лику́ем
+2nd Pl,лику́ете
+3rd Pl,лику́ют
+Past M,ликова́л
+Past F,ликова́ла
+Past N,ликова́ло
+Past PL,ликова́ли
+Imp S,лику́й
+Imp PL,лику́йте

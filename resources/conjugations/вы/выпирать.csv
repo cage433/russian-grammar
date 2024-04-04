@@ -1,0 +1,41 @@
+Infinitive,выпира́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,выпира́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,выпира́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,выпира́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,выпира́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,выпира́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,выпира́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,выпира́ю
+2nd Sing,выпира́ешь
+3rd Sing,выпира́ет
+1st Pl,выпира́ем
+2nd Pl,выпира́ете
+3rd Pl,выпира́ют
+Past M,выпира́л
+Past F,выпира́ла
+Past N,выпира́ло
+Past PL,выпира́ли
+Imp S,выпира́й
+Imp PL,выпира́йте

@@ -1,0 +1,41 @@
+Infinitive,поро́ть
+Zaliznyak Class,10c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,по́рющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,поро́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,по́ротый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,поря́
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,поро́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,поро́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,порю́
+2nd Sing,по́решь
+3rd Sing,по́рет
+1st Pl,по́рем
+2nd Pl,по́рете
+3rd Pl,по́рют
+Past M,поро́л
+Past F,поро́ла
+Past N,поро́ло
+Past PL,поро́ли
+Imp S,пори́
+Imp PL,пори́те

@@ -1,0 +1,45 @@
+Infinitive,ма́ять
+Zaliznyak Class,6a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,ма́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,ма́явший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,ма́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ма́янный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,ма́я
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,ма́яв
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,ма́явши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,ма́ю
+2nd Sing,ма́ешь
+3rd Sing,ма́ет
+1st Pl,ма́ем
+2nd Pl,ма́ете
+3rd Pl,ма́ют
+Past M,ма́ял
+Past F,ма́яла
+Past N,ма́яло
+Past PL,ма́яли
+Imp S,ма́й
+Imp PL,ма́йте

@@ -1,0 +1,45 @@
+Infinitive,тро́гать
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,тро́гающий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,тро́гавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,тро́гаемый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,тро́ганный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,тро́гая
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,тро́гав
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,тро́гавши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,тро́гаю
+2nd Sing,тро́гаешь
+3rd Sing,тро́гает
+1st Pl,тро́гаем
+2nd Pl,тро́гаете
+3rd Pl,тро́гают
+Past M,тро́гал
+Past F,тро́гала
+Past N,тро́гало
+Past PL,тро́гали
+Imp S,тро́гай
+Imp PL,тро́гайте

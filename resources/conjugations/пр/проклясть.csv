@@ -1,0 +1,33 @@
+Infinitive,прокля́сть
+Zaliznyak Class,irreg-b/c①
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,прокля́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,про́клятый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,прокля́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,прокля́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,прокляну́
+2nd Sing,проклянёшь
+3rd Sing,проклянёт
+1st Pl,проклянём
+2nd Pl,проклянёте
+3rd Pl,прокляну́т
+Past M,про́клял
+Past F,прокляла́
+Past N,про́кляло
+Past PL,про́кляли
+Imp S,прокляни́
+Imp PL,прокляни́те

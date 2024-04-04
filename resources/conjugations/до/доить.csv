@@ -1,0 +1,45 @@
+Infinitive,дои́ть
+Zaliznyak Class,4c // 4b⑧
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,доя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,дои́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,дои́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,до́енный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,доя́
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,дои́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,дои́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,дою́
+2nd Sing,до́ишь
+3rd Sing,до́ит
+1st Pl,до́им
+2nd Pl,до́ите
+3rd Pl,до́ят
+Past M,дои́л
+Past F,дои́ла
+Past N,дои́ло
+Past PL,дои́ли
+Imp S,дои́
+Imp PL,дои́те

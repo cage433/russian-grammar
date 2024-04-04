@@ -1,0 +1,37 @@
+Infinitive,клевета́ть
+Zaliznyak Class,6c(-щ-)
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,клеве́щущий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,клевета́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,клевеща́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,клевета́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,клевета́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,клевещу́
+2nd Sing,клеве́щешь
+3rd Sing,клеве́щет
+1st Pl,клеве́щем
+2nd Pl,клеве́щете
+3rd Pl,клеве́щут
+Past M,клевета́л
+Past F,клевета́ла
+Past N,клевета́ло
+Past PL,клевета́ли
+Imp S,клевещи́
+Imp PL,клевещи́те

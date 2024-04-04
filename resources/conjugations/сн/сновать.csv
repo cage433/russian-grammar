@@ -1,0 +1,37 @@
+Infinitive,снова́ть
+Zaliznyak Class,2b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,сную́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,снова́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,снуя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,снова́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,снова́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,сную́
+2nd Sing,снуёшь
+3rd Sing,снуёт
+1st Pl,снуём
+2nd Pl,снуёте
+3rd Pl,сную́т
+Past M,снова́л
+Past F,снова́ла
+Past N,снова́ло
+Past PL,снова́ли
+Imp S,сну́й
+Imp PL,сну́йте

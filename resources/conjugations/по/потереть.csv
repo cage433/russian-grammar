@@ -1,0 +1,33 @@
+Infinitive,потере́ть
+Zaliznyak Class,9b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,потёрший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,потёртый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,потере́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,потёрши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,потру́
+2nd Sing,потрёшь
+3rd Sing,потрёт
+1st Pl,потрём
+2nd Pl,потрёте
+3rd Pl,потру́т
+Past M,потёр
+Past F,потёрла
+Past N,потёрло
+Past PL,потёрли
+Imp S,потри́
+Imp PL,потри́те

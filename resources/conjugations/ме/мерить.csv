@@ -1,0 +1,57 @@
+Infinitive,ме́рить
+Zaliznyak Class,4a // 1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,ме́рящий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,ме́ряющий
+PART:1:Participle Type,active
+PART:1:Participle Tense,present
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,ме́ривший
+PART:2:Participle Type,active
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ме́римый
+PART:3:Participle Type,passive
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,ме́ряемый
+PART:4:Participle Type,passive
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,ме́ренный
+PART:5:Participle Type,passive
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+PART:6:Participle Text,ме́ря
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,present
+PART:6:Participle Long or Short,short
+PART:7:Participle Text,ме́ряя
+PART:7:Participle Type,adverbial
+PART:7:Participle Tense,present
+PART:7:Participle Long or Short,long
+PART:8:Participle Text,ме́рив
+PART:8:Participle Type,adverbial
+PART:8:Participle Tense,past
+PART:8:Participle Long or Short,short
+PART:9:Participle Text,ме́ривши
+PART:9:Participle Type,adverbial
+PART:9:Participle Tense,past
+PART:9:Participle Long or Short,long
+1st Sing,ме́рю
+2nd Sing,ме́ришь
+3rd Sing,ме́рит
+1st Pl,ме́рим
+2nd Pl,ме́рите
+3rd Pl,ме́рят
+Past M,ме́рил
+Past F,ме́рила
+Past N,ме́рило
+Past PL,ме́рили
+Imp S,ме́рь
+Imp PL,ме́рьте

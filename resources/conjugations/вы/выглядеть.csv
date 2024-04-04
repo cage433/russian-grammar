@@ -1,0 +1,37 @@
+Infinitive,вы́глядеть
+Zaliznyak Class,5a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,вы́глядящий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,вы́глядевший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,вы́глядя
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,вы́глядев
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,вы́глядевши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,вы́гляжу
+2nd Sing,вы́глядишь
+3rd Sing,вы́глядит
+1st Pl,вы́глядим
+2nd Pl,вы́глядите
+3rd Pl,вы́глядят
+Past M,вы́глядел
+Past F,вы́глядела
+Past N,вы́глядело
+Past PL,вы́глядели
+Imp S,вы́гляди
+Imp PL,вы́глядите

@@ -1,0 +1,37 @@
+Infinitive,рассе́чь
+Zaliznyak Class,8b/b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,рассе́кший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,рассёкший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,рассечённый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,рассе́кши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,рассёкши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,рассеку́
+2nd Sing,рассечёшь
+3rd Sing,рассечёт
+1st Pl,рассечём
+2nd Pl,рассечёте
+3rd Pl,рассеку́т
+Past M,рассёк
+Past F,рассекла́
+Past N,рассекло́
+Past PL,рассекли́
+Imp S,рассеки́
+Imp PL,рассеки́те

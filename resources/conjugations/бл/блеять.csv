@@ -1,0 +1,37 @@
+Infinitive,бле́ять
+Zaliznyak Class,6a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,бле́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,бле́явший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,бле́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,бле́яв
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,бле́явши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,бле́ю
+2nd Sing,бле́ешь
+3rd Sing,бле́ет
+1st Pl,бле́ем
+2nd Pl,бле́ете
+3rd Pl,бле́ют
+Past M,бле́ял
+Past F,бле́яла
+Past N,бле́яло
+Past PL,бле́яли
+Imp S,бле́й
+Imp PL,бле́йте

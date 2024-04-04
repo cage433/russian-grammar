@@ -1,0 +1,41 @@
+Infinitive,впуска́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,впуска́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,впуска́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,впуска́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,впуска́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,впуска́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,впуска́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,впуска́ю
+2nd Sing,впуска́ешь
+3rd Sing,впуска́ет
+1st Pl,впуска́ем
+2nd Pl,впуска́ете
+3rd Pl,впуска́ют
+Past M,впуска́л
+Past F,впуска́ла
+Past N,впуска́ло
+Past PL,впуска́ли
+Imp S,впуска́й
+Imp PL,впуска́йте

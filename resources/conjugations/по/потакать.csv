@@ -1,0 +1,37 @@
+Infinitive,потака́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,потака́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,потака́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,потака́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,потака́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,потака́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,потака́ю
+2nd Sing,потака́ешь
+3rd Sing,потака́ет
+1st Pl,потака́ем
+2nd Pl,потака́ете
+3rd Pl,потака́ют
+Past M,потака́л
+Past F,потака́ла
+Past N,потака́ло
+Past PL,потака́ли
+Imp S,потака́й
+Imp PL,потака́йте

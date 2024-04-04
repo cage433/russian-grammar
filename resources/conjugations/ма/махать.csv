@@ -1,0 +1,45 @@
+Infinitive,маха́ть
+Zaliznyak Class,6c // 1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,ма́шущий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,маха́ющий
+PART:1:Participle Type,active
+PART:1:Participle Tense,present
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,маха́вший
+PART:2:Participle Type,active
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,маша́
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,маха́я
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,маха́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,маха́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,машу́
+2nd Sing,ма́шешь
+3rd Sing,ма́шет
+1st Pl,ма́шем
+2nd Pl,ма́шете
+3rd Pl,ма́шут
+Past M,маха́л
+Past F,маха́ла
+Past N,маха́ло
+Past PL,маха́ли
+Imp S,маши́
+Imp PL,маши́те

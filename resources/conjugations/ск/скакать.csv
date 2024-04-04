@@ -1,0 +1,37 @@
+Infinitive,скака́ть
+Zaliznyak Class,6c
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,ска́чущий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,скака́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,скача́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,скака́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,скака́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,скачу́
+2nd Sing,ска́чешь
+3rd Sing,ска́чет
+1st Pl,ска́чем
+2nd Pl,ска́чете
+3rd Pl,ска́чут
+Past M,скака́л
+Past F,скака́ла
+Past N,скака́ло
+Past PL,скака́ли
+Imp S,скачи́
+Imp PL,скачи́те

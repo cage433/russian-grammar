@@ -1,0 +1,45 @@
+Infinitive,расти́ть
+Zaliznyak Class,4b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,растя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,расти́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,расти́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ращённый
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,растя́
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,расти́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,расти́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,ращу́
+2nd Sing,расти́шь
+3rd Sing,расти́т
+1st Pl,расти́м
+2nd Pl,расти́те
+3rd Pl,растя́т
+Past M,расти́л
+Past F,расти́ла
+Past N,расти́ло
+Past PL,расти́ли
+Imp S,расти́
+Imp PL,расти́те

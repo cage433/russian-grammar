@@ -1,0 +1,33 @@
+Infinitive,вы́ведать
+Zaliznyak Class,1a
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,вы́ведавший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,вы́веданный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,вы́ведав
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,вы́ведавши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,вы́ведаю
+2nd Sing,вы́ведаешь
+3rd Sing,вы́ведает
+1st Pl,вы́ведаем
+2nd Pl,вы́ведаете
+3rd Pl,вы́ведают
+Past M,вы́ведал
+Past F,вы́ведала
+Past N,вы́ведало
+Past PL,вы́ведали
+Imp S,вы́ведай
+Imp PL,вы́ведайте

@@ -1,0 +1,37 @@
+Infinitive,за́втракать
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,за́втракающий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,за́втракавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,за́втракая
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,за́втракав
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,за́втракавши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,за́втракаю
+2nd Sing,за́втракаешь
+3rd Sing,за́втракает
+1st Pl,за́втракаем
+2nd Pl,за́втракаете
+3rd Pl,за́втракают
+Past M,за́втракал
+Past F,за́втракала
+Past N,за́втракало
+Past PL,за́втракали
+Imp S,за́втракай
+Imp PL,за́втракайте

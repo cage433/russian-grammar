@@ -1,0 +1,41 @@
+Infinitive,иска́ть
+Zaliznyak Class,6c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,и́щущий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,иска́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,и́сканный
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ища́
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,иска́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,иска́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,ищу́
+2nd Sing,и́щешь
+3rd Sing,и́щет
+1st Pl,и́щем
+2nd Pl,и́щете
+3rd Pl,и́щут
+Past M,иска́л
+Past F,иска́ла
+Past N,иска́ло
+Past PL,иска́ли
+Imp S,ищи́
+Imp PL,ищи́те

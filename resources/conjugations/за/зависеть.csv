@@ -1,0 +1,37 @@
+Infinitive,зави́сеть
+Zaliznyak Class,5a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,зави́сящий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,зави́севший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,зави́ся
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,зави́сев
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,зави́севши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,зави́шу
+2nd Sing,зави́сишь
+3rd Sing,зави́сит
+1st Pl,зави́сим
+2nd Pl,зави́сите
+3rd Pl,зави́сят
+Past M,зави́сел
+Past F,зави́села
+Past N,зави́село
+Past PL,зави́сели
+Imp S,зави́сь
+Imp PL,зави́сьте

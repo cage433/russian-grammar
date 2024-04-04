@@ -1,0 +1,41 @@
+Infinitive,вруча́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,вруча́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,вруча́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,вруча́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,вруча́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,вруча́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,вруча́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,вруча́ю
+2nd Sing,вруча́ешь
+3rd Sing,вруча́ет
+1st Pl,вруча́ем
+2nd Pl,вруча́ете
+3rd Pl,вруча́ют
+Past M,вруча́л
+Past F,вруча́ла
+Past N,вруча́ло
+Past PL,вруча́ли
+Imp S,вруча́й
+Imp PL,вруча́йте

@@ -1,0 +1,41 @@
+Infinitive,сжига́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,сжига́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,сжига́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,сжига́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,сжига́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,сжига́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,сжига́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,сжига́ю
+2nd Sing,сжига́ешь
+3rd Sing,сжига́ет
+1st Pl,сжига́ем
+2nd Pl,сжига́ете
+3rd Pl,сжига́ют
+Past M,сжига́л
+Past F,сжига́ла
+Past N,сжига́ло
+Past PL,сжига́ли
+Imp S,сжига́й
+Imp PL,сжига́йте

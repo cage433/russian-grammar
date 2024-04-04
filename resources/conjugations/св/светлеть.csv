@@ -1,0 +1,37 @@
+Infinitive,светле́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,светле́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,светле́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,светле́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,светле́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,светле́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,светле́ю
+2nd Sing,светле́ешь
+3rd Sing,светле́ет
+1st Pl,светле́ем
+2nd Pl,светле́ете
+3rd Pl,светле́ют
+Past M,светле́л
+Past F,светле́ла
+Past N,светле́ло
+Past PL,светле́ли
+Imp S,светле́й
+Imp PL,светле́йте

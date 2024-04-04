@@ -1,0 +1,33 @@
+Infinitive,одева́ться
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,одева́ющийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,одева́вшийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,одева́ясь
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,одева́вшись
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,одева́юсь
+2nd Sing,одева́ешься
+3rd Sing,одева́ется
+1st Pl,одева́емся
+2nd Pl,одева́етесь
+3rd Pl,одева́ются
+Past M,одева́лся
+Past F,одева́лась
+Past N,одева́лось
+Past PL,одева́лись
+Imp S,одева́йся
+Imp PL,одева́йтесь

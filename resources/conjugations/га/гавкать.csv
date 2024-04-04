@@ -1,0 +1,37 @@
+Infinitive,га́вкать
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,га́вкающий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,га́вкавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,га́вкая
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,га́вкав
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,га́вкавши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,га́вкаю
+2nd Sing,га́вкаешь
+3rd Sing,га́вкает
+1st Pl,га́вкаем
+2nd Pl,га́вкаете
+3rd Pl,га́вкают
+Past M,га́вкал
+Past F,га́вкала
+Past N,га́вкало
+Past PL,га́вкали
+Imp S,га́вкай
+Imp PL,га́вкайте

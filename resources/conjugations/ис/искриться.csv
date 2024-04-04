@@ -1,0 +1,49 @@
+Infinitive,"и́скриться, искри́ться"
+Zaliznyak Class,4a // 4b
+Aspect,imperfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,и́скрящийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,искря́щийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,present
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,и́скрившийся
+PART:2:Participle Type,active
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,искри́вшийся
+PART:3:Participle Type,active
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,и́скрясь
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,искря́сь
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,present
+PART:5:Participle Long or Short,long
+PART:6:Participle Text,и́скрившись
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,short
+PART:7:Participle Text,искри́вшись
+PART:7:Participle Type,adverbial
+PART:7:Participle Tense,past
+PART:7:Participle Long or Short,long
+1st Sing,и́скрюсь
+2nd Sing,и́скришься
+3rd Sing,и́скрится
+1st Pl,и́скримся
+2nd Pl,и́скритесь
+3rd Pl,и́скрятся
+Past M,и́скрился
+Past F,и́скрилась
+Past N,и́скрилось
+Past PL,и́скрились
+Imp S,и́скрись
+Imp PL,и́скритесь

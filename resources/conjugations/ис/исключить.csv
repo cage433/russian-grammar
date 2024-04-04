@@ -1,0 +1,37 @@
+Infinitive,исключи́ть
+Zaliznyak Class,4b // 4c
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,исключи́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,исключённый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,short
+PART:2:Participle Text,-
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,исключи́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,исключи́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,исключу́
+2nd Sing,исключи́шь
+3rd Sing,исключи́т
+1st Pl,исключи́м
+2nd Pl,исключи́те
+3rd Pl,исключа́т
+Past M,исключи́л
+Past F,исключи́ла
+Past N,исключи́ло
+Past PL,исключи́ли
+Imp S,исключи́
+Imp PL,исключи́те

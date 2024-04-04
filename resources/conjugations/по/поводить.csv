@@ -1,0 +1,37 @@
+Infinitive,поводи́ть
+Zaliznyak Class,4c
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,поводя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,поводи́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,поводя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,поводи́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,поводи́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,повожу́
+2nd Sing,пово́дишь
+3rd Sing,пово́дит
+1st Pl,пово́дим
+2nd Pl,пово́дите
+3rd Pl,пово́дят
+Past M,поводи́л
+Past F,поводи́ла
+Past N,поводи́ло
+Past PL,поводи́ли
+Imp S,поводи́
+Imp PL,поводи́те

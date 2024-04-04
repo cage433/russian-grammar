@@ -1,0 +1,41 @@
+Infinitive,вымога́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,вымога́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,вымога́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,вымога́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,вымога́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,вымога́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,вымога́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,вымога́ю
+2nd Sing,вымога́ешь
+3rd Sing,вымога́ет
+1st Pl,вымога́ем
+2nd Pl,вымога́ете
+3rd Pl,вымога́ют
+Past M,вымога́л
+Past F,вымога́ла
+Past N,вымога́ло
+Past PL,вымога́ли
+Imp S,вымога́й
+Imp PL,вымога́йте

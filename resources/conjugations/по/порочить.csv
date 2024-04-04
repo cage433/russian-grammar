@@ -1,0 +1,45 @@
+Infinitive,поро́чить
+Zaliznyak Class,4a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,поро́чащий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,поро́чивший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,поро́чимый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,поро́ченный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,поро́ча
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,поро́чив
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,поро́чивши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,поро́чу
+2nd Sing,поро́чишь
+3rd Sing,поро́чит
+1st Pl,поро́чим
+2nd Pl,поро́чите
+3rd Pl,поро́чат
+Past M,поро́чил
+Past F,поро́чила
+Past N,поро́чило
+Past PL,поро́чили
+Imp S,поро́чь
+Imp PL,поро́чьте

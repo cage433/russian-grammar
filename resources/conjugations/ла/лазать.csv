@@ -1,0 +1,37 @@
+Infinitive,ла́зать
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,ла́зающий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,ла́завший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,ла́зая
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ла́зав
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,ла́завши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,ла́заю
+2nd Sing,ла́заешь
+3rd Sing,ла́зает
+1st Pl,ла́заем
+2nd Pl,ла́заете
+3rd Pl,ла́зают
+Past M,ла́зал
+Past F,ла́зала
+Past N,ла́зало
+Past PL,ла́зали
+Imp S,ла́зай
+Imp PL,ла́зайте

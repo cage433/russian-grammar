@@ -1,0 +1,37 @@
+Infinitive,воева́ть
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,вою́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,воева́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,вою́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,воева́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,воева́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,вою́ю
+2nd Sing,вою́ешь
+3rd Sing,вою́ет
+1st Pl,вою́ем
+2nd Pl,вою́ете
+3rd Pl,вою́ют
+Past M,воева́л
+Past F,воева́ла
+Past N,воева́ло
+Past PL,воева́ли
+Imp S,вою́й
+Imp PL,вою́йте

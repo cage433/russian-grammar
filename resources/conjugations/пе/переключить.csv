@@ -1,0 +1,37 @@
+Infinitive,переключи́ть
+Zaliznyak Class,4b // 4c
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,переключи́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,переключённый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,short
+PART:2:Participle Text,-
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,переключи́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,переключи́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,переключу́
+2nd Sing,переключи́шь
+3rd Sing,переключи́т
+1st Pl,переключи́м
+2nd Pl,переключи́те
+3rd Pl,переключа́т
+Past M,переключи́л
+Past F,переключи́ла
+Past N,переключи́ло
+Past PL,переключи́ли
+Imp S,переключи́
+Imp PL,переключи́те

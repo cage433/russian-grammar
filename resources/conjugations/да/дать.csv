@@ -1,0 +1,33 @@
+Infinitive,да́ть
+Zaliznyak Class,irreg-b/c'
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,да́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,да́нный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,да́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,да́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,да́м
+2nd Sing,да́шь
+3rd Sing,да́ст
+1st Pl,дади́м
+2nd Pl,дади́те
+3rd Pl,даду́т
+Past M,да́л
+Past F,дала́
+Past N,дало́
+Past PL,да́ли
+Imp S,да́й
+Imp PL,да́йте

@@ -1,0 +1,37 @@
+Infinitive,истека́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,истека́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,истека́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,истека́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,истека́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,истека́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,истека́ю
+2nd Sing,истека́ешь
+3rd Sing,истека́ет
+1st Pl,истека́ем
+2nd Pl,истека́ете
+3rd Pl,истека́ют
+Past M,истека́л
+Past F,истека́ла
+Past N,истека́ло
+Past PL,истека́ли
+Imp S,истека́й
+Imp PL,истека́йте

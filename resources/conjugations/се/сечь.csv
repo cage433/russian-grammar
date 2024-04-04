@@ -1,0 +1,45 @@
+Infinitive,се́чь
+Zaliznyak Class,8b/b // 8b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,секу́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,се́кший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,short
+PART:2:Participle Text,сёкший
+PART:2:Participle Type,active
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,сечённый
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,се́ченный
+PART:4:Participle Type,passive
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,се́кши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,сёкши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,секу́
+2nd Sing,сечёшь
+3rd Sing,сечёт
+1st Pl,сечём
+2nd Pl,сечёте
+3rd Pl,секу́т
+Past M,сёк
+Past F,секла́
+Past N,секло́
+Past PL,секли́
+Imp S,секи́
+Imp PL,секи́те

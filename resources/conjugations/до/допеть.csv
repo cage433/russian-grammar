@@ -1,0 +1,33 @@
+Infinitive,допе́ть
+Zaliznyak Class,12b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,допе́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,допе́тый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,допе́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,допе́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,допою́
+2nd Sing,допоёшь
+3rd Sing,допоёт
+1st Pl,допоём
+2nd Pl,допоёте
+3rd Pl,допою́т
+Past M,допе́л
+Past F,допе́ла
+Past N,допе́ло
+Past PL,допе́ли
+Imp S,допо́й
+Imp PL,допо́йте

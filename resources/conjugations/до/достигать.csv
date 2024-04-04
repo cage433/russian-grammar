@@ -1,0 +1,45 @@
+Infinitive,достига́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,достига́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,достига́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,short
+PART:2:Participle Text,дости́гший
+PART:2:Participle Type,active
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,достига́емый
+PART:3:Participle Type,passive
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,достига́я
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,достига́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,достига́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,достига́ю
+2nd Sing,достига́ешь
+3rd Sing,достига́ет
+1st Pl,достига́ем
+2nd Pl,достига́ете
+3rd Pl,достига́ют
+Past M,достига́л
+Past F,достига́ла
+Past N,достига́ло
+Past PL,достига́ли
+Imp S,достига́й
+Imp PL,достига́йте

@@ -1,0 +1,37 @@
+Infinitive,изво́лить
+Zaliznyak Class,4a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,изво́лящий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,изво́ливший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,изво́ля
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,изво́лив
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,изво́ливши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,изво́лю
+2nd Sing,изво́лишь
+3rd Sing,изво́лит
+1st Pl,изво́лим
+2nd Pl,изво́лите
+3rd Pl,изво́лят
+Past M,изво́лил
+Past F,изво́лила
+Past N,изво́лило
+Past PL,изво́лили
+Imp S,изво́ль
+Imp PL,изво́льте

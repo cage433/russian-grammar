@@ -1,0 +1,37 @@
+Infinitive,рыча́ть
+Zaliznyak Class,5b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,рыча́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,рыча́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,рыча́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,рыча́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,рыча́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,рычу́
+2nd Sing,рычи́шь
+3rd Sing,рычи́т
+1st Pl,рычи́м
+2nd Pl,рычи́те
+3rd Pl,рыча́т
+Past M,рыча́л
+Past F,рыча́ла
+Past N,рыча́ло
+Past PL,рыча́ли
+Imp S,рычи́
+Imp PL,рычи́те

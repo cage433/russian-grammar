@@ -1,0 +1,37 @@
+Infinitive,шали́ть
+Zaliznyak Class,4b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,шаля́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,шали́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,шаля́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,шали́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,шали́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,шалю́
+2nd Sing,шали́шь
+3rd Sing,шали́т
+1st Pl,шали́м
+2nd Pl,шали́те
+3rd Pl,шаля́т
+Past M,шали́л
+Past F,шали́ла
+Past N,шали́ло
+Past PL,шали́ли
+Imp S,шали́
+Imp PL,шали́те

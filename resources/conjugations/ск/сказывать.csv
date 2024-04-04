@@ -1,0 +1,41 @@
+Infinitive,ска́зывать
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,ска́зывающий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,ска́зывавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,ска́зываемый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ска́зывая
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,ска́зывав
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,ска́зывавши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,ска́зываю
+2nd Sing,ска́зываешь
+3rd Sing,ска́зывает
+1st Pl,ска́зываем
+2nd Pl,ска́зываете
+3rd Pl,ска́зывают
+Past M,ска́зывал
+Past F,ска́зывала
+Past N,ска́зывало
+Past PL,ска́зывали
+Imp S,ска́зывай
+Imp PL,ска́зывайте

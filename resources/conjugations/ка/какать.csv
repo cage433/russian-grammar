@@ -1,0 +1,37 @@
+Infinitive,ка́кать
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,ка́кающий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,ка́кавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,ка́кая
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ка́кав
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,ка́кавши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,ка́каю
+2nd Sing,ка́каешь
+3rd Sing,ка́кает
+1st Pl,ка́каем
+2nd Pl,ка́каете
+3rd Pl,ка́кают
+Past M,ка́кал
+Past F,ка́кала
+Past N,ка́кало
+Past PL,ка́кали
+Imp S,ка́кай
+Imp PL,ка́кайте

@@ -1,0 +1,37 @@
+Infinitive,вереща́ть
+Zaliznyak Class,5b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,вереща́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,вереща́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,вереща́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,вереща́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,вереща́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,верещу́
+2nd Sing,верещи́шь
+3rd Sing,верещи́т
+1st Pl,верещи́м
+2nd Pl,верещи́те
+3rd Pl,вереща́т
+Past M,вереща́л
+Past F,вереща́ла
+Past N,вереща́ло
+Past PL,вереща́ли
+Imp S,верещи́
+Imp PL,верещи́те

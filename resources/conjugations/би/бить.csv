@@ -1,0 +1,37 @@
+Infinitive,би́ть
+Zaliznyak Class,11b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,бью́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,би́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,би́тый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,би́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,би́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,бью́
+2nd Sing,бьёшь
+3rd Sing,бьёт
+1st Pl,бьём
+2nd Pl,бьёте
+3rd Pl,бью́т
+Past M,би́л
+Past F,би́ла
+Past N,би́ло
+Past PL,би́ли
+Imp S,бе́й
+Imp PL,бе́йте

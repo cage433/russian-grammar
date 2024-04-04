@@ -1,0 +1,37 @@
+Infinitive,уходи́ть
+Zaliznyak Class,4c
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,уходя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,уходи́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,уходя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,уходи́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,уходи́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,ухожу́
+2nd Sing,ухо́дишь
+3rd Sing,ухо́дит
+1st Pl,ухо́дим
+2nd Pl,ухо́дите
+3rd Pl,ухо́дят
+Past M,уходи́л
+Past F,уходи́ла
+Past N,уходи́ло
+Past PL,уходи́ли
+Imp S,уходи́
+Imp PL,уходи́те

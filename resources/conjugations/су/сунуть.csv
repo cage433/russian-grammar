@@ -1,0 +1,33 @@
+Infinitive,су́нуть
+Zaliznyak Class,3a
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,су́нувший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,су́нутый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,су́нув
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,су́нувши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,су́ну
+2nd Sing,су́нешь
+3rd Sing,су́нет
+1st Pl,су́нем
+2nd Pl,су́нете
+3rd Pl,су́нут
+Past M,су́нул
+Past F,су́нула
+Past N,су́нуло
+Past PL,су́нули
+Imp S,су́нь
+Imp PL,су́ньте

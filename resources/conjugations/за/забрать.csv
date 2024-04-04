@@ -1,0 +1,33 @@
+Infinitive,забра́ть
+Zaliznyak Class,6°b/c
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,забра́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,за́бранный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,забра́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,забра́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,заберу́
+2nd Sing,заберёшь
+3rd Sing,заберёт
+1st Pl,заберём
+2nd Pl,заберёте
+3rd Pl,заберу́т
+Past M,забра́л
+Past F,забрала́
+Past N,забра́ло
+Past PL,забра́ли
+Imp S,забери́
+Imp PL,забери́те

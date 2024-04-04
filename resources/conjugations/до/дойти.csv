@@ -1,0 +1,29 @@
+Infinitive,дойти́
+Zaliznyak Class,irreg-b/b
+Aspect,perfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,доше́дший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,дойдя́
+PART:1:Participle Type,adverbial
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,short
+PART:2:Participle Text,доше́дши
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+1st Sing,дойду́
+2nd Sing,дойдёшь
+3rd Sing,дойдёт
+1st Pl,дойдём
+2nd Pl,дойдёте
+3rd Pl,дойду́т
+Past M,дошёл
+Past F,дошла́
+Past N,дошло́
+Past PL,дошли́
+Imp S,дойди́
+Imp PL,дойди́те

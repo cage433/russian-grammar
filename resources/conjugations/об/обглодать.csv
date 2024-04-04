@@ -1,0 +1,33 @@
+Infinitive,обглода́ть
+Zaliznyak Class,6c // 1a
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,обглода́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,обгло́данный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,обглода́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,обглода́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,обгложу́
+2nd Sing,обгло́жешь
+3rd Sing,обгло́жет
+1st Pl,обгло́жем
+2nd Pl,обгло́жете
+3rd Pl,обгло́жут
+Past M,обглода́л
+Past F,обглода́ла
+Past N,обглода́ло
+Past PL,обглода́ли
+Imp S,обгложи́
+Imp PL,обгложи́те

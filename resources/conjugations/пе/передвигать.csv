@@ -1,0 +1,41 @@
+Infinitive,передвига́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,передвига́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,передвига́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,передвига́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,передвига́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,передвига́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,передвига́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,передвига́ю
+2nd Sing,передвига́ешь
+3rd Sing,передвига́ет
+1st Pl,передвига́ем
+2nd Pl,передвига́ете
+3rd Pl,передвига́ют
+Past M,передвига́л
+Past F,передвига́ла
+Past N,передвига́ло
+Past PL,передвига́ли
+Imp S,передвига́й
+Imp PL,передвига́йте

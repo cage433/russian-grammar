@@ -1,0 +1,33 @@
+Infinitive,"вкли́ниться, вклини́ться*"
+Zaliznyak Class,4a // 4b
+Aspect,perfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,вкли́нившийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,вклини́вшийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,вкли́нившись
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,вклини́вшись
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,вкли́нюсь
+2nd Sing,вкли́нишься
+3rd Sing,вкли́нится
+1st Pl,вкли́нимся
+2nd Pl,вкли́нитесь
+3rd Pl,вкли́нятся
+Past M,вкли́нился
+Past F,вкли́нилась
+Past N,вкли́нилось
+Past PL,вкли́нились
+Imp S,вкли́нься
+Imp PL,вкли́ньтесь

@@ -1,0 +1,41 @@
+Infinitive,"опорожни́ть, опоро́жнить"
+Zaliznyak Class,4b // 4a
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,опорожни́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,опоро́жнивший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,опорожнённый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,опоро́жненный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,опорожни́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,опоро́жнив
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,опорожню́
+2nd Sing,опорожни́шь
+3rd Sing,опорожни́т
+1st Pl,опорожни́м
+2nd Pl,опорожни́те
+3rd Pl,опорожня́т
+Past M,опорожни́л
+Past F,опорожни́ла
+Past N,опорожни́ло
+Past PL,опорожни́ли
+Imp S,опорожни́
+Imp PL,опорожни́те

@@ -1,0 +1,49 @@
+Infinitive,игра́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,игра́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,игра́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,игра́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,и́гранный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,игра́я
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,игра́ючи
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,present
+PART:5:Participle Long or Short,long
+PART:6:Participle Text,игра́в
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,short
+PART:7:Participle Text,игра́вши
+PART:7:Participle Type,adverbial
+PART:7:Participle Tense,past
+PART:7:Participle Long or Short,long
+1st Sing,игра́ю
+2nd Sing,игра́ешь
+3rd Sing,игра́ет
+1st Pl,игра́ем
+2nd Pl,игра́ете
+3rd Pl,игра́ют
+Past M,игра́л
+Past F,игра́ла
+Past N,игра́ло
+Past PL,игра́ли
+Imp S,игра́й
+Imp PL,игра́йте

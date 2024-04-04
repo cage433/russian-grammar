@@ -1,0 +1,37 @@
+Infinitive,слета́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,слета́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,слета́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,слета́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,слета́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,слета́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,слета́ю
+2nd Sing,слета́ешь
+3rd Sing,слета́ет
+1st Pl,слета́ем
+2nd Pl,слета́ете
+3rd Pl,слета́ют
+Past M,слета́л
+Past F,слета́ла
+Past N,слета́ло
+Past PL,слета́ли
+Imp S,слета́й
+Imp PL,слета́йте

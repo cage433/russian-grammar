@@ -1,0 +1,29 @@
+Infinitive,войти́
+Zaliznyak Class,irreg-b/b
+Aspect,perfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,воше́дший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,войдя́
+PART:1:Participle Type,adverbial
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,short
+PART:2:Participle Text,воше́дши
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+1st Sing,войду́
+2nd Sing,войдёшь
+3rd Sing,войдёт
+1st Pl,войдём
+2nd Pl,войдёте
+3rd Pl,войду́т
+Past M,вошёл
+Past F,вошла́
+Past N,вошло́
+Past PL,вошли́
+Imp S,войди́
+Imp PL,войди́те

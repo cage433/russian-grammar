@@ -1,0 +1,41 @@
+Infinitive,рассужда́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,рассужда́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,рассужда́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,рассужда́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,рассужда́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,рассужда́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,рассужда́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,рассужда́ю
+2nd Sing,рассужда́ешь
+3rd Sing,рассужда́ет
+1st Pl,рассужда́ем
+2nd Pl,рассужда́ете
+3rd Pl,рассужда́ют
+Past M,рассужда́л
+Past F,рассужда́ла
+Past N,рассужда́ло
+Past PL,рассужда́ли
+Imp S,рассужда́й
+Imp PL,рассужда́йте

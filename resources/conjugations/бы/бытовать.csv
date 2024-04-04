@@ -1,0 +1,37 @@
+Infinitive,бытова́ть
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,быту́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,бытова́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,быту́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,бытова́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,бытова́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,быту́ю
+2nd Sing,быту́ешь
+3rd Sing,быту́ет
+1st Pl,быту́ем
+2nd Pl,быту́ете
+3rd Pl,быту́ют
+Past M,бытова́л
+Past F,бытова́ла
+Past N,бытова́ло
+Past PL,бытова́ли
+Imp S,быту́й
+Imp PL,быту́йте

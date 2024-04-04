@@ -1,0 +1,41 @@
+Infinitive,охлажда́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,охлажда́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,охлажда́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,охлажда́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,охлажда́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,охлажда́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,охлажда́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,охлажда́ю
+2nd Sing,охлажда́ешь
+3rd Sing,охлажда́ет
+1st Pl,охлажда́ем
+2nd Pl,охлажда́ете
+3rd Pl,охлажда́ют
+Past M,охлажда́л
+Past F,охлажда́ла
+Past N,охлажда́ло
+Past PL,охлажда́ли
+Imp S,охлажда́й
+Imp PL,охлажда́йте

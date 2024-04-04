@@ -1,0 +1,37 @@
+Infinitive,звя́кать
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,звя́кающий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,звя́кавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,звя́кая
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,звя́кав
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,звя́кавши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,звя́каю
+2nd Sing,звя́каешь
+3rd Sing,звя́кает
+1st Pl,звя́каем
+2nd Pl,звя́каете
+3rd Pl,звя́кают
+Past M,звя́кал
+Past F,звя́кала
+Past N,звя́кало
+Past PL,звя́кали
+Imp S,звя́кай
+Imp PL,звя́кайте

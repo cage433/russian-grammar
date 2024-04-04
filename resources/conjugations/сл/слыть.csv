@@ -1,0 +1,37 @@
+Infinitive,слы́ть
+Zaliznyak Class,16b/c'
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,слыву́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,слы́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,слывя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,слы́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,слы́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,слыву́
+2nd Sing,слывёшь
+3rd Sing,слывёт
+1st Pl,слывём
+2nd Pl,слывёте
+3rd Pl,слыву́т
+Past M,слы́л
+Past F,слыла́
+Past N,слы́ло
+Past PL,слы́ли
+Imp S,слыви́
+Imp PL,слыви́те

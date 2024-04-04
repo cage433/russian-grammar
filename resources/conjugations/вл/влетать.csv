@@ -1,0 +1,37 @@
+Infinitive,влета́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,влета́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,влета́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,влета́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,влета́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,влета́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,влета́ю
+2nd Sing,влета́ешь
+3rd Sing,влета́ет
+1st Pl,влета́ем
+2nd Pl,влета́ете
+3rd Pl,влета́ют
+Past M,влета́л
+Past F,влета́ла
+Past N,влета́ло
+Past PL,влета́ли
+Imp S,влета́й
+Imp PL,влета́йте

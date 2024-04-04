@@ -1,0 +1,33 @@
+Infinitive,присели́ть
+Zaliznyak Class,4b // 4c⑦
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,присели́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,приселённый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,присели́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,присели́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,приселю́
+2nd Sing,присели́шь
+3rd Sing,присели́т
+1st Pl,присели́м
+2nd Pl,присели́те
+3rd Pl,приселя́т
+Past M,присели́л
+Past F,присели́ла
+Past N,присели́ло
+Past PL,присели́ли
+Imp S,присели́
+Imp PL,присели́те

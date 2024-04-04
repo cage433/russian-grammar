@@ -1,0 +1,33 @@
+Infinitive,отмаха́ть
+Zaliznyak Class,6c // 1a
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,отмаха́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,отма́ханный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,отмаха́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,отмаха́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,отмашу́
+2nd Sing,отма́шешь
+3rd Sing,отма́шет
+1st Pl,отма́шем
+2nd Pl,отма́шете
+3rd Pl,отма́шут
+Past M,отмаха́л
+Past F,отмаха́ла
+Past N,отмаха́ло
+Past PL,отмаха́ли
+Imp S,отмаши́
+Imp PL,отмаши́те

@@ -1,0 +1,37 @@
+Infinitive,засе́чь
+Zaliznyak Class,8b/b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,засе́кший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,засёкший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,засечённый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,засе́кши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,засёкши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,засеку́
+2nd Sing,засечёшь
+3rd Sing,засечёт
+1st Pl,засечём
+2nd Pl,засечёте
+3rd Pl,засеку́т
+Past M,засёк
+Past F,засекла́
+Past N,засекло́
+Past PL,засекли́
+Imp S,засеки́
+Imp PL,засеки́те

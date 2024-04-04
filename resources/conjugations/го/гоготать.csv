@@ -1,0 +1,37 @@
+Infinitive,гогота́ть
+Zaliznyak Class,6c
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,гого́чущий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,гогота́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,гогоча́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,гогота́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,гогота́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,гогочу́
+2nd Sing,гого́чешь
+3rd Sing,гого́чет
+1st Pl,гого́чем
+2nd Pl,гого́чете
+3rd Pl,гого́чут
+Past M,гогота́л
+Past F,гогота́ла
+Past N,гогота́ло
+Past PL,гогота́ли
+Imp S,гогочи́
+Imp PL,гогочи́те

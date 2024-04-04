@@ -1,0 +1,41 @@
+Infinitive,просо́вывать
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,просо́вывающий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,просо́вывавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,просо́вываемый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,просо́вывая
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,просо́вывав
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,просо́вывавши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,просо́вываю
+2nd Sing,просо́вываешь
+3rd Sing,просо́вывает
+1st Pl,просо́вываем
+2nd Pl,просо́вываете
+3rd Pl,просо́вывают
+Past M,просо́вывал
+Past F,просо́вывала
+Past N,просо́вывало
+Past PL,просо́вывали
+Imp S,просо́вывай
+Imp PL,просо́вывайте

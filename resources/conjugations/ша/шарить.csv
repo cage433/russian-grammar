@@ -1,0 +1,37 @@
+Infinitive,ша́рить
+Zaliznyak Class,4a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,ша́рящий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,ша́ривший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,ша́ря
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ша́рив
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,ша́ривши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,ша́рю
+2nd Sing,ша́ришь
+3rd Sing,ша́рит
+1st Pl,ша́рим
+2nd Pl,ша́рите
+3rd Pl,ша́рят
+Past M,ша́рил
+Past F,ша́рила
+Past N,ша́рило
+Past PL,ша́рили
+Imp S,ша́рь
+Imp PL,ша́рьте

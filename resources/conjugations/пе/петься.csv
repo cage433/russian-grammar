@@ -1,0 +1,33 @@
+Infinitive,пе́ться
+Zaliznyak Class,12b
+Aspect,imperfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,пою́щийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,пе́вшийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,поя́сь
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,пе́вшись
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,пою́сь
+2nd Sing,поёшься
+3rd Sing,поётся
+1st Pl,поёмся
+2nd Pl,поётесь
+3rd Pl,пою́тся
+Past M,пе́лся
+Past F,пе́лась
+Past N,пе́лось
+Past PL,пе́лись
+Imp S,по́йся
+Imp PL,по́йтесь

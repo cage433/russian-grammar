@@ -1,0 +1,33 @@
+Infinitive,изда́ть
+Zaliznyak Class,irreg-b/c
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,изда́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,и́зданный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,изда́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,изда́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,изда́м
+2nd Sing,изда́шь
+3rd Sing,изда́ст
+1st Pl,издади́м
+2nd Pl,издади́те
+3rd Pl,издаду́т
+Past M,изда́л
+Past F,издала́
+Past N,изда́ло
+Past PL,изда́ли
+Imp S,изда́й
+Imp PL,изда́йте

@@ -1,0 +1,33 @@
+Infinitive,мы́ться
+Zaliznyak Class,12a
+Aspect,imperfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,мо́ющийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,мы́вшийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,мо́ясь
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,мы́вшись
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,мо́юсь
+2nd Sing,мо́ешься
+3rd Sing,мо́ется
+1st Pl,мо́емся
+2nd Pl,мо́етесь
+3rd Pl,мо́ются
+Past M,мы́лся
+Past F,мы́лась
+Past N,мы́лось
+Past PL,мы́лись
+Imp S,мо́йся
+Imp PL,мо́йтесь

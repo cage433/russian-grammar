@@ -1,0 +1,37 @@
+Infinitive,смотре́ть
+Zaliznyak Class,5c
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,смотря́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,смотре́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,смотря́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,смотре́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,смотре́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,смотрю́
+2nd Sing,смо́тришь
+3rd Sing,смо́трит
+1st Pl,смо́трим
+2nd Pl,смо́трите
+3rd Pl,смо́трят
+Past M,смотре́л
+Past F,смотре́ла
+Past N,смотре́ло
+Past PL,смотре́ли
+Imp S,смотри́
+Imp PL,смотри́те

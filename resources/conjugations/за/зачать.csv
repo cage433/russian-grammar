@@ -1,0 +1,33 @@
+Infinitive,зача́ть
+Zaliznyak Class,14b/c
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,зача́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,зача́тый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,зача́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,зача́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,зачну́
+2nd Sing,зачнёшь
+3rd Sing,зачнёт
+1st Pl,зачнём
+2nd Pl,зачнёте
+3rd Pl,зачну́т
+Past M,зача́л
+Past F,зачала́
+Past N,зача́ло
+Past PL,зача́ли
+Imp S,зачни́
+Imp PL,зачни́те

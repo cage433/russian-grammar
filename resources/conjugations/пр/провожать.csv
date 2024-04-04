@@ -1,0 +1,41 @@
+Infinitive,провожа́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,провожа́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,провожа́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,провожа́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,провожа́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,провожа́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,провожа́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,провожа́ю
+2nd Sing,провожа́ешь
+3rd Sing,провожа́ет
+1st Pl,провожа́ем
+2nd Pl,провожа́ете
+3rd Pl,провожа́ют
+Past M,провожа́л
+Past F,провожа́ла
+Past N,провожа́ло
+Past PL,провожа́ли
+Imp S,провожа́й
+Imp PL,провожа́йте

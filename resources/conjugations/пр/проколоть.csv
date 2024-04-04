@@ -1,0 +1,33 @@
+Infinitive,проколо́ть
+Zaliznyak Class,10c
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,проколо́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,проко́лотый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,проколо́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,проколо́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,проколю́
+2nd Sing,проко́лешь
+3rd Sing,проко́лет
+1st Pl,проко́лем
+2nd Pl,проко́лете
+3rd Pl,проко́лют
+Past M,проколо́л
+Past F,проколо́ла
+Past N,проколо́ло
+Past PL,проколо́ли
+Imp S,проколи́
+Imp PL,проколи́те

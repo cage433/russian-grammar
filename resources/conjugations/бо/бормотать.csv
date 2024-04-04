@@ -1,0 +1,41 @@
+Infinitive,бормота́ть
+Zaliznyak Class,6c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,бормо́чущий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,бормота́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,бормо́танный
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,бормоча́
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,бормота́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,бормота́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,бормочу́
+2nd Sing,бормо́чешь
+3rd Sing,бормо́чет
+1st Pl,бормо́чем
+2nd Pl,бормо́чете
+3rd Pl,бормо́чут
+Past M,бормота́л
+Past F,бормота́ла
+Past N,бормота́ло
+Past PL,бормота́ли
+Imp S,бормочи́
+Imp PL,бормочи́те

@@ -1,0 +1,41 @@
+Infinitive,дава́ть
+Zaliznyak Class,13b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,даю́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,дава́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,дава́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,дава́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,дава́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,дава́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,даю́
+2nd Sing,даёшь
+3rd Sing,даёт
+1st Pl,даём
+2nd Pl,даёте
+3rd Pl,даю́т
+Past M,дава́л
+Past F,дава́ла
+Past N,дава́ло
+Past PL,дава́ли
+Imp S,дава́й
+Imp PL,дава́йте

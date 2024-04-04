@@ -1,0 +1,33 @@
+Infinitive,перейти́
+Zaliznyak Class,irreg-b/b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,переше́дший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,перейдённый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,перейдя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,переше́дши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,перейду́
+2nd Sing,перейдёшь
+3rd Sing,перейдёт
+1st Pl,перейдём
+2nd Pl,перейдёте
+3rd Pl,перейду́т
+Past M,перешёл
+Past F,перешла́
+Past N,перешло́
+Past PL,перешли́
+Imp S,перейди́
+Imp PL,перейди́те

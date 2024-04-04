@@ -1,0 +1,41 @@
+Infinitive,выжида́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,выжида́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,выжида́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,выжида́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,выжида́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,выжида́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,выжида́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,выжида́ю
+2nd Sing,выжида́ешь
+3rd Sing,выжида́ет
+1st Pl,выжида́ем
+2nd Pl,выжида́ете
+3rd Pl,выжида́ют
+Past M,выжида́л
+Past F,выжида́ла
+Past N,выжида́ло
+Past PL,выжида́ли
+Imp S,выжида́й
+Imp PL,выжида́йте

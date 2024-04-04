@@ -1,0 +1,37 @@
+Infinitive,бы́ть
+Zaliznyak Class,irreg-a/c
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,су́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,бы́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,бу́дучи
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,бы́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,бы́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,есть
+2nd Sing,есть
+3rd Sing,есть
+1st Pl,есть
+2nd Pl,есть
+3rd Pl,есть
+Past M,бы́л
+Past F,была́
+Past N,бы́ло
+Past PL,бы́ли
+Imp S,бу́дь
+Imp PL,бу́дьте

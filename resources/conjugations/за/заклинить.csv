@@ -1,0 +1,41 @@
+Infinitive,"закли́нить, заклини́ть*"
+Zaliznyak Class,4a // 4b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,закли́нивший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,заклини́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,закли́ненный
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,заклинённый
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,закли́нив
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,заклини́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,закли́ню
+2nd Sing,закли́нишь
+3rd Sing,закли́нит
+1st Pl,закли́ним
+2nd Pl,закли́ните
+3rd Pl,закли́нят
+Past M,закли́нил
+Past F,закли́нила
+Past N,закли́нило
+Past PL,закли́нили
+Imp S,закли́нь
+Imp PL,закли́ньте

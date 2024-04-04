@@ -1,0 +1,37 @@
+Infinitive,звони́ть
+Zaliznyak Class,4b // 4c
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,звоня́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,звони́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,звоня́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,звони́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,звони́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,звоню́
+2nd Sing,звони́шь
+3rd Sing,звони́т
+1st Pl,звони́м
+2nd Pl,звони́те
+3rd Pl,звоня́т
+Past M,звони́л
+Past F,звони́ла
+Past N,звони́ло
+Past PL,звони́ли
+Imp S,звони́
+Imp PL,звони́те

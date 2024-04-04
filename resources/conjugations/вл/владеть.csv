@@ -1,0 +1,37 @@
+Infinitive,владе́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,владе́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,владе́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,владе́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,владе́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,владе́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,владе́ю
+2nd Sing,владе́ешь
+3rd Sing,владе́ет
+1st Pl,владе́ем
+2nd Pl,владе́ете
+3rd Pl,владе́ют
+Past M,владе́л
+Past F,владе́ла
+Past N,владе́ло
+Past PL,владе́ли
+Imp S,владе́й
+Imp PL,владе́йте

@@ -1,0 +1,37 @@
+Infinitive,хами́ть
+Zaliznyak Class,4b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,хамя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,хами́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,хамя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,хами́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,хами́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,хамлю́
+2nd Sing,хами́шь
+3rd Sing,хами́т
+1st Pl,хами́м
+2nd Pl,хами́те
+3rd Pl,хамя́т
+Past M,хами́л
+Past F,хами́ла
+Past N,хами́ло
+Past PL,хами́ли
+Imp S,хами́
+Imp PL,хами́те

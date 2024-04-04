@@ -1,0 +1,37 @@
+Infinitive,тле́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,тле́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,тле́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,тле́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,тле́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,тле́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,тле́ю
+2nd Sing,тле́ешь
+3rd Sing,тле́ет
+1st Pl,тле́ем
+2nd Pl,тле́ете
+3rd Pl,тле́ют
+Past M,тле́л
+Past F,тле́ла
+Past N,тле́ло
+Past PL,тле́ли
+Imp S,тле́й
+Imp PL,тле́йте

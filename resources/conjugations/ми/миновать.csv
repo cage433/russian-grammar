@@ -1,0 +1,37 @@
+Infinitive,минова́ть
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,мину́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,минова́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,мину́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,минова́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,минова́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,мину́ю
+2nd Sing,мину́ешь
+3rd Sing,мину́ет
+1st Pl,мину́ем
+2nd Pl,мину́ете
+3rd Pl,мину́ют
+Past M,минова́л
+Past F,минова́ла
+Past N,минова́ло
+Past PL,минова́ли
+Imp S,мину́й
+Imp PL,мину́йте

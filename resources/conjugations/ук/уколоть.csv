@@ -1,0 +1,33 @@
+Infinitive,уколо́ть
+Zaliznyak Class,10c
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,уколо́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,уко́лотый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,уколо́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,уколо́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,уколю́
+2nd Sing,уко́лешь
+3rd Sing,уко́лет
+1st Pl,уко́лем
+2nd Pl,уко́лете
+3rd Pl,уко́лют
+Past M,уколо́л
+Past F,уколо́ла
+Past N,уколо́ло
+Past PL,уколо́ли
+Imp S,уколи́
+Imp PL,уколи́те

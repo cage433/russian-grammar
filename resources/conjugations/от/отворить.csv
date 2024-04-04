@@ -1,0 +1,37 @@
+Infinitive,отвори́ть
+Zaliznyak Class,4b // 4c
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,отвори́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,отворённый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,short
+PART:2:Participle Text,отво́ренный
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,отвори́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,отвори́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,отворю́
+2nd Sing,отвори́шь
+3rd Sing,отвори́т
+1st Pl,отвори́м
+2nd Pl,отвори́те
+3rd Pl,отворя́т
+Past M,отвори́л
+Past F,отвори́ла
+Past N,отвори́ло
+Past PL,отвори́ли
+Imp S,отвори́
+Imp PL,отвори́те

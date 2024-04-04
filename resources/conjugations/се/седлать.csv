@@ -1,0 +1,45 @@
+Infinitive,седла́ть
+Zaliznyak Class,1a(-ё-)
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,седла́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,седла́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,седла́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,сёдланный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,седла́я
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,седла́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,седла́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,седла́ю
+2nd Sing,седла́ешь
+3rd Sing,седла́ет
+1st Pl,седла́ем
+2nd Pl,седла́ете
+3rd Pl,седла́ют
+Past M,седла́л
+Past F,седла́ла
+Past N,седла́ло
+Past PL,седла́ли
+Imp S,седла́й
+Imp PL,седла́йте

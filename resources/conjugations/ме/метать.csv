@@ -1,0 +1,41 @@
+Infinitive,мета́ть
+Zaliznyak Class,6c(-ё-)
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,ме́чущий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,мета́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,мётанный
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,меча́
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,мета́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,мета́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,мечу́
+2nd Sing,ме́чешь
+3rd Sing,ме́чет
+1st Pl,ме́чем
+2nd Pl,ме́чете
+3rd Pl,ме́чут
+Past M,мета́л
+Past F,мета́ла
+Past N,мета́ло
+Past PL,мета́ли
+Imp S,мечи́
+Imp PL,мечи́те

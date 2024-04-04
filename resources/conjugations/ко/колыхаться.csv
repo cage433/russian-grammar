@@ -1,0 +1,41 @@
+Infinitive,колыха́ться
+Zaliznyak Class,6a // 1a
+Aspect,imperfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,колы́шущийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,колыха́ющийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,present
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,колыха́вшийся
+PART:2:Participle Type,active
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,колыха́ясь
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,колы́шась
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,колыха́вшись
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,колы́шусь
+2nd Sing,колы́шешься
+3rd Sing,колы́шется
+1st Pl,колы́шемся
+2nd Pl,колы́шетесь
+3rd Pl,колы́шутся
+Past M,колыха́лся
+Past F,колыха́лась
+Past N,колыха́лось
+Past PL,колыха́лись
+Imp S,колыха́йся
+Imp PL,колыха́йтесь

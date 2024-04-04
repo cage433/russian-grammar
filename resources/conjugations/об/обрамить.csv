@@ -1,0 +1,41 @@
+Infinitive,"обра́мить, обрами́ть"
+Zaliznyak Class,4a // 4b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,обра́мивший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,обрами́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,обра́мленный
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,обрамлённый
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,обра́мив
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,обрами́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,обра́млю
+2nd Sing,обра́мишь
+3rd Sing,обра́мит
+1st Pl,обра́мим
+2nd Pl,обра́мите
+3rd Pl,обра́мят
+Past M,обра́мил
+Past F,обра́мила
+Past N,обра́мило
+Past PL,обра́мили
+Imp S,обра́мь
+Imp PL,обра́мьте

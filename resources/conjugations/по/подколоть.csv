@@ -1,0 +1,41 @@
+Infinitive,подколо́ть
+Zaliznyak Class,10c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,подко́лющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,подколо́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,подко́лотый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,подколя́
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,подколо́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,подколо́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,подколю́
+2nd Sing,подко́лешь
+3rd Sing,подко́лет
+1st Pl,подко́лем
+2nd Pl,подко́лете
+3rd Pl,подко́лют
+Past M,подколо́л
+Past F,подколо́ла
+Past N,подколо́ло
+Past PL,подколо́ли
+Imp S,подколи́
+Imp PL,подколи́те

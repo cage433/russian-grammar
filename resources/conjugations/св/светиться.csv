@@ -1,0 +1,33 @@
+Infinitive,свети́ться
+Zaliznyak Class,4c
+Aspect,imperfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,светя́щийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,свети́вшийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,светя́сь
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,свети́вшись
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,свечу́сь
+2nd Sing,све́тишься
+3rd Sing,све́тится
+1st Pl,све́тимся
+2nd Pl,све́титесь
+3rd Pl,све́тятся
+Past M,свети́лся
+Past F,свети́лась
+Past N,свети́лось
+Past PL,свети́лись
+Imp S,свети́сь
+Imp PL,свети́тесь

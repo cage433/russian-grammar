@@ -1,0 +1,36 @@
+Infinitive,галде́ть
+Zaliznyak Class,5b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,галдя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,галде́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,галдя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,галде́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,галде́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+2nd Sing,галди́шь
+3rd Sing,галди́т
+1st Pl,галди́м
+2nd Pl,галди́те
+3rd Pl,галдя́т
+Past M,галде́л
+Past F,галде́ла
+Past N,галде́ло
+Past PL,галде́ли
+Imp S,галди́
+Imp PL,галди́те

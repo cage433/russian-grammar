@@ -1,0 +1,37 @@
+Infinitive,пере́чить
+Zaliznyak Class,4a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,пере́чащий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,пере́чивший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,пере́ча
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,пере́чив
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,пере́чивши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,пере́чу
+2nd Sing,пере́чишь
+3rd Sing,пере́чит
+1st Pl,пере́чим
+2nd Pl,пере́чите
+3rd Pl,пере́чат
+Past M,пере́чил
+Past F,пере́чила
+Past N,пере́чило
+Past PL,пере́чили
+Imp S,пере́чь
+Imp PL,пере́чьте

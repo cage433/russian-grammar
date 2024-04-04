@@ -1,0 +1,37 @@
+Infinitive,помира́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,помира́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,помира́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,помира́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,помира́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,помира́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,помира́ю
+2nd Sing,помира́ешь
+3rd Sing,помира́ет
+1st Pl,помира́ем
+2nd Pl,помира́ете
+3rd Pl,помира́ют
+Past M,помира́л
+Past F,помира́ла
+Past N,помира́ло
+Past PL,помира́ли
+Imp S,помира́й
+Imp PL,помира́йте

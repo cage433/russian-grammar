@@ -1,0 +1,41 @@
+Infinitive,зажига́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,зажига́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,зажига́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,зажига́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,зажига́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,зажига́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,зажига́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,зажига́ю
+2nd Sing,зажига́ешь
+3rd Sing,зажига́ет
+1st Pl,зажига́ем
+2nd Pl,зажига́ете
+3rd Pl,зажига́ют
+Past M,зажига́л
+Past F,зажига́ла
+Past N,зажига́ло
+Past PL,зажига́ли
+Imp S,зажига́й
+Imp PL,зажига́йте

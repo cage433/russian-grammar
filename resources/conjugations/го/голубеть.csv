@@ -1,0 +1,37 @@
+Infinitive,голубе́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,голубе́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,голубе́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,голубе́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,голубе́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,голубе́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,голубе́ю
+2nd Sing,голубе́ешь
+3rd Sing,голубе́ет
+1st Pl,голубе́ем
+2nd Pl,голубе́ете
+3rd Pl,голубе́ют
+Past M,голубе́л
+Past F,голубе́ла
+Past N,голубе́ло
+Past PL,голубе́ли
+Imp S,голубе́й
+Imp PL,голубе́йте

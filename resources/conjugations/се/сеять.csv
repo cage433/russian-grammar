@@ -1,0 +1,49 @@
+Infinitive,се́ять
+Zaliznyak Class,6a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,се́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,се́явший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,се́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,се́янный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,се́я
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,се́ючи
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,present
+PART:5:Participle Long or Short,long
+PART:6:Participle Text,се́яв
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,short
+PART:7:Participle Text,се́явши
+PART:7:Participle Type,adverbial
+PART:7:Participle Tense,past
+PART:7:Participle Long or Short,long
+1st Sing,се́ю
+2nd Sing,се́ешь
+3rd Sing,се́ет
+1st Pl,се́ем
+2nd Pl,се́ете
+3rd Pl,се́ют
+Past M,се́ял
+Past F,се́яла
+Past N,се́яло
+Past PL,се́яли
+Imp S,се́й
+Imp PL,се́йте

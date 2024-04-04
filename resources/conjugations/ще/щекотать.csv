@@ -1,0 +1,37 @@
+Infinitive,щекота́ть
+Zaliznyak Class,6c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,щеко́чущий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,щекота́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,щекоча́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,щекота́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,щекота́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,щекочу́
+2nd Sing,щеко́чешь
+3rd Sing,щеко́чет
+1st Pl,щеко́чем
+2nd Pl,щеко́чете
+3rd Pl,щеко́чут
+Past M,щекота́л
+Past F,щекота́ла
+Past N,щекота́ло
+Past PL,щекота́ли
+Imp S,щекочи́
+Imp PL,щекочи́те

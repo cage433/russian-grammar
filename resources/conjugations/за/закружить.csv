@@ -1,0 +1,37 @@
+Infinitive,закружи́ть
+Zaliznyak Class,4c // 4b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,закружи́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,закру́женный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,short
+PART:2:Participle Text,закружённый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,закружи́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,закружи́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,закружу́
+2nd Sing,закру́жишь
+3rd Sing,закру́жит
+1st Pl,закру́жим
+2nd Pl,закру́жите
+3rd Pl,закру́жат
+Past M,закружи́л
+Past F,закружи́ла
+Past N,закружи́ло
+Past PL,закружи́ли
+Imp S,закружи́
+Imp PL,закружи́те

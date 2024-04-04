@@ -1,0 +1,37 @@
+Infinitive,мыча́ть
+Zaliznyak Class,5b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,мыча́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,мыча́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,мыча́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,мыча́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,мыча́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,мычу́
+2nd Sing,мычи́шь
+3rd Sing,мычи́т
+1st Pl,мычи́м
+2nd Pl,мычи́те
+3rd Pl,мыча́т
+Past M,мыча́л
+Past F,мыча́ла
+Past N,мыча́ло
+Past PL,мыча́ли
+Imp S,мычи́
+Imp PL,мычи́те

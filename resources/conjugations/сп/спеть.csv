@@ -1,0 +1,37 @@
+Infinitive,спе́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,спе́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,спе́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,спе́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,спе́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,спе́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,спе́ю
+2nd Sing,спе́ешь
+3rd Sing,спе́ет
+1st Pl,спе́ем
+2nd Pl,спе́ете
+3rd Pl,спе́ют
+Past M,спе́л
+Past F,спе́ла
+Past N,спе́ло
+Past PL,спе́ли
+Imp S,спе́й
+Imp PL,спе́йте

@@ -1,0 +1,45 @@
+Infinitive,алка́ть
+Zaliznyak Class,6a // 1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,а́лчущий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,алка́ющий
+PART:1:Participle Type,active
+PART:1:Participle Tense,present
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,алка́вший
+PART:2:Participle Type,active
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,алка́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,а́лча
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,алка́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,алка́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,а́лчу
+2nd Sing,а́лчешь
+3rd Sing,а́лчет
+1st Pl,а́лчем
+2nd Pl,а́лчете
+3rd Pl,а́лчут
+Past M,алка́л
+Past F,алка́ла
+Past N,алка́ло
+Past PL,алка́ли
+Imp S,алка́й
+Imp PL,алка́йте

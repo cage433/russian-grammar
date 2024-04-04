@@ -1,0 +1,33 @@
+Infinitive,пожра́ть
+Zaliznyak Class,6°b/c
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,пожра́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,по́жранный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,пожра́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,пожра́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,пожру́
+2nd Sing,пожрёшь
+3rd Sing,пожрёт
+1st Pl,пожрём
+2nd Pl,пожрёте
+3rd Pl,пожру́т
+Past M,пожра́л
+Past F,пожрала́
+Past N,пожра́ло
+Past PL,пожра́ли
+Imp S,пожри́
+Imp PL,пожри́те

@@ -1,0 +1,37 @@
+Infinitive,по́лзать
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,по́лзающий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,по́лзавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,по́лзая
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,по́лзав
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,по́лзавши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,по́лзаю
+2nd Sing,по́лзаешь
+3rd Sing,по́лзает
+1st Pl,по́лзаем
+2nd Pl,по́лзаете
+3rd Pl,по́лзают
+Past M,по́лзал
+Past F,по́лзала
+Past N,по́лзало
+Past PL,по́лзали
+Imp S,по́лзай
+Imp PL,по́лзайте

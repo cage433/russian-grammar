@@ -1,0 +1,41 @@
+Infinitive,посыла́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,посыла́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,посыла́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,посыла́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,посыла́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,посыла́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,посыла́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,посыла́ю
+2nd Sing,посыла́ешь
+3rd Sing,посыла́ет
+1st Pl,посыла́ем
+2nd Pl,посыла́ете
+3rd Pl,посыла́ют
+Past M,посыла́л
+Past F,посыла́ла
+Past N,посыла́ло
+Past PL,посыла́ли
+Imp S,посыла́й
+Imp PL,посыла́йте

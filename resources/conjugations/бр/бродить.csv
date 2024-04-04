@@ -1,0 +1,37 @@
+Infinitive,броди́ть
+Zaliznyak Class,4c
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,бродя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,броди́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,бродя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,броди́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,броди́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,брожу́
+2nd Sing,бро́дишь
+3rd Sing,бро́дит
+1st Pl,бро́дим
+2nd Pl,бро́дите
+3rd Pl,бро́дят
+Past M,броди́л
+Past F,броди́ла
+Past N,броди́ло
+Past PL,броди́ли
+Imp S,броди́
+Imp PL,броди́те

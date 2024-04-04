@@ -1,0 +1,37 @@
+Infinitive,гада́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,гада́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,гада́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,гада́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,гада́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,гада́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,гада́ю
+2nd Sing,гада́ешь
+3rd Sing,гада́ет
+1st Pl,гада́ем
+2nd Pl,гада́ете
+3rd Pl,гада́ют
+Past M,гада́л
+Past F,гада́ла
+Past N,гада́ло
+Past PL,гада́ли
+Imp S,гада́й
+Imp PL,гада́йте

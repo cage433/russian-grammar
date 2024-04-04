@@ -1,0 +1,37 @@
+Infinitive,тка́ть
+Zaliznyak Class,"6°b/c,a"
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,тку́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,тка́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,тка́нный
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,тка́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,тка́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,тку́
+2nd Sing,ткёшь
+3rd Sing,ткёт
+1st Pl,ткём
+2nd Pl,ткёте
+3rd Pl,тку́т
+Past M,тка́л
+Past F,ткала́
+Past N,тка́ло
+Past PL,тка́ли
+Imp S,тки́
+Imp PL,тки́те

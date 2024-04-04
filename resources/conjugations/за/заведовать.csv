@@ -1,0 +1,37 @@
+Infinitive,заве́довать
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,заве́дующий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,заве́довавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,заве́дуя
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,заве́довав
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,заве́довавши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,заве́дую
+2nd Sing,заве́дуешь
+3rd Sing,заве́дует
+1st Pl,заве́дуем
+2nd Pl,заве́дуете
+3rd Pl,заве́дуют
+Past M,заве́довал
+Past F,заве́довала
+Past N,заве́довало
+Past PL,заве́довали
+Imp S,заве́дуй
+Imp PL,заве́дуйте

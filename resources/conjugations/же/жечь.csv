@@ -1,0 +1,33 @@
+Infinitive,же́чь
+Zaliznyak Class,8b/b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,жгу́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,жёгший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,жжённый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,жёгши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,жгу́
+2nd Sing,жжёшь
+3rd Sing,жжёт
+1st Pl,жжём
+2nd Pl,жжёте
+3rd Pl,жгу́т
+Past M,жёг
+Past F,жгла́
+Past N,жгло́
+Past PL,жгли́
+Imp S,жги́
+Imp PL,жги́те

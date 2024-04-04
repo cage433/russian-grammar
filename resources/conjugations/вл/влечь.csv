@@ -1,0 +1,37 @@
+Infinitive,вле́чь
+Zaliznyak Class,8b/b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,влеку́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,влёкший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,влеко́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,влечённый
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,влёкши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,влеку́
+2nd Sing,влечёшь
+3rd Sing,влечёт
+1st Pl,влечём
+2nd Pl,влечёте
+3rd Pl,влеку́т
+Past M,влёк
+Past F,влекла́
+Past N,влекло́
+Past PL,влекли́
+Imp S,влеки́
+Imp PL,влеки́те

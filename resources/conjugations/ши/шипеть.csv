@@ -1,0 +1,37 @@
+Infinitive,шипе́ть
+Zaliznyak Class,5b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,шипя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,шипе́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,шипя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,шипе́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,шипе́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,шиплю́
+2nd Sing,шипи́шь
+3rd Sing,шипи́т
+1st Pl,шипи́м
+2nd Pl,шипи́те
+3rd Pl,шипя́т
+Past M,шипе́л
+Past F,шипе́ла
+Past N,шипе́ло
+Past PL,шипе́ли
+Imp S,шипи́
+Imp PL,шипи́те

@@ -1,0 +1,41 @@
+Infinitive,перелива́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,перелива́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,перелива́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,перелива́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,перелива́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,перелива́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,перелива́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,перелива́ю
+2nd Sing,перелива́ешь
+3rd Sing,перелива́ет
+1st Pl,перелива́ем
+2nd Pl,перелива́ете
+3rd Pl,перелива́ют
+Past M,перелива́л
+Past F,перелива́ла
+Past N,перелива́ло
+Past PL,перелива́ли
+Imp S,перелива́й
+Imp PL,перелива́йте

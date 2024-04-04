@@ -1,0 +1,45 @@
+Infinitive,наси́ловать
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,наси́лующий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,наси́ловавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,наси́луемый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,наси́лованный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,наси́луя
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,наси́ловав
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,наси́ловавши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,наси́лую
+2nd Sing,наси́луешь
+3rd Sing,наси́лует
+1st Pl,наси́луем
+2nd Pl,наси́луете
+3rd Pl,наси́луют
+Past M,наси́ловал
+Past F,наси́ловала
+Past N,наси́ловало
+Past PL,наси́ловали
+Imp S,наси́луй
+Imp PL,наси́луйте

@@ -1,0 +1,33 @@
+Infinitive,вяза́ться
+Zaliznyak Class,6c
+Aspect,imperfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,вя́жущийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,вяза́вшийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,вяжа́сь
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,вяза́вшись
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,вяжу́сь
+2nd Sing,вя́жешься
+3rd Sing,вя́жется
+1st Pl,вя́жемся
+2nd Pl,вя́жетесь
+3rd Pl,вя́жутся
+Past M,вяза́лся
+Past F,вяза́лась
+Past N,вяза́лось
+Past PL,вяза́лись
+Imp S,вяжи́сь
+Imp PL,вяжи́тесь

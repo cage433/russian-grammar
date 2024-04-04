@@ -1,0 +1,33 @@
+Infinitive,забы́ть
+Zaliznyak Class,irreg-a
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,забы́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,забы́тый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,забы́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,забы́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,забу́ду
+2nd Sing,забу́дешь
+3rd Sing,забу́дет
+1st Pl,забу́дем
+2nd Pl,забу́дете
+3rd Pl,забу́дут
+Past M,забы́л
+Past F,забы́ла
+Past N,забы́ло
+Past PL,забы́ли
+Imp S,забу́дь
+Imp PL,забу́дьте

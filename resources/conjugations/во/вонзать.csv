@@ -1,0 +1,41 @@
+Infinitive,вонза́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,вонза́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,вонза́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,вонза́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,вонза́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,вонза́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,вонза́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,вонза́ю
+2nd Sing,вонза́ешь
+3rd Sing,вонза́ет
+1st Pl,вонза́ем
+2nd Pl,вонза́ете
+3rd Pl,вонза́ют
+Past M,вонза́л
+Past F,вонза́ла
+Past N,вонза́ло
+Past PL,вонза́ли
+Imp S,вонза́й
+Imp PL,вонза́йте

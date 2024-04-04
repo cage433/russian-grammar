@@ -1,7 +1,9 @@
+import re
 from enum import StrEnum
 from typing import Optional, List
 
 from utils.types import checked_type, checked_list_type, checked_optional_type
+from utils.utils import sanitize_text
 
 
 class Aspect(StrEnum):
@@ -15,9 +17,14 @@ def find_table_value(table: List[List[str]], key: str) -> Optional[str]:
             return row[1]
     return None
 
+SHORT_CLASS_1_RE = re.compile(r"(\d+[abc])")
+SHORT_CLASS_2_RE = re.compile(r"(\d+[abc][']*/[abc][']*)")
+IRREG_1_RE = re.compile(r"(irreg-[abc][']*)")
+IRREG_2_RE = re.compile(r"(irreg-[abc][']*/[abc][']*)")
 
 class ZaliznyakClass:
     CLASS_LABEL = "Zaliznyak Class"
+
     def __init__(
             self,
             class_name: str,
@@ -34,9 +41,43 @@ class ZaliznyakClass:
     def from_table(table: List[List[str]]) -> 'ZaliznyakClass':
         return ZaliznyakClass(find_table_value(table, ZaliznyakClass.CLASS_LABEL))
 
+    def __hash__(self):
+        return hash(self.class_name)
+
     def __eq__(self, other):
         return self.class_name == other.class_name
 
+    @property
+    def short_class_and_stress(self):
+        def strip_other_characters(txt: str) -> str:
+            stripped = ''.join(filter(lambda char: str.isalnum(char) or char in ['/', '-', '\''], txt))
+            return stripped
+
+        text = strip_other_characters(self.class_name)
+        for regex in [SHORT_CLASS_2_RE, SHORT_CLASS_1_RE, IRREG_2_RE, IRREG_1_RE]:
+            if a := regex.match(text):
+                return a.groups()[0]
+        raise ValueError(f"Unexpected class name: {text}")
+
+    @property
+    def short_class(self):
+        scs = self.short_class_and_stress
+        if scs.startswith("irreg"):
+            return "irreg"
+        regex = re.compile(r"(\d+)[abc]")
+        if a := regex.match(scs):
+            return a.groups()[0]
+        raise ValueError(f"Unexpected short class and stress: {scs}")
+
+    @property
+    def short_stress(self):
+        scs = self.short_class_and_stress
+        if scs.startswith("irreg-"):
+            return scs[6:]
+        regex = re.compile(r"\d+([abc/])")
+        if a := regex.match(scs):
+            return a.groups()[0]
+        raise ValueError(f"Unexpected short class and stress: {scs}")
 
 class Tense(StrEnum):
     PAST = "past"
@@ -243,6 +284,15 @@ class PastConjugation:
         result += f"Plural: {self.plural}\n"
         return result
 
+    @property
+    def terms(self):
+        return [
+            self.masculine,
+            self.feminine,
+            self.neuter,
+            self.plural
+        ]
+
     def to_table(self) -> List[List[str]]:
         return [
             [self.PAST_M, self.masculine],
@@ -266,6 +316,7 @@ class PastConjugation:
                 and self.neuter == other.neuter
                 and self.plural == other.plural
         )
+
 
 class Imperative:
     IMP_S = "Imp S"

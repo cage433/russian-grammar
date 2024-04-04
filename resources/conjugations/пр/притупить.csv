@@ -1,0 +1,37 @@
+Infinitive,притупи́ть
+Zaliznyak Class,4c // 4b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,притупи́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,приту́пленный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,short
+PART:2:Participle Text,притуплённый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,притупи́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,притупи́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,притуплю́
+2nd Sing,приту́пишь
+3rd Sing,приту́пит
+1st Pl,приту́пим
+2nd Pl,приту́пите
+3rd Pl,приту́пят
+Past M,притупи́л
+Past F,притупи́ла
+Past N,притупи́ло
+Past PL,притупи́ли
+Imp S,притупи́
+Imp PL,притупи́те

@@ -1,0 +1,37 @@
+Infinitive,се́товать
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,се́тующий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,се́товавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,се́туя
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,се́товав
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,се́товавши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,се́тую
+2nd Sing,се́туешь
+3rd Sing,се́тует
+1st Pl,се́туем
+2nd Pl,се́туете
+3rd Pl,се́туют
+Past M,се́товал
+Past F,се́товала
+Past N,се́товало
+Past PL,се́товали
+Imp S,се́туй
+Imp PL,се́туйте

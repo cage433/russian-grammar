@@ -1,0 +1,37 @@
+Infinitive,сере́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,сере́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,сере́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,сере́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,сере́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,сере́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,сере́ю
+2nd Sing,сере́ешь
+3rd Sing,сере́ет
+1st Pl,сере́ем
+2nd Pl,сере́ете
+3rd Pl,сере́ют
+Past M,сере́л
+Past F,сере́ла
+Past N,сере́ло
+Past PL,сере́ли
+Imp S,сере́й
+Imp PL,сере́йте

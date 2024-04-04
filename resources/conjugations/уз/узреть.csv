@@ -1,0 +1,33 @@
+Infinitive,узре́ть
+Zaliznyak Class,5c // 5b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,узре́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,у́зренный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,узре́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,узре́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,узрю́
+2nd Sing,у́зришь
+3rd Sing,у́зрит
+1st Pl,у́зрим
+2nd Pl,у́зрите
+3rd Pl,у́зрят
+Past M,узре́л
+Past F,узре́ла
+Past N,узре́ло
+Past PL,узре́ли
+Imp S,узри́
+Imp PL,узри́те

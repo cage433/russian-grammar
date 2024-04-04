@@ -1,0 +1,41 @@
+Infinitive,вымета́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,вымета́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,вымета́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,вымета́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,вымета́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,вымета́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,вымета́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,вымета́ю
+2nd Sing,вымета́ешь
+3rd Sing,вымета́ет
+1st Pl,вымета́ем
+2nd Pl,вымета́ете
+3rd Pl,вымета́ют
+Past M,вымета́л
+Past F,вымета́ла
+Past N,вымета́ло
+Past PL,вымета́ли
+Imp S,вымета́й
+Imp PL,вымета́йте

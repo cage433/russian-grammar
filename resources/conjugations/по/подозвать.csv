@@ -1,0 +1,33 @@
+Infinitive,подозва́ть
+Zaliznyak Class,6°b/c
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,подозва́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,подо́званный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,подозва́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,подозва́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,подзову́
+2nd Sing,подзовёшь
+3rd Sing,подзовёт
+1st Pl,подзовём
+2nd Pl,подзовёте
+3rd Pl,подзову́т
+Past M,подозва́л
+Past F,подозвала́
+Past N,подозва́ло
+Past PL,подозва́ли
+Imp S,подзови́
+Imp PL,подзови́те

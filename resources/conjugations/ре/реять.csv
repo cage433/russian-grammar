@@ -1,0 +1,37 @@
+Infinitive,ре́ять
+Zaliznyak Class,6a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,ре́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,ре́явший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,ре́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ре́яв
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,ре́явши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,ре́ю
+2nd Sing,ре́ешь
+3rd Sing,ре́ет
+1st Pl,ре́ем
+2nd Pl,ре́ете
+3rd Pl,ре́ют
+Past M,ре́ял
+Past F,ре́яла
+Past N,ре́яло
+Past PL,ре́яли
+Imp S,ре́й
+Imp PL,ре́йте

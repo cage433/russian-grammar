@@ -1,0 +1,41 @@
+Infinitive,плеска́ться
+Zaliznyak Class,6c // 1a
+Aspect,imperfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,пле́щущийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,плеска́ющийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,present
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,плеска́вшийся
+PART:2:Participle Type,active
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,плеща́сь
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,плеска́ясь
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,плеска́вшись
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,плещу́сь
+2nd Sing,пле́щешься
+3rd Sing,пле́щется
+1st Pl,пле́щемся
+2nd Pl,пле́щетесь
+3rd Pl,пле́щутся
+Past M,плеска́лся
+Past F,плеска́лась
+Past N,плеска́лось
+Past PL,плеска́лись
+Imp S,плещи́сь
+Imp PL,плещи́тесь

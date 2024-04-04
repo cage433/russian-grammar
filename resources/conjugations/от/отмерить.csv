@@ -1,0 +1,33 @@
+Infinitive,отме́рить
+Zaliznyak Class,4a // 1a
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,отме́ривший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,отме́ренный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,отме́рив
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,отме́ривши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,отме́рю
+2nd Sing,отме́ришь
+3rd Sing,отме́рит
+1st Pl,отме́рим
+2nd Pl,отме́рите
+3rd Pl,отме́рят
+Past M,отме́рил
+Past F,отме́рила
+Past N,отме́рило
+Past PL,отме́рили
+Imp S,отме́рь
+Imp PL,отме́рьте

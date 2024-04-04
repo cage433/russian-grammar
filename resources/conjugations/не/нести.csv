@@ -1,0 +1,37 @@
+Infinitive,нести́
+Zaliznyak Class,7b/b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,несу́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,нёсший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,несённый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,неся́
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,нёсши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,несу́
+2nd Sing,несёшь
+3rd Sing,несёт
+1st Pl,несём
+2nd Pl,несёте
+3rd Pl,несу́т
+Past M,нёс
+Past F,несла́
+Past N,несло́
+Past PL,несли́
+Imp S,неси́
+Imp PL,неси́те

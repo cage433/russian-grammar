@@ -1,0 +1,65 @@
+Infinitive,"гази́ровать, газирова́ть"
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,гази́рующий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,газиру́ющий
+PART:1:Participle Type,active
+PART:1:Participle Tense,present
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,гази́ровавший
+PART:2:Participle Type,active
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,газирова́вший
+PART:3:Participle Type,active
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,гази́руемый
+PART:4:Participle Type,passive
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,газиру́емый
+PART:5:Participle Type,passive
+PART:5:Participle Tense,present
+PART:5:Participle Long or Short,long
+PART:6:Participle Text,гази́рованный
+PART:6:Participle Type,passive
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,short
+PART:7:Participle Text,газиро́ванный
+PART:7:Participle Type,passive
+PART:7:Participle Tense,past
+PART:7:Participle Long or Short,long
+PART:8:Participle Text,гази́руя
+PART:8:Participle Type,adverbial
+PART:8:Participle Tense,present
+PART:8:Participle Long or Short,short
+PART:9:Participle Text,газиру́я
+PART:9:Participle Type,adverbial
+PART:9:Participle Tense,present
+PART:9:Participle Long or Short,long
+PART:10:Participle Text,гази́ровав
+PART:10:Participle Type,adverbial
+PART:10:Participle Tense,past
+PART:10:Participle Long or Short,short
+PART:11:Participle Text,газирова́в
+PART:11:Participle Type,adverbial
+PART:11:Participle Tense,past
+PART:11:Participle Long or Short,long
+1st Sing,гази́рую
+2nd Sing,гази́руешь
+3rd Sing,гази́рует
+1st Pl,гази́руем
+2nd Pl,гази́руете
+3rd Pl,гази́руют
+Past M,гази́ровал
+Past F,гази́ровала
+Past N,гази́ровало
+Past PL,гази́ровали
+Imp S,гази́руй
+Imp PL,гази́руйте

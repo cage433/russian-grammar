@@ -1,0 +1,45 @@
+Infinitive,тверди́ть
+Zaliznyak Class,4b⑧
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,твердя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,тверди́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,тверди́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,тве́рженный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,твердя́
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,тверди́в
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,тверди́вши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,твержу́
+2nd Sing,тверди́шь
+3rd Sing,тверди́т
+1st Pl,тверди́м
+2nd Pl,тверди́те
+3rd Pl,твердя́т
+Past M,тверди́л
+Past F,тверди́ла
+Past N,тверди́ло
+Past PL,тверди́ли
+Imp S,тверди́
+Imp PL,тверди́те

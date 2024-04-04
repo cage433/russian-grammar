@@ -1,0 +1,37 @@
+Infinitive,проходи́ть
+Zaliznyak Class,4c
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,проходя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,проходи́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,проходя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,проходи́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,проходи́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,прохожу́
+2nd Sing,прохо́дишь
+3rd Sing,прохо́дит
+1st Pl,прохо́дим
+2nd Pl,прохо́дите
+3rd Pl,прохо́дят
+Past M,проходи́л
+Past F,проходи́ла
+Past N,проходи́ло
+Past PL,проходи́ли
+Imp S,проходи́
+Imp PL,проходи́те

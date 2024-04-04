@@ -1,0 +1,33 @@
+Infinitive,мета́ться
+Zaliznyak Class,6c
+Aspect,imperfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,ме́чущийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,мета́вшийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,меча́сь
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,мета́вшись
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,мечу́сь
+2nd Sing,ме́чешься
+3rd Sing,ме́чется
+1st Pl,ме́чемся
+2nd Pl,ме́четесь
+3rd Pl,ме́чутся
+Past M,мета́лся
+Past F,мета́лась
+Past N,мета́лось
+Past PL,мета́лись
+Imp S,мечи́сь
+Imp PL,мечи́тесь

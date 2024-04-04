@@ -1,0 +1,49 @@
+Infinitive,пруди́ть
+Zaliznyak Class,4c // 4b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,прудя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,пруди́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,пруди́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,пру́женный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,пружённый
+PART:4:Participle Type,passive
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,прудя́
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,present
+PART:5:Participle Long or Short,long
+PART:6:Participle Text,пруди́в
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,short
+PART:7:Participle Text,пруди́вши
+PART:7:Participle Type,adverbial
+PART:7:Participle Tense,past
+PART:7:Participle Long or Short,long
+1st Sing,пружу́
+2nd Sing,пру́дишь
+3rd Sing,пру́дит
+1st Pl,пру́дим
+2nd Pl,пру́дите
+3rd Pl,пру́дят
+Past M,пруди́л
+Past F,пруди́ла
+Past N,пруди́ло
+Past PL,пруди́ли
+Imp S,пруди́
+Imp PL,пруди́те

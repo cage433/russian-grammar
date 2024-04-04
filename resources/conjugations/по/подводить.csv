@@ -1,0 +1,41 @@
+Infinitive,подводи́ть
+Zaliznyak Class,4c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,подводя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,подводи́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,подводи́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,подводя́
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,подводи́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,подводи́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,подвожу́
+2nd Sing,подво́дишь
+3rd Sing,подво́дит
+1st Pl,подво́дим
+2nd Pl,подво́дите
+3rd Pl,подво́дят
+Past M,подводи́л
+Past F,подводи́ла
+Past N,подводи́ло
+Past PL,подводи́ли
+Imp S,подводи́
+Imp PL,подводи́те

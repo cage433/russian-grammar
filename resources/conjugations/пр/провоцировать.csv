@@ -1,0 +1,45 @@
+Infinitive,провоци́ровать
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,провоци́рующий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,провоци́ровавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,провоци́руемый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,провоци́рованный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,провоци́руя
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,провоци́ровав
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,провоци́ровавши
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,long
+1st Sing,провоци́рую
+2nd Sing,провоци́руешь
+3rd Sing,провоци́рует
+1st Pl,провоци́руем
+2nd Pl,провоци́руете
+3rd Pl,провоци́руют
+Past M,провоци́ровал
+Past F,провоци́ровала
+Past N,провоци́ровало
+Past PL,провоци́ровали
+Imp S,провоци́руй
+Imp PL,провоци́руйте

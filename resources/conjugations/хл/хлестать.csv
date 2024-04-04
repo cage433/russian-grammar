@@ -1,0 +1,41 @@
+Infinitive,хлеста́ть
+Zaliznyak Class,6c(-ё-)
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,хле́щущий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,хлеста́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,хлёстанный
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,хлеща́
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,хлеста́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,хлеста́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,хлещу́
+2nd Sing,хле́щешь
+3rd Sing,хле́щет
+1st Pl,хле́щем
+2nd Pl,хле́щете
+3rd Pl,хле́щут
+Past M,хлеста́л
+Past F,хлеста́ла
+Past N,хлеста́ло
+Past PL,хлеста́ли
+Imp S,хлещи́
+Imp PL,хлещи́те

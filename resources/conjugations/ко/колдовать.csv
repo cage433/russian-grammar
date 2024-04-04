@@ -1,0 +1,37 @@
+Infinitive,колдова́ть
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,колду́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,колдова́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,колду́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,колдова́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,колдова́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,колду́ю
+2nd Sing,колду́ешь
+3rd Sing,колду́ет
+1st Pl,колду́ем
+2nd Pl,колду́ете
+3rd Pl,колду́ют
+Past M,колдова́л
+Past F,колдова́ла
+Past N,колдова́ло
+Past PL,колдова́ли
+Imp S,колду́й
+Imp PL,колду́йте

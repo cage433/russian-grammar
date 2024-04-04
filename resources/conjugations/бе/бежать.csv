@@ -1,0 +1,33 @@
+Infinitive,бежа́ть
+Zaliznyak Class,5b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,бегу́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,бежа́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,бежа́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,бежа́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,бегу́
+2nd Sing,бежи́шь
+3rd Sing,бежи́т
+1st Pl,бежи́м
+2nd Pl,бежи́те
+3rd Pl,бегу́т
+Past M,бежа́л
+Past F,бежа́ла
+Past N,бежа́ло
+Past PL,бежа́ли
+Imp S,беги́
+Imp PL,беги́те

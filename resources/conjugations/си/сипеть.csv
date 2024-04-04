@@ -1,0 +1,37 @@
+Infinitive,сипе́ть
+Zaliznyak Class,5b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,сипя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,сипе́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,сипя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,сипе́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,сипе́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,сиплю́
+2nd Sing,сипи́шь
+3rd Sing,сипи́т
+1st Pl,сипи́м
+2nd Pl,сипи́те
+3rd Pl,сипя́т
+Past M,сипе́л
+Past F,сипе́ла
+Past N,сипе́ло
+Past PL,сипе́ли
+Imp S,сипи́
+Imp PL,сипи́те

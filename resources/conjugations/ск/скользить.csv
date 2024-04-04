@@ -1,0 +1,37 @@
+Infinitive,скользи́ть
+Zaliznyak Class,4b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,скользя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,скользи́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,скользя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,скользи́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,скользи́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,скольжу́
+2nd Sing,скользи́шь
+3rd Sing,скользи́т
+1st Pl,скользи́м
+2nd Pl,скользи́те
+3rd Pl,скользя́т
+Past M,скользи́л
+Past F,скользи́ла
+Past N,скользи́ло
+Past PL,скользи́ли
+Imp S,скользи́
+Imp PL,скользи́те

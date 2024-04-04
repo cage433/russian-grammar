@@ -1,0 +1,41 @@
+Infinitive,испове́довать
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,испове́дующий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,испове́довавший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,испове́дуемый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,испове́дуя
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,испове́довав
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,испове́довавши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,испове́дую
+2nd Sing,испове́дуешь
+3rd Sing,испове́дует
+1st Pl,испове́дуем
+2nd Pl,испове́дуете
+3rd Pl,испове́дуют
+Past M,испове́довал
+Past F,испове́довала
+Past N,испове́довало
+Past PL,испове́довали
+Imp S,испове́дуй
+Imp PL,испове́дуйте

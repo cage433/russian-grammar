@@ -1,0 +1,33 @@
+Infinitive,су́зить
+Zaliznyak Class,4a
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,су́зивший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,су́женный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,су́зив
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,су́зивши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,су́жу
+2nd Sing,су́зишь
+3rd Sing,су́зит
+1st Pl,су́зим
+2nd Pl,су́зите
+3rd Pl,су́зят
+Past M,су́зил
+Past F,су́зила
+Past N,су́зило
+Past PL,су́зили
+Imp S,су́зь
+Imp PL,су́зьте

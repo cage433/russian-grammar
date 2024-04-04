@@ -1,0 +1,37 @@
+Infinitive,черне́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,черне́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,черне́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,черне́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,черне́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,черне́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,черне́ю
+2nd Sing,черне́ешь
+3rd Sing,черне́ет
+1st Pl,черне́ем
+2nd Pl,черне́ете
+3rd Pl,черне́ют
+Past M,черне́л
+Past F,черне́ла
+Past N,черне́ло
+Past PL,черне́ли
+Imp S,черне́й
+Imp PL,черне́йте

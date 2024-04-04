@@ -1,0 +1,41 @@
+Infinitive,преподава́ть
+Zaliznyak Class,13b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,преподаю́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,преподава́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,преподава́емый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,преподава́я
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,преподава́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,преподава́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,преподаю́
+2nd Sing,преподаёшь
+3rd Sing,преподаёт
+1st Pl,преподаём
+2nd Pl,преподаёте
+3rd Pl,преподаю́т
+Past M,преподава́л
+Past F,преподава́ла
+Past N,преподава́ло
+Past PL,преподава́ли
+Imp S,преподава́й
+Imp PL,преподава́йте

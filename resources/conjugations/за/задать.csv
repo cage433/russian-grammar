@@ -1,0 +1,33 @@
+Infinitive,зада́ть
+Zaliznyak Class,irreg-b/c[①]
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,зада́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,за́данный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,зада́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,зада́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,зада́м
+2nd Sing,зада́шь
+3rd Sing,зада́ст
+1st Pl,задади́м
+2nd Pl,задади́те
+3rd Pl,зададу́т
+Past M,за́дал
+Past F,задала́
+Past N,за́дало
+Past PL,за́дали
+Imp S,зада́й
+Imp PL,зада́йте

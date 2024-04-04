@@ -1,0 +1,33 @@
+Infinitive,сова́ться
+Zaliznyak Class,2b
+Aspect,imperfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,сую́щийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,сова́вшийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,суя́сь
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,сова́вшись
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,сую́сь
+2nd Sing,суёшься
+3rd Sing,суётся
+1st Pl,суёмся
+2nd Pl,суётесь
+3rd Pl,сую́тся
+Past M,сова́лся
+Past F,сова́лась
+Past N,сова́лось
+Past PL,сова́лись
+Imp S,су́йся
+Imp PL,су́йтесь

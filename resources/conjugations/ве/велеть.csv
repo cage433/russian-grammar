@@ -1,0 +1,37 @@
+Infinitive,веле́ть
+Zaliznyak Class,5b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,веля́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,веле́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,веля́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,веле́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,веле́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,велю́
+2nd Sing,вели́шь
+3rd Sing,вели́т
+1st Pl,вели́м
+2nd Pl,вели́те
+3rd Pl,веля́т
+Past M,веле́л
+Past F,веле́ла
+Past N,веле́ло
+Past PL,веле́ли
+Imp S,вели́
+Imp PL,вели́те

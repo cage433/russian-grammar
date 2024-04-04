@@ -1,0 +1,37 @@
+Infinitive,то́пать
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,то́пающий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,то́павший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,то́пая
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,то́пав
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,то́павши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,то́паю
+2nd Sing,то́паешь
+3rd Sing,то́пает
+1st Pl,то́паем
+2nd Pl,то́паете
+3rd Pl,то́пают
+Past M,то́пал
+Past F,то́пала
+Past N,то́пало
+Past PL,то́пали
+Imp S,то́пай
+Imp PL,то́пайте

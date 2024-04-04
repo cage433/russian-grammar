@@ -1,0 +1,37 @@
+Infinitive,рыда́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,рыда́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,рыда́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,рыда́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,рыда́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,рыда́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,рыда́ю
+2nd Sing,рыда́ешь
+3rd Sing,рыда́ет
+1st Pl,рыда́ем
+2nd Pl,рыда́ете
+3rd Pl,рыда́ют
+Past M,рыда́л
+Past F,рыда́ла
+Past N,рыда́ло
+Past PL,рыда́ли
+Imp S,рыда́й
+Imp PL,рыда́йте

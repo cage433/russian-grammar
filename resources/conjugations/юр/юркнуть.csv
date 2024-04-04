@@ -1,0 +1,33 @@
+Infinitive,"юркну́ть, ю́ркнуть"
+Zaliznyak Class,3b // 3a
+Aspect,perfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,юркну́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,ю́ркнувший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,юркну́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,ю́ркнув
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,юркну́
+2nd Sing,юркнёшь
+3rd Sing,юркнёт
+1st Pl,юркнём
+2nd Pl,юркнёте
+3rd Pl,юркну́т
+Past M,юркну́л
+Past F,юркну́ла
+Past N,юркну́ло
+Past PL,юркну́ли
+Imp S,юркни́
+Imp PL,юркни́те

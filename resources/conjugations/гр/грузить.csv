@@ -1,0 +1,49 @@
+Infinitive,грузи́ть
+Zaliznyak Class,4c // 4b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,грузя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,грузи́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,грузи́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,гру́женный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,гружённый
+PART:4:Participle Type,passive
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,грузя́
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,present
+PART:5:Participle Long or Short,long
+PART:6:Participle Text,грузи́в
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,short
+PART:7:Participle Text,грузи́вши
+PART:7:Participle Type,adverbial
+PART:7:Participle Tense,past
+PART:7:Participle Long or Short,long
+1st Sing,гружу́
+2nd Sing,гру́зишь
+3rd Sing,гру́зит
+1st Pl,гру́зим
+2nd Pl,гру́зите
+3rd Pl,гру́зят
+Past M,грузи́л
+Past F,грузи́ла
+Past N,грузи́ло
+Past PL,грузи́ли
+Imp S,грузи́
+Imp PL,грузи́те

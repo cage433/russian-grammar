@@ -1,0 +1,37 @@
+Infinitive,кише́ть
+Zaliznyak Class,5b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,киша́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,кише́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,киша́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,кише́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,кише́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,кишу́
+2nd Sing,киши́шь
+3rd Sing,киши́т
+1st Pl,киши́м
+2nd Pl,киши́те
+3rd Pl,киша́т
+Past M,кише́л
+Past F,кише́ла
+Past N,кише́ло
+Past PL,кише́ли
+Imp S,киши́
+Imp PL,киши́те

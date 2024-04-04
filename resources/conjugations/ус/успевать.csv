@@ -1,0 +1,37 @@
+Infinitive,успева́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,успева́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,успева́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,успева́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,успева́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,успева́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,успева́ю
+2nd Sing,успева́ешь
+3rd Sing,успева́ет
+1st Pl,успева́ем
+2nd Pl,успева́ете
+3rd Pl,успева́ют
+Past M,успева́л
+Past F,успева́ла
+Past N,успева́ло
+Past PL,успева́ли
+Imp S,успева́й
+Imp PL,успева́йте

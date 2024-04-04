@@ -1,0 +1,41 @@
+Infinitive,каза́ть
+Zaliznyak Class,6c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,ка́жущий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,каза́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,ка́занный
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,кажа́
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,каза́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,каза́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,кажу́
+2nd Sing,ка́жешь
+3rd Sing,ка́жет
+1st Pl,ка́жем
+2nd Pl,ка́жете
+3rd Pl,ка́жут
+Past M,каза́л
+Past F,каза́ла
+Past N,каза́ло
+Past PL,каза́ли
+Imp S,кажи́
+Imp PL,кажи́те

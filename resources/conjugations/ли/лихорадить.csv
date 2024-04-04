@@ -1,0 +1,36 @@
+Infinitive,лихора́дить
+Zaliznyak Class,4a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,лихора́дящий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,лихора́дивший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,лихора́дя
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,лихора́див
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,лихора́дивши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+2nd Sing,лихора́дишь
+3rd Sing,лихора́дит
+1st Pl,лихора́дим
+2nd Pl,лихора́дите
+3rd Pl,лихора́дят
+Past M,лихора́дил
+Past F,лихора́дила
+Past N,лихора́дило
+Past PL,лихора́дили
+Imp S,лихора́дь
+Imp PL,лихора́дьте

@@ -1,0 +1,37 @@
+Infinitive,гре́зить
+Zaliznyak Class,4a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,гре́зящий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,гре́зивший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,гре́зя
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,гре́зив
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,гре́зивши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,гре́жу
+2nd Sing,гре́зишь
+3rd Sing,гре́зит
+1st Pl,гре́зим
+2nd Pl,гре́зите
+3rd Pl,гре́зят
+Past M,гре́зил
+Past F,гре́зила
+Past N,гре́зило
+Past PL,гре́зили
+Imp S,гре́зь
+Imp PL,гре́зьте

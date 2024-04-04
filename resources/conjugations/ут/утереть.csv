@@ -1,0 +1,33 @@
+Infinitive,утере́ть
+Zaliznyak Class,9b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,утёрший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,утёртый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,утере́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,утёрши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,утру́
+2nd Sing,утрёшь
+3rd Sing,утрёт
+1st Pl,утрём
+2nd Pl,утрёте
+3rd Pl,утру́т
+Past M,утёр
+Past F,утёрла
+Past N,утёрло
+Past PL,утёрли
+Imp S,утри́
+Imp PL,утри́те

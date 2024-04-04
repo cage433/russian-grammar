@@ -1,0 +1,37 @@
+Infinitive,влия́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,влия́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,влия́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,влия́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,влия́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,влия́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,влия́ю
+2nd Sing,влия́ешь
+3rd Sing,влия́ет
+1st Pl,влия́ем
+2nd Pl,влия́ете
+3rd Pl,влия́ют
+Past M,влия́л
+Past F,влия́ла
+Past N,влия́ло
+Past PL,влия́ли
+Imp S,влия́й
+Imp PL,влия́йте

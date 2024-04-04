@@ -1,0 +1,37 @@
+Infinitive,хвора́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,хвора́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,хвора́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,хвора́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,хвора́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,хвора́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,хвора́ю
+2nd Sing,хвора́ешь
+3rd Sing,хвора́ет
+1st Pl,хвора́ем
+2nd Pl,хвора́ете
+3rd Pl,хвора́ют
+Past M,хвора́л
+Past F,хвора́ла
+Past N,хвора́ло
+Past PL,хвора́ли
+Imp S,хвора́й
+Imp PL,хвора́йте

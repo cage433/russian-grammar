@@ -1,0 +1,41 @@
+Infinitive,жева́ть
+Zaliznyak Class,2b(-ё-)
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,жую́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,жева́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,жёванный
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,жуя́
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,жева́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,жева́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,жую́
+2nd Sing,жуёшь
+3rd Sing,жуёт
+1st Pl,жуём
+2nd Pl,жуёте
+3rd Pl,жую́т
+Past M,жева́л
+Past F,жева́ла
+Past N,жева́ло
+Past PL,жева́ли
+Imp S,жу́й
+Imp PL,жу́йте

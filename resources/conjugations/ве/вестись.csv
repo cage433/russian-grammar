@@ -1,0 +1,33 @@
+Infinitive,вести́сь
+Zaliznyak Class,7b/b
+Aspect,imperfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,веду́щийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,ве́дшийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,ведя́сь
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ве́дшись
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,веду́сь
+2nd Sing,ведёшься
+3rd Sing,ведётся
+1st Pl,ведёмся
+2nd Pl,ведётесь
+3rd Pl,веду́тся
+Past M,вёлся
+Past F,вела́сь
+Past N,вело́сь
+Past PL,вели́сь
+Imp S,веди́сь
+Imp PL,веди́тесь

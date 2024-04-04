@@ -1,0 +1,33 @@
+Infinitive,задава́ться
+Zaliznyak Class,13b
+Aspect,imperfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,задаю́щийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,задава́вшийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,задава́ясь
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,задава́вшись
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,задаю́сь
+2nd Sing,задаёшься
+3rd Sing,задаётся
+1st Pl,задаёмся
+2nd Pl,задаётесь
+3rd Pl,задаю́тся
+Past M,задава́лся
+Past F,задава́лась
+Past N,задава́лось
+Past PL,задава́лись
+Imp S,задава́йся
+Imp PL,задава́йтесь

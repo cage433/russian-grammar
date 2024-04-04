@@ -1,0 +1,37 @@
+Infinitive,кипе́ть
+Zaliznyak Class,5b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,кипя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,кипе́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,кипя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,кипе́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,кипе́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,киплю́
+2nd Sing,кипи́шь
+3rd Sing,кипи́т
+1st Pl,кипи́м
+2nd Pl,кипи́те
+3rd Pl,кипя́т
+Past M,кипе́л
+Past F,кипе́ла
+Past N,кипе́ло
+Past PL,кипе́ли
+Imp S,кипи́
+Imp PL,кипи́те

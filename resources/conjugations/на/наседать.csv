@@ -1,0 +1,37 @@
+Infinitive,наседа́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,наседа́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,наседа́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,наседа́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,наседа́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,наседа́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,наседа́ю
+2nd Sing,наседа́ешь
+3rd Sing,наседа́ет
+1st Pl,наседа́ем
+2nd Pl,наседа́ете
+3rd Pl,наседа́ют
+Past M,наседа́л
+Past F,наседа́ла
+Past N,наседа́ло
+Past PL,наседа́ли
+Imp S,наседа́й
+Imp PL,наседа́йте

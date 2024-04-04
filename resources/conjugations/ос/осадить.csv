@@ -1,0 +1,33 @@
+Infinitive,осади́ть
+Zaliznyak Class,4c
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,осади́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,оса́женный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,осади́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,осади́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,осажу́
+2nd Sing,оса́дишь
+3rd Sing,оса́дит
+1st Pl,оса́дим
+2nd Pl,оса́дите
+3rd Pl,оса́дят
+Past M,осади́л
+Past F,осади́ла
+Past N,осади́ло
+Past PL,осади́ли
+Imp S,осади́
+Imp PL,осади́те

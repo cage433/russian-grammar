@@ -1,0 +1,37 @@
+Infinitive,торгова́ть
+Zaliznyak Class,2a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,торгу́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,торгова́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,торгу́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,торгова́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,торгова́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,торгу́ю
+2nd Sing,торгу́ешь
+3rd Sing,торгу́ет
+1st Pl,торгу́ем
+2nd Pl,торгу́ете
+3rd Pl,торгу́ют
+Past M,торгова́л
+Past F,торгова́ла
+Past N,торгова́ло
+Past PL,торгова́ли
+Imp S,торгу́й
+Imp PL,торгу́йте

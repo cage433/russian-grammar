@@ -1,0 +1,37 @@
+Infinitive,живописа́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,живопису́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,живописа́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,живопису́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,живописа́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,живописа́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,живопису́ю
+2nd Sing,живопису́ешь
+3rd Sing,живопису́ет
+1st Pl,живопису́ем
+2nd Pl,живопису́ете
+3rd Pl,живопису́ют
+Past M,живописа́л
+Past F,живописа́ла
+Past N,живописа́ло
+Past PL,живописа́ли
+Imp S,живопису́й
+Imp PL,живопису́йте

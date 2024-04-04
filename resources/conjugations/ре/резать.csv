@@ -1,0 +1,41 @@
+Infinitive,ре́зать
+Zaliznyak Class,6a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,ре́жущий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,ре́завший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,ре́занный
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ре́жа
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,ре́зав
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,ре́завши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,ре́жу
+2nd Sing,ре́жешь
+3rd Sing,ре́жет
+1st Pl,ре́жем
+2nd Pl,ре́жете
+3rd Pl,ре́жут
+Past M,ре́зал
+Past F,ре́зала
+Past N,ре́зало
+Past PL,ре́зали
+Imp S,ре́жь
+Imp PL,ре́жьте

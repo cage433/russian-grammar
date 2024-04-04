@@ -1,0 +1,41 @@
+Infinitive,гры́зть
+Zaliznyak Class,7b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,грызу́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,гры́зший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,грызо́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,гры́зенный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,грызя́
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,гры́зши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,грызу́
+2nd Sing,грызёшь
+3rd Sing,грызёт
+1st Pl,грызём
+2nd Pl,грызёте
+3rd Pl,грызу́т
+Past M,гры́з
+Past F,гры́зла
+Past N,гры́зло
+Past PL,гры́зли
+Imp S,грызи́
+Imp PL,грызи́те

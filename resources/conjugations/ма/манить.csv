@@ -1,0 +1,49 @@
+Infinitive,мани́ть
+Zaliznyak Class,4c[⑦] // 4b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,маня́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,мани́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,мани́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,ма́ненный
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,манённый
+PART:4:Participle Type,passive
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,маня́
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,present
+PART:5:Participle Long or Short,long
+PART:6:Participle Text,мани́в
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,past
+PART:6:Participle Long or Short,short
+PART:7:Participle Text,мани́вши
+PART:7:Participle Type,adverbial
+PART:7:Participle Tense,past
+PART:7:Participle Long or Short,long
+1st Sing,маню́
+2nd Sing,ма́нишь
+3rd Sing,ма́нит
+1st Pl,ма́ним
+2nd Pl,ма́ните
+3rd Pl,ма́нят
+Past M,мани́л
+Past F,мани́ла
+Past N,мани́ло
+Past PL,мани́ли
+Imp S,мани́
+Imp PL,мани́те

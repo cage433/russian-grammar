@@ -1,0 +1,37 @@
+Infinitive,стена́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,стена́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,стена́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,стена́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,стена́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,стена́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,стена́ю
+2nd Sing,стена́ешь
+3rd Sing,стена́ет
+1st Pl,стена́ем
+2nd Pl,стена́ете
+3rd Pl,стена́ют
+Past M,стена́л
+Past F,стена́ла
+Past N,стена́ло
+Past PL,стена́ли
+Imp S,стена́й
+Imp PL,стена́йте

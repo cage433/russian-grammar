@@ -1,0 +1,57 @@
+Infinitive,внима́ть
+Zaliznyak Class,1a // 6a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,вне́млющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,внима́ющий
+PART:1:Participle Type,active
+PART:1:Participle Tense,present
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,внима́вший
+PART:2:Participle Type,active
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,вне́млемый
+PART:3:Participle Type,passive
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,внима́емый
+PART:4:Participle Type,passive
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,вне́мленный
+PART:5:Participle Type,passive
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+PART:6:Participle Text,вне́мля
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,present
+PART:6:Participle Long or Short,short
+PART:7:Participle Text,внемля́
+PART:7:Participle Type,adverbial
+PART:7:Participle Tense,present
+PART:7:Participle Long or Short,long
+PART:8:Participle Text,внима́в
+PART:8:Participle Type,adverbial
+PART:8:Participle Tense,past
+PART:8:Participle Long or Short,short
+PART:9:Participle Text,внима́вши
+PART:9:Participle Type,adverbial
+PART:9:Participle Tense,past
+PART:9:Participle Long or Short,long
+1st Sing,вне́млю
+2nd Sing,вне́млешь
+3rd Sing,вне́млет
+1st Pl,вне́млем
+2nd Pl,вне́млете
+3rd Pl,вне́млют
+Past M,внима́л
+Past F,внима́ла
+Past N,внима́ло
+Past PL,внима́ли
+Imp S,вне́мли
+Imp PL,вне́млите

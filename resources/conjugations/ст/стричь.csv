@@ -1,0 +1,33 @@
+Infinitive,стри́чь
+Zaliznyak Class,8b
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,стригу́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,стри́гший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,стри́женный
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,стри́гши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,стригу́
+2nd Sing,стрижёшь
+3rd Sing,стрижёт
+1st Pl,стрижём
+2nd Pl,стрижёте
+3rd Pl,стригу́т
+Past M,стри́г
+Past F,стри́гла
+Past N,стри́гло
+Past PL,стри́гли
+Imp S,стриги́
+Imp PL,стриги́те

@@ -1,0 +1,41 @@
+Infinitive,"облегчи́ть, обле́гчить*"
+Zaliznyak Class,4b // 4a
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,облегчи́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,обле́гчивший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,облегчённый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,-
+PART:3:Participle Type,passive
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,облегчи́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,обле́гчив
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,облегчу́
+2nd Sing,облегчи́шь
+3rd Sing,облегчи́т
+1st Pl,облегчи́м
+2nd Pl,облегчи́те
+3rd Pl,облегча́т
+Past M,облегчи́л
+Past F,облегчи́ла
+Past N,облегчи́ло
+Past PL,облегчи́ли
+Imp S,облегчи́
+Imp PL,облегчи́те

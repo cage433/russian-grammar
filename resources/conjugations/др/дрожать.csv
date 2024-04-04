@@ -1,0 +1,37 @@
+Infinitive,дрожа́ть
+Zaliznyak Class,5b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,дрожа́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,дрожа́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,дрожа́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,дрожа́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,дрожа́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,дрожу́
+2nd Sing,дрожи́шь
+3rd Sing,дрожи́т
+1st Pl,дрожи́м
+2nd Pl,дрожи́те
+3rd Pl,дрожа́т
+Past M,дрожа́л
+Past F,дрожа́ла
+Past N,дрожа́ло
+Past PL,дрожа́ли
+Imp S,дрожи́
+Imp PL,дрожи́те

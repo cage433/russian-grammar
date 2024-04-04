@@ -1,0 +1,37 @@
+Infinitive,греме́ть
+Zaliznyak Class,5b
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,гремя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,греме́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,гремя́
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,греме́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,греме́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,гремлю́
+2nd Sing,греми́шь
+3rd Sing,греми́т
+1st Pl,греми́м
+2nd Pl,греми́те
+3rd Pl,гремя́т
+Past M,греме́л
+Past F,греме́ла
+Past N,греме́ло
+Past PL,греме́ли
+Imp S,греми́
+Imp PL,греми́те

@@ -1,0 +1,53 @@
+Infinitive,щипа́ть
+Zaliznyak Class,6c // 1a
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,щи́плющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,щипа́ющий
+PART:1:Participle Type,active
+PART:1:Participle Tense,present
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,щипа́вший
+PART:2:Participle Type,active
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,щипа́емый
+PART:3:Participle Type,passive
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,щи́панный
+PART:4:Participle Type,passive
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,щипля́
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,present
+PART:5:Participle Long or Short,short
+PART:6:Participle Text,щипа́я
+PART:6:Participle Type,adverbial
+PART:6:Participle Tense,present
+PART:6:Participle Long or Short,long
+PART:7:Participle Text,щипа́в
+PART:7:Participle Type,adverbial
+PART:7:Participle Tense,past
+PART:7:Participle Long or Short,short
+PART:8:Participle Text,щипа́вши
+PART:8:Participle Type,adverbial
+PART:8:Participle Tense,past
+PART:8:Participle Long or Short,long
+1st Sing,щиплю́
+2nd Sing,щи́плешь
+3rd Sing,щи́плет
+1st Pl,щи́плем
+2nd Pl,щи́плете
+3rd Pl,щи́плют
+Past M,щипа́л
+Past F,щипа́ла
+Past N,щипа́ло
+Past PL,щипа́ли
+Imp S,щипли́
+Imp PL,щипли́те

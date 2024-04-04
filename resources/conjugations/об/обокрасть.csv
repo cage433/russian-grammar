@@ -1,0 +1,37 @@
+Infinitive,обокра́сть
+Zaliznyak Class,7b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,обокра́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,обкра́денный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,short
+PART:2:Participle Text,обокра́денный
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,обокра́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,обокра́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,обкраду́
+2nd Sing,обкрадёшь
+3rd Sing,обкрадёт
+1st Pl,обкрадём
+2nd Pl,обкрадёте
+3rd Pl,обкраду́т
+Past M,обокра́л
+Past F,обокра́ла
+Past N,обокра́ло
+Past PL,обокра́ли
+Imp S,обкради́
+Imp PL,обкради́те

@@ -1,0 +1,37 @@
+Infinitive,рде́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,рде́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,рде́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,рде́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,рде́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,рде́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,рде́ю
+2nd Sing,рде́ешь
+3rd Sing,рде́ет
+1st Pl,рде́ем
+2nd Pl,рде́ете
+3rd Pl,рде́ют
+Past M,рде́л
+Past F,рде́ла
+Past N,рде́ло
+Past PL,рде́ли
+Imp S,рде́й
+Imp PL,рде́йте

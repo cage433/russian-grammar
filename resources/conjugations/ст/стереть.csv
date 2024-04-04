@@ -1,0 +1,33 @@
+Infinitive,стере́ть
+Zaliznyak Class,9*b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,стёрший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,стёртый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,стере́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,стёрши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,сотру́
+2nd Sing,сотрёшь
+3rd Sing,сотрёт
+1st Pl,сотрём
+2nd Pl,сотрёте
+3rd Pl,сотру́т
+Past M,стёр
+Past F,стёрла
+Past N,стёрло
+Past PL,стёрли
+Imp S,сотри́
+Imp PL,сотри́те

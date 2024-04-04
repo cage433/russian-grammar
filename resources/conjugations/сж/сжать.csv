@@ -1,0 +1,33 @@
+Infinitive,сжа́ть
+Zaliznyak Class,14b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,сжа́вший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,сжа́тый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,сжа́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,сжа́вши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,сожму́
+2nd Sing,сожмёшь
+3rd Sing,сожмёт
+1st Pl,сожмём
+2nd Pl,сожмёте
+3rd Pl,сожму́т
+Past M,сжа́л
+Past F,сжа́ла
+Past N,сжа́ло
+Past PL,сжа́ли
+Imp S,сожми́
+Imp PL,сожми́те

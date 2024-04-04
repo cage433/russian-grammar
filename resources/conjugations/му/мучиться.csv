@@ -1,0 +1,41 @@
+Infinitive,му́читься
+Zaliznyak Class,4a // 1a
+Aspect,imperfective
+Transitive,True
+Reflexive,True
+PART:0:Participle Text,му́чащийся
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,short
+PART:1:Participle Text,му́чающийся
+PART:1:Participle Type,active
+PART:1:Participle Tense,present
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,му́чившийся
+PART:2:Participle Type,active
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,му́чась
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,му́чаясь
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,present
+PART:4:Participle Long or Short,long
+PART:5:Participle Text,му́чившись
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,му́чусь
+2nd Sing,му́чишься
+3rd Sing,му́чится
+1st Pl,му́чимся
+2nd Pl,му́читесь
+3rd Pl,му́чатся
+Past M,му́чился
+Past F,му́чилась
+Past N,му́чилось
+Past PL,му́чились
+Imp S,му́чься
+Imp PL,му́чьтесь

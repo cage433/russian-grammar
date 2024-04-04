@@ -1,0 +1,41 @@
+Infinitive,заводи́ть
+Zaliznyak Class,4c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,заводя́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,заводи́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,заводи́мый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,заводя́
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,present
+PART:3:Participle Long or Short,long
+PART:4:Participle Text,заводи́в
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,short
+PART:5:Participle Text,заводи́вши
+PART:5:Participle Type,adverbial
+PART:5:Participle Tense,past
+PART:5:Participle Long or Short,long
+1st Sing,завожу́
+2nd Sing,заво́дишь
+3rd Sing,заво́дит
+1st Pl,заво́дим
+2nd Pl,заво́дите
+3rd Pl,заво́дят
+Past M,заводи́л
+Past F,заводи́ла
+Past N,заводи́ло
+Past PL,заводи́ли
+Imp S,заводи́
+Imp PL,заводи́те

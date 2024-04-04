@@ -1,0 +1,33 @@
+Infinitive,истра́тить
+Zaliznyak Class,4a
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,истра́тивший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,истра́ченный
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,истра́тив
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,истра́тивши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,истра́чу
+2nd Sing,истра́тишь
+3rd Sing,истра́тит
+1st Pl,истра́тим
+2nd Pl,истра́тите
+3rd Pl,истра́тят
+Past M,истра́тил
+Past F,истра́тила
+Past N,истра́тило
+Past PL,истра́тили
+Imp S,истра́ть
+Imp PL,истра́тьте

@@ -1,0 +1,37 @@
+Infinitive,тяну́ть
+Zaliznyak Class,3c
+Aspect,imperfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,тяну́щий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,тяну́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,тя́нутый
+PART:2:Participle Type,passive
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,тяну́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,тяну́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,тяну́
+2nd Sing,тя́нешь
+3rd Sing,тя́нет
+1st Pl,тя́нем
+2nd Pl,тя́нете
+3rd Pl,тя́нут
+Past M,тяну́л
+Past F,тяну́ла
+Past N,тяну́ло
+Past PL,тяну́ли
+Imp S,тяни́
+Imp PL,тяни́те

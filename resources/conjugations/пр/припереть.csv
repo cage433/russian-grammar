@@ -1,0 +1,33 @@
+Infinitive,припере́ть
+Zaliznyak Class,9b
+Aspect,perfective
+Transitive,True
+Reflexive,False
+PART:0:Participle Text,припёрший
+PART:0:Participle Type,active
+PART:0:Participle Tense,past
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,припёртый
+PART:1:Participle Type,passive
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,припере́в
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,past
+PART:2:Participle Long or Short,short
+PART:3:Participle Text,припёрши
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,long
+1st Sing,припру́
+2nd Sing,припрёшь
+3rd Sing,припрёт
+1st Pl,припрём
+2nd Pl,припрёте
+3rd Pl,припру́т
+Past M,припёр
+Past F,припёрла
+Past N,припёрло
+Past PL,припёрли
+Imp S,припри́
+Imp PL,припри́те

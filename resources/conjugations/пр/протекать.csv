@@ -1,0 +1,37 @@
+Infinitive,протека́ть
+Zaliznyak Class,1a
+Aspect,imperfective
+Transitive,False
+Reflexive,False
+PART:0:Participle Text,протека́ющий
+PART:0:Participle Type,active
+PART:0:Participle Tense,present
+PART:0:Participle Long or Short,long
+PART:1:Participle Text,протека́вший
+PART:1:Participle Type,active
+PART:1:Participle Tense,past
+PART:1:Participle Long or Short,long
+PART:2:Participle Text,протека́я
+PART:2:Participle Type,adverbial
+PART:2:Participle Tense,present
+PART:2:Participle Long or Short,long
+PART:3:Participle Text,протека́в
+PART:3:Participle Type,adverbial
+PART:3:Participle Tense,past
+PART:3:Participle Long or Short,short
+PART:4:Participle Text,протека́вши
+PART:4:Participle Type,adverbial
+PART:4:Participle Tense,past
+PART:4:Participle Long or Short,long
+1st Sing,протека́ю
+2nd Sing,протека́ешь
+3rd Sing,протека́ет
+1st Pl,протека́ем
+2nd Pl,протека́ете
+3rd Pl,протека́ют
+Past M,протека́л
+Past F,протека́ла
+Past N,протека́ло
+Past PL,протека́ли
+Imp S,протека́й
+Imp PL,протека́йте
