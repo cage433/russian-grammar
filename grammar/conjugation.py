@@ -3,7 +3,6 @@ from enum import StrEnum
 from typing import Optional, List
 
 from utils.types import checked_type, checked_list_type, checked_optional_type
-from utils.utils import sanitize_text
 
 
 class Aspect(StrEnum):
@@ -11,16 +10,19 @@ class Aspect(StrEnum):
     IMPERFECTIVE = "imperfective"
 
 
-def find_table_value(table: List[List[str]], key: str) -> Optional[str]:
+SHORT_CLASS_1_RE = re.compile(r"(\d+[abc])")
+SHORT_CLASS_2_RE = re.compile(r"(\d+[abc][']*/[abc][']*)")
+IRREG_1_RE = re.compile(r"(irreg-[abc][']*)")
+IRREG_2_RE = re.compile(r"(irreg-[abc][']*/[abc][']*)")
+
+
+# Utility used in converting CSV representations of Conjugations
+def _find_table_value(table: List[List[str]], key: str) -> Optional[str]:
     for row in table:
         if row[0] == key:
             return row[1]
     return None
 
-SHORT_CLASS_1_RE = re.compile(r"(\d+[abc])")
-SHORT_CLASS_2_RE = re.compile(r"(\d+[abc][']*/[abc][']*)")
-IRREG_1_RE = re.compile(r"(irreg-[abc][']*)")
-IRREG_2_RE = re.compile(r"(irreg-[abc][']*/[abc][']*)")
 
 class ZaliznyakClass:
     CLASS_LABEL = "Zaliznyak Class"
@@ -39,7 +41,7 @@ class ZaliznyakClass:
 
     @staticmethod
     def from_table(table: List[List[str]]) -> 'ZaliznyakClass':
-        return ZaliznyakClass(find_table_value(table, ZaliznyakClass.CLASS_LABEL))
+        return ZaliznyakClass(_find_table_value(table, ZaliznyakClass.CLASS_LABEL))
 
     def __hash__(self):
         return hash(self.class_name)
@@ -78,6 +80,7 @@ class ZaliznyakClass:
         if a := regex.match(scs):
             return a.groups()[0]
         raise ValueError(f"Unexpected short class and stress: {scs}")
+
 
 class Tense(StrEnum):
     PAST = "past"
@@ -135,10 +138,10 @@ class Participle:
 
     @staticmethod
     def from_table(table: List[List[str]]) -> 'Participle':
-        text = find_table_value(table, Participle.PARTICIPLE_TEXT)
-        participle_type = ParticipleType(find_table_value(table, Participle.PARTICIPLE_TYPE))
-        tense = Tense(find_table_value(table, Participle.PARTICIPLE_TENSE))
-        long_or_short = LongOrShort(find_table_value(table, Participle.PARTICIPLE_LONG_OR_SHORT))
+        text = _find_table_value(table, Participle.PARTICIPLE_TEXT)
+        participle_type = ParticipleType(_find_table_value(table, Participle.PARTICIPLE_TYPE))
+        tense = Tense(_find_table_value(table, Participle.PARTICIPLE_TENSE))
+        long_or_short = LongOrShort(_find_table_value(table, Participle.PARTICIPLE_LONG_OR_SHORT))
         return Participle(text, participle_type, tense, long_or_short)
 
     def __eq__(self, other):
@@ -232,12 +235,12 @@ class PresentOrFutureConjugation:
 
     @staticmethod
     def from_table(table: List[List[str]]) -> 'PresentOrFutureConjugation':
-        first_person_singular = find_table_value(table, PresentOrFutureConjugation.POF_1S)
-        second_person_singular = find_table_value(table, PresentOrFutureConjugation.POF_2S)
-        third_person_singular = find_table_value(table, PresentOrFutureConjugation.POF_3S)
-        first_person_plural = find_table_value(table, PresentOrFutureConjugation.POF_1P)
-        second_person_plural = find_table_value(table, PresentOrFutureConjugation.POF_2P)
-        third_person_plural = find_table_value(table, PresentOrFutureConjugation.POF_3P)
+        first_person_singular = _find_table_value(table, PresentOrFutureConjugation.POF_1S)
+        second_person_singular = _find_table_value(table, PresentOrFutureConjugation.POF_2S)
+        third_person_singular = _find_table_value(table, PresentOrFutureConjugation.POF_3S)
+        first_person_plural = _find_table_value(table, PresentOrFutureConjugation.POF_1P)
+        second_person_plural = _find_table_value(table, PresentOrFutureConjugation.POF_2P)
+        third_person_plural = _find_table_value(table, PresentOrFutureConjugation.POF_3P)
         return PresentOrFutureConjugation(
             first_person_singular,
             second_person_singular,
@@ -303,10 +306,10 @@ class PastConjugation:
 
     @staticmethod
     def from_table(table: List[List[str]]) -> 'PastConjugation':
-        masculine = find_table_value(table, PastConjugation.PAST_M)
-        feminine = find_table_value(table, PastConjugation.PAST_F)
-        neuter = find_table_value(table, PastConjugation.PAST_N)
-        plural = find_table_value(table, PastConjugation.PAST_PL)
+        masculine = _find_table_value(table, PastConjugation.PAST_M)
+        feminine = _find_table_value(table, PastConjugation.PAST_F)
+        neuter = _find_table_value(table, PastConjugation.PAST_N)
+        plural = _find_table_value(table, PastConjugation.PAST_PL)
         return PastConjugation(masculine, feminine, neuter, plural)
 
     def __eq__(self, other):
@@ -341,8 +344,8 @@ class Imperative:
 
     @staticmethod
     def from_table(table: List[List[str]]) -> 'Optional[Imperative]':
-        singular = find_table_value(table, Imperative.IMP_S)
-        plural = find_table_value(table, Imperative.IMP_PL)
+        singular = _find_table_value(table, Imperative.IMP_S)
+        plural = _find_table_value(table, Imperative.IMP_PL)
         if singular is None and plural is None:
             return None
         return Imperative(singular, plural)
@@ -385,9 +388,9 @@ class VerbType:
     @staticmethod
     def from_table(table: List[List[str]]) -> 'VerbType':
         zaliznyak_class = ZaliznyakClass.from_table(table)
-        aspect = Aspect(find_table_value(table, VerbType.ASPECT))
-        transitive = find_table_value(table, VerbType.TRANSITIVE) == "True"
-        reflexive = find_table_value(table, VerbType.REFLEXIVE) == "True"
+        aspect = Aspect(_find_table_value(table, VerbType.ASPECT))
+        transitive = _find_table_value(table, VerbType.TRANSITIVE) == "True"
+        reflexive = _find_table_value(table, VerbType.REFLEXIVE) == "True"
         return VerbType(zaliznyak_class, aspect, transitive, reflexive)
 
     def __eq__(self, other):
@@ -443,7 +446,7 @@ class Conjugation:
 
     @staticmethod
     def from_table(table: List[List[str]]) -> 'Conjugation':
-        infinitive = find_table_value(table, "Infinitive")
+        infinitive = _find_table_value(table, "Infinitive")
         verb_type = VerbType.from_table(table)
         participles = Participles.from_table(table)
         present_or_future = PresentOrFutureConjugation.from_table(table)

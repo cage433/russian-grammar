@@ -10,12 +10,10 @@ from grammar.conjugation import Conjugation, Aspect, ZaliznyakClass, VerbType, \
 from utils.types import checked_type
 
 
+# Somewhat ugly code to parse the conjugation pages in Wiktionary
+# Only needed once, as the results are stored in a shelf file
 class ConjugationParser:
     zaliznyak_class_re = re.compile(r'class (.*) (?:im)?perfective')
-    # CATEGORY_RE = re.compile(r' (\d{1,2})[abc] ')
-    # CATEGORY_RE_WITH_MODIFIER = re.compile(r' (\d{1,2})(.*)[abc]')
-    # STRESS_RE = re.compile(r'(?:-|\d)?([abc].*) ')
-    # STRESS2_RE = re.compile(r'(?:-|\d)?([abc].*)/([abc].*) ')
 
     def __init__(self, soup: BeautifulSoup):
         self.soup: BeautifulSoup = checked_type(soup, BeautifulSoup)
@@ -23,7 +21,8 @@ class ConjugationParser:
     @cached_property
     def conjugation_frame(self) -> Optional[BeautifulSoup]:
         frames = self.soup.body.find_all("div", {"class": 'NavFrame'})
-        matching_frames = [f for f in frames if "Conjugation of" in f.text and "fective" in f.text and "class" in f.text]
+        matching_frames = [f for f in frames if
+                           "Conjugation of" in f.text and "fective" in f.text and "class" in f.text]
         if matching_frames == []:
             return None
         return matching_frames[0]
@@ -53,14 +52,6 @@ class ConjugationParser:
         is_intransitive = "intransitive" in class_text
         is_reflexive = "reflexive" in class_text
         zaliznyak_class = self.zaliznyak_class_re.search(class_text).groups()[0]
-        # if "irreg" in class_text:
-        #     category = IRREGULAR
-        # elif match := self.CATEGORY_RE.search(class_text):
-        #     category = RegularCategory(int(match.groups()[0]), modifier=None)
-        # elif match := self.CATEGORY_RE_WITH_MODIFIER.search(class_text):
-        #     category = RegularCategory(int(match.groups()[0]), modifier=match.groups()[1])
-        # else:
-        #     raise ValueError(f"Category not found in class text: {class_text}")
 
         if "imperfective" in class_text:
             aspect = Aspect.IMPERFECTIVE
@@ -68,17 +59,6 @@ class ConjugationParser:
             aspect = Aspect.PERFECTIVE
         else:
             raise ValueError(f"Aspect not found in class text: {class_text}")
-
-        # if stress_2 := self.STRESS2_RE.search(class_text):
-        #     present_stress, past_stress = stress_2.groups()
-        #     stress_rule = StressRule(
-        #         StressPattern(present_stress), StressPattern(past_stress)
-        #     )
-        # elif stress := self.STRESS_RE.search(class_text):
-        #     stress = StressPattern(stress.groups()[0])
-        #     stress_rule = StressRule(stress, past_stress=None)
-        # else:
-        #     raise ValueError(f"Stress not found in class text: {class_text}")
 
         return VerbType(
             ZaliznyakClass(
@@ -168,6 +148,7 @@ class ConjugationParser:
             assert rows[i_row].attrs["class"] == ["rowgroup"], f" row {i_row} is not rowgroup"
         imperative_row = rows[14]
         cells = imperative_row.find_all('td')
+
         def text_from_cell(cell):
             links = cell.find_all('a')
             if len(links) > 0:
@@ -176,20 +157,12 @@ class ConjugationParser:
 
         singular = text_from_cell(cells[0])
         plural = text_from_cell(cells[1])
-        # texts = [
-        #     a.text.strip()
-        #     for c in cells
-        #     for a in c.find_all('a')[:1]  # Sometimes there are multiple links
-        # ]
-        # if texts == []:
-        #     return None
-        # singular, plural = texts
         return Imperative(singular, plural)
 
     @cached_property
     def extract_past_conjugation(self) -> PastConjugation:
         rows = self.table_rows
-        singular_texts = []
+
         def get_text_from_cell(cell: Tag) -> Optional[str]:
             links = cell.find_all('a')
             if len(links) == 0:
