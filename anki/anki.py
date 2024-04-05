@@ -101,15 +101,17 @@ def create_notes_for_conjugation(c: Conjugation, stem: Optional[str]):
     ]
 
 
-def create_notes_for_aspect_pair(imperfective: Conjugation, perfective: Conjugation):
+def create_notes_for_aspect_pair(imperfective: Conjugation, perfective: Conjugation, include_translation: bool):
     if not imperfective.verb_type.aspect == Aspect.IMPERFECTIVE:
         raise ValueError(f"First verb must be imperfective, got {imperfective.infinitive}")
     if not perfective.verb_type.aspect == Aspect.PERFECTIVE:
         raise ValueError(f"Second verb must be perfective, got {perfective.infinitive}")
-    return verb_notes_for_conjugation(imperfective, stem=None) \
-        + verb_notes_for_conjugation(perfective, stem=None) \
-        + [translation_note_for_aspect_pair(
-            VERB_DEFINITIONS_DECK, imperfective, perfective)]
+    notes = verb_notes_for_conjugation(imperfective, stem=None) \
+        + verb_notes_for_conjugation(perfective, stem=None)
+    if include_translation:
+        notes.append(translation_note_for_aspect_pair(
+            VERB_DEFINITIONS_DECK, imperfective, perfective))
+    return notes
 
 
 def create_notes_zaliznyak_category(short_class: str, stem: str, force: bool):
@@ -122,11 +124,10 @@ def create_notes_zaliznyak_category(short_class: str, stem: str, force: bool):
 if __name__ == '__main__':
     notes = []
     for imperfective, perfective in [
-        ("спрашивать", "спросить"),
-        ("слышать", "услышать"),
+        ("работать", "поработать"),
     ]:
         impf = find_conjugation(imperfective, force=False)
         perf = find_conjugation(perfective, force=False)
-        notes.extend(create_notes_for_aspect_pair(impf, perf))
+        notes.extend(create_notes_for_aspect_pair(impf, perf, include_translation=True))
     print(f"Have {len(notes)} notes")
     write_anki_import_file(Path("/Users/alex/tmp/verbs.txt"), notes)
