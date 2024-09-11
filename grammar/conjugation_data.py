@@ -25,7 +25,7 @@ def read_conjugations(force: bool) -> List[Conjugation]:
 
 def find_conjugation(infinitive: str, force: bool, fail_if_missing: bool = True) -> Optional[Conjugation]:
     conjugations = read_conjugations(force)
-    cs = [c for c in conjugations if sanitize_text(c.infinitive) == infinitive]
+    cs = [c for c in conjugations if sanitize_text(c.infinitive) == sanitize_text(infinitive)]
     if len(cs) == 1:
         return cs[0]
     if fail_if_missing:

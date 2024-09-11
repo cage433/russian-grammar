@@ -15,6 +15,7 @@ SHORT_CLASS_2_RE = re.compile(r"(\d+[abc][']*/[abc][']*)")
 IRREG_1_RE = re.compile(r"(irreg-[abc][']*)")
 IRREG_2_RE = re.compile(r"(irreg-[abc][']*/[abc][']*)")
 
+IMPERFECT_STRESS_RE = re.compile(r"[^/]+/([abc].*)")
 
 # Utility used in converting CSV representations of Conjugations
 def _find_table_value(table: List[List[str]], key: str) -> Optional[str]:
@@ -62,6 +63,12 @@ class ZaliznyakClass:
         raise ValueError(f"Unexpected class name: {text}")
 
     @property
+    def imperfect_stress_pattern(self):
+        if a := IMPERFECT_STRESS_RE.match(self.short_class_and_stress):
+            return a.groups()[0]
+        return "a"
+
+    @property
     def short_class(self):
         scs = self.short_class_and_stress
         if scs.startswith("irreg"):
@@ -70,6 +77,10 @@ class ZaliznyakClass:
         if a := regex.match(scs):
             return a.groups()[0]
         raise ValueError(f"Unexpected short class and stress: {scs}")
+
+    @property
+    def is_irregular(self):
+        return self.short_class == "irreg"
 
     @property
     def short_stress(self):
