@@ -52,3 +52,4 @@ IRREGULAR_VERBS = [
 ]
 
 IRREGULAR_VERB_SET = set(IRREGULAR_VERBS)
+SHORT_IRREGULAR_VERB_SET = {"быть", "есть", "дать", "бежать", "хотеть"}
