@@ -2,6 +2,8 @@ from abc import abstractmethod
 from pathlib import Path
 from typing import List, Tuple
 
+from tabulate import tabulate
+
 from utils.types import checked_type
 
 
@@ -13,6 +15,10 @@ class Declinable:
 
     def declension(self, i_type):
         return [t[i_type] for t in self.terms]
+
+    def __str__(self):
+        rows = [self.type_names] + self.terms
+        return tabulate(rows)
 
     @property
     @abstractmethod
@@ -59,7 +65,11 @@ class Declinable:
                 terms.append(case_terms)
             return (heading, terms)
 
+
 class SampleDeclinable:
     def __init__(self, declinable: Declinable, text: str):
         self.declinable: Declinable = checked_type(declinable, Declinable)
         self.text: str = checked_type(text, str)
+
+    def __str__(self):
+        return f"{self.text}\n{self.declinable}"

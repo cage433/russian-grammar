@@ -86,7 +86,7 @@ class ZaliznyakClass:
     def short_stress(self):
         scs = self.short_class_and_stress
         if scs.startswith("irreg-"):
-            return scs[6:]
+            return scs[6]
         regex = re.compile(r"\d+([abc/])")
         if a := regex.match(scs):
             return a.groups()[0]
@@ -429,6 +429,22 @@ class Conjugation:
         self.present_or_future: PresentOrFutureConjugation = checked_type(present_or_future, PresentOrFutureConjugation)
         self.past: PastConjugation = checked_type(past, PastConjugation)
         self.imperative: Optional[Imperative] = checked_optional_type(imperative, Imperative)
+
+    @property
+    def short_aspect(self):
+        if self.verb_type.aspect == Aspect.PERFECTIVE:
+            return "pf"
+        if self.verb_type.aspect == Aspect.IMPERFECTIVE:
+            return "impf"
+        raise ValueError(f"Unexpected aspect {self.verb_type.aspect}")
+
+    @property
+    def short_stress(self):
+        return self.verb_type.zaliznyak_class.short_stress
+
+    @property
+    def short_class(self):
+        return self.verb_type.zaliznyak_class.short_class
 
     def __str__(self):
         result = ""

@@ -1,3 +1,4 @@
+import csv
 from pathlib import Path
 from typing import List
 
@@ -6,6 +7,7 @@ from grammar.conjugation import Conjugation
 from grammar.conjugation_data import find_conjugation
 from grammar.declinable import Declinable, SampleDeclinable
 from grammar.noun import SampleNoun
+from grammar.pronoun import SamplePronoun
 from grammar.read_verbs import read_verbs_in_usage_order
 from grammar.read_vocab import read_vocab_10000, Vocab
 from utils.utils import strip_stress_marks
@@ -16,13 +18,17 @@ RUSSIAN_TO_ENGLISH_DECK = "Vocab::Russian to English"
 ENGLISH_TO_RUSSIAN_DECK = "Vocab::English to Russian"
 VOCAB_10000_DECK = "Vocab::10000 words"
 ADJECTIVE_DECK = "Adjectives"
+PRONOUN_DECK = "Pronouns"
 NOUN_DECK = "Nouns"
 
 
 def present_or_future_conjugation_note(conjugation: Conjugation):
     terms = [t for t in conjugation.present_or_future.terms]
     line = ""
-    short_class = conjugation.verb_type.zaliznyak_class.short_class
+    zaliznyak_class = conjugation.verb_type.zaliznyak_class
+    short_class = zaliznyak_class.short_class
+    short_stress = zaliznyak_class.short_stress
+
     if len(short_class) == 1:
         short_class = "0" + short_class
     tag = "z-class:" + short_class
@@ -31,16 +37,19 @@ def present_or_future_conjugation_note(conjugation: Conjugation):
             "1s", "2s", "3s", "1p", "2p", "3p"
         ]
         terms = [f"{l}: {t}" for l, t in zip(labels, terms) if t is not None]
-    to_conjugate_fully = {"быть", "есть", "дать", "бежать", "хотеть", "мочь"}
-    if not strip_stress_marks(conjugation.infinitive) in to_conjugate_fully:
+    verbs_to_conjugate_fully = {"быть", "есть", "дать", "бежать", "хотеть", "мочь"}
+    infinitive_sans_stress = strip_stress_marks(conjugation.infinitive)
+    conjugate_fully = infinitive_sans_stress in verbs_to_conjugate_fully or short_class == "irreg"
+    if not conjugate_fully:
         terms = terms[:2] + terms[-1:]
     line += "<br>".join(terms) + "<br><br>"
 
+
     return ";".join([
         "Basic",
-        CONJUGATIONS_DECK,
+        f"{CONJUGATIONS_DECK}::{short_class}::{short_stress}",
         tag,
-        f"Conjugate {conjugation.infinitive};{line}"
+        f"{conjugation.infinitive} ({conjugation.short_aspect});{line}"
     ])
 
 
@@ -64,7 +73,6 @@ def past_conjugation_note(conjugation: Conjugation) -> str:
     ])
 
 
-
 def russian_to_english_notes(vocab: Vocab) -> List[str]:
     return [
         ";".join([
@@ -86,6 +94,7 @@ def english_to_russian_notes(vocab: Vocab):
         for item in vocab.items
     ]
 
+
 def vocab_10000_notes(vocab: Vocab):
     return [
         ";".join([
@@ -99,6 +108,7 @@ def vocab_10000_notes(vocab: Vocab):
 
 def _case_notes(deck: str, sample: SampleDeclinable):
     decl = sample.declinable
+
     def case_note(case: str, declension: List[str]):
         question = f"{decl.root} {case} ({sample.text})"
         answer = "<br>".join(declension)
@@ -107,6 +117,7 @@ def _case_notes(deck: str, sample: SampleDeclinable):
             deck,
             f"{question};{answer}<br><br>"
         ])
+
     return [
         case_note("nom.", decl.nominative),
         case_note("acc.", decl.accusative),
@@ -116,9 +127,11 @@ def _case_notes(deck: str, sample: SampleDeclinable):
         case_note("prep.", decl.prepositional),
     ]
 
+
 def _declension_notes(deck: str, sample: SampleDeclinable):
     decl = sample.declinable
     type_names = decl.type_names
+
     def _declension_note(i_type: int):
         question = f"{decl.root} {type_names[i_type]} ({sample.text})"
         answer = "<br>".join(decl.declension(i_type))
@@ -127,19 +140,69 @@ def _declension_notes(deck: str, sample: SampleDeclinable):
             deck,
             f"{question};{answer}<br><br>"
         ])
+
     return [
         _declension_note(i_type)
         for i_type in range(len(type_names))
     ]
 
+
+def _pronoun_case_notes(sample: SamplePronoun):
+    decl = sample.declinable
+
+    def case_note(case: str, declension: List[str]):
+        question = f"{sample.text} {case}"
+        answer = "<br>".join(declension)
+        return ";".join([
+            "Basic",
+            f"{PRONOUN_DECK}::{sample.pronoun.deck_name}",
+            f"{question};{answer}<br><br>"
+        ])
+
+    return [
+        case_note("nom.", decl.nominative),
+        case_note("acc.", decl.accusative),
+        case_note("gen.", decl.genitive),
+        case_note("dat.", decl.dative),
+        case_note("inst.", decl.instrumental),
+        case_note("prep.", decl.prepositional),
+    ]
+
+
+def _pronoun_declension_notes(sample: SamplePronoun):
+    decl = sample.declinable
+    type_names = decl.type_names
+
+    def _declension_note(i_type: int):
+        question = f"{sample.text} {type_names[i_type]}"
+        answer = "<br>".join(decl.declension(i_type))
+        return ";".join([
+            "Basic",
+            f"{PRONOUN_DECK}::{sample.pronoun.deck_name}",
+            f"{question};{answer}<br><br>"
+        ])
+
+    return [
+        _declension_note(i_type)
+        for i_type in range(len(type_names))
+    ]
+
+
 def declinable_notes(deck: str, sample: SampleDeclinable):
     return _declension_notes(deck, sample) + _case_notes(deck, sample)
+
 
 def adjective_notes(sample: SampleAdjective):
     return declinable_notes(ADJECTIVE_DECK, sample)
 
+
+def pronoun_notes(sample: SamplePronoun):
+    return _pronoun_declension_notes(sample) + _pronoun_case_notes(sample)
+
+
 def noun_notes(sample: SampleNoun):
     return declinable_notes(NOUN_DECK, sample)
+
 
 def write_anki_import_file(file_path: Path, notes: List[str], include_tag_column: bool):
     with open(str(file_path), 'wt', newline='') as f:
@@ -175,7 +238,7 @@ def create_common_conjugations():
     notes = []
     for c in conjugations:
         notes += verb_conjugation_notes(c)
-    write_anki_import_file(Path("/Users/alex/tmp/verbs.txt"), notes)
+    write_anki_import_file(Path("/Users/alex/tmp/verbs.txt"), notes, include_tag_column=False)
 
 
 def create_all_verb_conjugations():
@@ -183,7 +246,17 @@ def create_all_verb_conjugations():
     notes = []
     for c in verb_conjugations:
         notes += verb_conjugation_notes(c)
-    write_anki_import_file(Path("/Users/alex/tmp/verbs.txt"), notes)
+    write_anki_import_file(Path("/Users/alex/tmp/verbs.txt"), notes, include_tag_column=False)
+
+
+def create_verb_conjugations_for_class_and_stress():
+    verb_conjugations = read_verbs_in_usage_order(force=False)
+    verb_conjugations = verb_conjugations[:3000]
+    # verb_conjugations = [v for v in verb_conjugations if v.short_class in short_classes]
+    notes = []
+    for c in verb_conjugations:
+        notes.append(present_or_future_conjugation_note(c))
+    write_anki_import_file(Path("/Users/alex/tmp/verbs.txt"), notes, include_tag_column=True)
 
 
 def create_vocab_10000_one_sided_decks(force: bool):
@@ -193,10 +266,12 @@ def create_vocab_10000_one_sided_decks(force: bool):
     english_to_russian = english_to_russian_notes(vocab)
     write_anki_import_file(Path("/Users/alex/tmp/english_to_russian.txt"), english_to_russian, include_tag_column=False)
 
+
 def create_vocab_10000_two_sided_deck(force: bool):
     vocab = read_vocab_10000(force=force)
     notes = vocab_10000_notes(vocab)
     write_anki_import_file(Path("/Users/alex/tmp/vocab_10000.txt"), notes, include_tag_column=False)
+
 
 def create_declinable_notes():
     notes = []
@@ -207,5 +282,23 @@ def create_declinable_notes():
     write_anki_import_file(Path("/Users/alex/tmp/declinables.txt"), notes, include_tag_column=False)
 
 
+def create_pronoun_notes():
+    notes = []
+    for sample in SamplePronoun.samples():
+        notes += pronoun_notes(sample)
+    write_anki_import_file(Path("/Users/alex/tmp/pronouns.txt"), notes, include_tag_column=False)
+
+def write_most_common_verbs():
+    verb_conjugations = read_verbs_in_usage_order(force=False)
+    verb_conjugations = verb_conjugations[:3000]
+    file_path = Path("/Users/alex/tmp/3000-russian-verbs-by-class.csv")
+    with open(str(file_path), 'w', encoding='utf-8', newline='') as f:
+        csvfile = csv.writer(f, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        csvfile.writerow(["lemma", "class", "stress"])
+        for verb in verb_conjugations:
+            csvfile.writerow([strip_stress_marks(verb.infinitive), verb.short_class, verb.short_stress])
+
+
 if __name__ == '__main__':
-    create_declinable_notes()
+    # create_verb_conjugations_for_class_and_stress()
+    write_most_common_verbs()
