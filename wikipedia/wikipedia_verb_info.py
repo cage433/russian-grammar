@@ -1,6 +1,6 @@
 from grammar.conjugation import Conjugation
-from language.verb.verb_identifier import VerbIdentifier
-from language.verb.verb_info import VerbDefinition
+from wikipedia.verb.verb_identifier import VerbIdentifier
+from wikipedia.verb.verb_definition import VerbDefinition
 from utils.types import checked_type, checked_list_type
 
 

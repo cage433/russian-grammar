@@ -6,9 +6,9 @@ from bs4 import BeautifulSoup, Tag, PageElement, NavigableString
 from more_itertools.recipes import flatten
 
 from grammar.conjugation import Conjugation
-from language.verb.verb_identifier import VerbIdentifier
-from language.verb.verb_info import QuoteAndTranslation, VerbDefinition, VerbDefinitionAndExamples
-from language.wikipedia_verb_info import WikipediaVerbInfo
+from wikipedia.verb.verb_identifier import VerbIdentifier
+from wikipedia.verb.verb_definition import QuoteAndTranslation, VerbDefinition
+from wikipedia.wikipedia_verb_info import WikipediaVerbInfo
 from scraper.conjugation_parser import ConjugationParser
 from utils.types import checked_type, checked_list_type
 
