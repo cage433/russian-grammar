@@ -295,7 +295,7 @@ class VerbParser:
 
 
 if __name__ == '__main__':
-    paths = Path("/Users/alex/repos/russian-grammar/scraper/verbs/").glob("*.html")
+    paths = Path("/Users/alex/repos/russian-grammar/scraper/wikipedia_pages/").glob("*.html")
     for i_path, path in enumerate(list(paths)):
         verb = path.name
         parser = VerbParser.from_file(path)
