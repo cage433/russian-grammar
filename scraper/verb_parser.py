@@ -1,3 +1,4 @@
+from curses import wrapper
 from pathlib import Path
 from typing import Optional
 
@@ -34,8 +35,13 @@ EXPECTED_LANGUAGES = [
 class ParserUtils:
     @staticmethod
     def is_tag_of_class(element: PageElement, classes: list[str]) -> bool:
-        if isinstance(element, Tag):
+        if isinstance(element, Tag) and element.has_attr("class"):
             return set(element.attrs["class"]) == set(classes)
+        return False
+
+    def is_tag_with_class(element: PageElement, class_: str) -> bool:
+        if isinstance(element, Tag) and element.has_attr("class"):
+            return class_ in element.attrs["class"]
         return False
 
     @staticmethod
@@ -47,6 +53,13 @@ class ParserUtils:
         if ParserUtils.is_new_line(element):
             return True
         return isinstance(element, NavigableString) and element.text == '.\n'
+
+    @staticmethod
+    def single_element(elements: list[any]) -> any:
+        if len(elements) == 1:
+            return elements[0]
+
+        raise ValueError(f"Expected a single elements, got {elements}")
 
 
 class VerbSubSection:
@@ -65,9 +78,10 @@ class VerbSubSection:
     @staticmethod
     def build(tag: Tag, section: list[PageElement]) -> 'VerbSubSection':
         heading_title = VerbSubSection.heading_title(tag)
+        print(heading_title)
         if heading_title == "Verb":
             return VerbAspectDefinitionAndExamples(tag, section)
-        if heading_title == "Derived Terms":
+        if heading_title == "Derived terms":
             return VerbDerivedTerms(tag, section)
         return VerbSubSection(tag, section)
 
@@ -132,7 +146,7 @@ class VerbAspectDefinitionAndExamples(VerbSubSection):
         potential_matches = self.section[0].find_all(class_="Cyrl")
         exact_matches = [c for c in potential_matches if ParserUtils.is_tag_of_class(c, ["Cyrl", "headword"])]
         if not len(exact_matches) == 1:
-            raise ValueError(f"Couldn't find infinitive")
+            raise ValueError(f"Couldn't find infinitive, exact matches is {exact_matches}")
         return exact_matches[0].text.strip()
 
     @property
@@ -154,8 +168,16 @@ class VerbAspectDefinitionAndExamples(VerbSubSection):
 class VerbDerivedTerms(VerbSubSection):
     def __init__(self, heading: Tag, section: list[PageElement]):
         super().__init__(heading, section)
-        if not self.section_name == "Derived Terms":
+        if not self.section_name == "Derived terms":
             raise ValueError("Expected derived terms")
+        if len(section) == 1:
+            wrapper = section[0]
+        else:
+            wrapper = ParserUtils.single_element(
+                list(s for s in section if ParserUtils.is_tag_with_class(s, "list-switcher-wrapper"))
+            )
+        elements2 = wrapper.find_all(lang="ru")
+        self.derived_terms = [e.text for e in elements2]
 
 
 class VerbParser:
@@ -204,10 +226,10 @@ class VerbParser:
                     )
                 current_heading = element
                 current_section = []
-            elif ParserUtils.is_new_line(element):
                 continue
-            else:
-                current_section.append(element)
+            if ParserUtils.is_new_line(element):
+                continue
+            current_section.append(element)
         return headings_and_sections
 
     def parse(self):
@@ -220,6 +242,10 @@ class VerbParser:
                 for q in definition.quotes:
                     print(q)
 
+        for ss in [s for s in sub_sections if isinstance(s, VerbDerivedTerms)]:
+            print("Derived terms")
+            for d in ss.derived_terms:
+                print(f"\t{d}")
         return sub_sections
 
     @staticmethod
@@ -231,7 +257,7 @@ class VerbParser:
 
 if __name__ == '__main__':
     paths = Path("/Users/alex/repos/russian-grammar/scraper/verbs/").glob("*.html")
-    for i_path, path in enumerate(list(paths)[74:200]):
+    for i_path, path in enumerate(list(paths)[:100]):
         verb = path.name
         parser = VerbParser.from_file(path)
         print("\n\n*****************")
