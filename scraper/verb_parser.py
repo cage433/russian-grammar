@@ -1,4 +1,3 @@
-from curses import wrapper
 from pathlib import Path
 from typing import Optional
 
@@ -7,7 +6,7 @@ from more_itertools.recipes import flatten
 
 from grammar.conjugation import Conjugation
 from scraper.conjugation_parser import ConjugationParser
-from utils.types import checked_type, checked_list_type, checked_optional_type
+from utils.types import checked_type, checked_list_type
 
 
 class VerbDetails:
@@ -63,6 +62,14 @@ class ParserUtils:
 
         raise ValueError(f"Expected a single elements, got {elements}")
 
+    @staticmethod
+    def maybe_single_element(elements: list[any]) -> Optional[any]:
+        if len(elements) == 1:
+            return elements[0]
+        if len(elements) == 0:
+            return None
+
+        raise ValueError(f"Expected 0 or 1 elements, got {elements}")
 
 class VerbSubSection:
     def __init__(self, heading: Tag, section: list[PageElement]):
@@ -82,7 +89,7 @@ class VerbSubSection:
         heading_title = VerbSubSection.heading_title(tag)
         print(heading_title)
         if heading_title == "Verb" or heading_title.startswith("Verb_"):
-            return VerbAspectDefinitionAndExamples(tag, section)
+            return VerbDefinitionAndExamples(tag, section)
         if heading_title == "Derived terms":
             return VerbDerivedTerms(tag, section)
         if heading_title == "Related terms":
@@ -141,7 +148,7 @@ class VerbDefinition:
             return VerbDefinition(text, list(quotes_and_translations))
 
 
-class VerbAspectDefinitionAndExamples(VerbSubSection):
+class VerbDefinitionAndExamples(VerbSubSection):
     def __init__(self, heading: Tag, section: list[PageElement]):
         super().__init__(heading, section)
         if not self.section_name.startswith("Verb"):
@@ -243,11 +250,11 @@ class VerbParser:
         checked_list_type(elements, PageElement)
         current_section = []
         current_heading: Optional[Tag] = None
-        headings_and_sections = []
+        subsections = []
         for element in elements:
             if self.is_heading(element, level=3) or self.is_heading(element, level=4):
                 if current_heading is not None:
-                    headings_and_sections.append(
+                    subsections.append(
                         VerbSubSection.build(current_heading, current_section)
                     )
                 current_heading = element
@@ -257,35 +264,47 @@ class VerbParser:
                 continue
             current_section.append(element)
         if current_heading is not None:
-            headings_and_sections.append(
+            subsections.append(
                 VerbSubSection.build(current_heading, current_section)
             )
-        return headings_and_sections
+        return subsections
 
-    def parse(self):
+    def parse(self) -> 'VerbAndDefinitions':
+        from language.verb_and_definitions import VerbAndDefinitions
         russian_stuff = self.extract_elements_from_russian_section_in_page()
         sub_sections = self.group_into_sections(russian_stuff)
-        for ss in [s for s in sub_sections if isinstance(s, VerbAspectDefinitionAndExamples)]:
-            print(f"{ss.infinitive}, {ss.aspect}, {ss.correspondents}")
-            for definition in ss.definitions:
-                print(definition.meaning)
-                for q in definition.quotes:
-                    print(q)
-
-        for ss in [s for s in sub_sections if isinstance(s, VerbDerivedTerms)]:
-            print("Derived terms")
-            for d in ss.derived_terms:
-                print(f"\t{d}")
-        for ss in [s for s in sub_sections if isinstance(s, VerbRelatedTerms)]:
-            print("Related terms")
-            for d in ss.related_terms:
-                print(f"\t{d}")
-        for ss in [s for s in sub_sections if isinstance(s, VerbConjugation)]:
-            print("Conjugation")
-            print(f"Infinitive: {ss.conjugation.infinitive}")
-            print(f"Participles:")
-            print(ss.conjugation.participles.to_table())
-        return sub_sections
+        conjugation = ParserUtils.single_element(list(s for s in sub_sections if isinstance(s, VerbConjugation)))
+        definitions = ParserUtils.single_element(list(s for s in sub_sections if isinstance(s, VerbDefinitionAndExamples)))
+        derived_terms = ParserUtils.maybe_single_element(list(s for s in sub_sections if isinstance(s, VerbDerivedTerms)))
+        related_terms = ParserUtils.maybe_single_element(list(s for s in sub_sections if isinstance(s, VerbRelatedTerms)))
+        return VerbAndDefinitions(
+            conjugation.conjugation,
+            definitions,
+            derived_terms,
+            related_terms
+        )
+        #
+        # for ss in [s for s in sub_sections if isinstance(s, VerbDefinitionAndExamples)]:
+        #     print(f"{ss.infinitive}, {ss.aspect}, {ss.correspondents}")
+        #     for definition in ss.definitions:
+        #         print(definition.meaning)
+        #         for q in definition.quotes:
+        #             print(q)
+        #
+        # for ss in [s for s in sub_sections if isinstance(s, VerbDerivedTerms)]:
+        #     print("Derived terms")
+        #     for d in ss.derived_terms:
+        #         print(f"\t{d}")
+        # for ss in [s for s in sub_sections if isinstance(s, VerbRelatedTerms)]:
+        #     print("Related terms")
+        #     for d in ss.related_terms:
+        #         print(f"\t{d}")
+        # for ss in [s for s in sub_sections if isinstance(s, VerbConjugation)]:
+        #     print("Conjugation")
+        #     print(f"Infinitive: {ss.conjugation.infinitive}")
+        #     print(f"Participles:")
+        #     print(ss.conjugation.participles.to_table())
+        # return sub_sections
 
     @staticmethod
     def from_file(path: Path):
@@ -301,4 +320,5 @@ if __name__ == '__main__':
         parser = VerbParser.from_file(path)
         print("\n\n*****************")
         print(f"Parsing {i_path}, {path.name}")
-        more_langs = parser.parse()
+        parsed = parser.parse()
+        print(f"Parsed {parsed.conjugation.infinitive}")
