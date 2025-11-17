@@ -49,24 +49,26 @@ class ParserUtils:
         return isinstance(element, NavigableString) and element.text == '.\n'
 
 class VerbSubSection:
-    def __init__(self, tag: Tag, section: list[PageElement]):
-        self.tag: Tag = checked_type(tag, Tag)
-        self.section = checked_list_type(section, PageElement)
+    def __init__(self, heading: Tag, section: list[Tag]):
+        self.heading: Tag = checked_type(heading, Tag)
+        self.section = checked_list_type(section, Tag)
 
     @property
     def section_name(self) -> str:
-        return self.tag.contents[0].text
+        return self.heading.contents[0].text
 
     @staticmethod
     def heading_title(tag: Tag):
         return tag.contents[0].text
 
     @staticmethod
-    def build(tag: Tag, section: list[PageElement]) -> 'VerbSubSection':
-        if VerbSubSection.heading_title(tag) == "Verb":
+    def build(tag: Tag, section: list[Tag]) -> 'VerbSubSection':
+        heading_title = VerbSubSection.heading_title(tag)
+        if heading_title == "Verb":
             return VerbAspectDefinitionAndExamples(tag, section)
-        else:
-            return VerbSubSection(tag, section)
+        if heading_title == "Derived Terms":
+            return VerbDerivedTerms(tag, section)
+        return VerbSubSection(tag, section)
 
 class QuoteAndTranslation:
     def __init__(self, quote: str, translation: str):
@@ -118,8 +120,8 @@ class VerbDefinition:
 
 
 class VerbAspectDefinitionAndExamples(VerbSubSection):
-    def __init__(self, tag: Tag, section: list[PageElement]):
-        super().__init__(tag, section)
+    def __init__(self, heading: Tag, section: list[PageElement]):
+        super().__init__(heading, section)
         if not self.section_name == "Verb":
             raise ValueError("Expected verb section")
 
@@ -147,6 +149,12 @@ class VerbAspectDefinitionAndExamples(VerbSubSection):
         return [VerbDefinition.from_tag(f) for f in defs]
 
 
+class VerbDerivedTerms(VerbSubSection):
+    def __init__(self, heading: Tag, section: list[PageElement]):
+        super().__init__(heading, section)
+        if not self.section_name == "Derived Terms":
+            raise ValueError("Expected derived terms")
+
 class VerbParser:
     def __init__(self, verb: str, html: str):
         self.verb: str = checked_type(verb, str)
@@ -158,7 +166,7 @@ class VerbParser:
             return True
         return False
 
-    def extract_russian_elements(self):
+    def extract_tags_from_russian_section_in_page(self) -> list[Tag]:
         soup = BeautifulSoup(self.html, 'html.parser')
         contents = soup.find_all(class_="mw-content-ltr mw-parser-output")
         if len(contents) != 1:
@@ -180,11 +188,11 @@ class VerbParser:
             russian_stuff.append(item)
         return russian_stuff
 
-    def group_into_sections(self, russian_stuff) -> list[VerbSubSection]:
+    def group_into_sections(self, elements: list[Tag]) -> list[VerbSubSection]:
         current_section = []
         current_heading = None
         headings_and_sections = []
-        for element in russian_stuff:
+        for element in elements:
             if self.is_heading(element, level=3) or self.is_heading(element, level=4):
                 if current_heading is not None:
                     headings_and_sections.append(
@@ -202,7 +210,7 @@ class VerbParser:
         return tag.contents[0].text
 
     def parse(self):
-        russian_stuff = self.extract_russian_elements()
+        russian_stuff = self.extract_tags_from_russian_section_in_page()
         sub_sections = self.group_into_sections(russian_stuff)
         for ss in [s for s in sub_sections if isinstance(s, VerbAspectDefinitionAndExamples)]:
             print(f"{ss.infinitive}, {ss.aspect}, {ss.correspondents}")
@@ -222,7 +230,7 @@ class VerbParser:
 
 if __name__ == '__main__':
     paths = Path("/Users/alex/repos/russian-grammar/scraper/verbs/").glob("*.html")
-    for i_path, path in enumerate(list(paths)[74:75]):
+    for i_path, path in enumerate(list(paths)[74:200]):
         verb = path.name
         parser = VerbParser.from_file(path)
         print("\n\n*****************")
