@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup, Tag, PageElement, NavigableString
 from more_itertools.recipes import flatten
 
 from grammar.conjugation import Conjugation
+from language.verb.verb_info import QuoteAndTranslation, VerbDefinition, VerbDefinitionAndExamples
 from scraper.conjugation_parser import ConjugationParser
 from utils.types import checked_type, checked_list_type
 
@@ -71,6 +72,7 @@ class ParserUtils:
 
         raise ValueError(f"Expected 0 or 1 elements, got {elements}")
 
+
 class VerbSubSection:
     def __init__(self, heading: Tag, section: list[PageElement]):
         self.heading: Tag = checked_type(heading, Tag)
@@ -89,7 +91,7 @@ class VerbSubSection:
         heading_title = VerbSubSection.heading_title(tag)
         print(heading_title)
         if heading_title == "Verb" or heading_title.startswith("Verb_"):
-            return VerbDefinitionAndExamples(tag, section)
+            return VerbDefinitionAndExamplesParser(tag, section).parse()
         if heading_title == "Derived terms":
             return VerbDerivedTerms(tag, section)
         if heading_title == "Related terms":
@@ -99,17 +101,7 @@ class VerbSubSection:
         return VerbSubSection(tag, section)
 
 
-class QuoteAndTranslation:
-    def __init__(self, quote: str, translation: str):
-        self.quote: str = checked_type(quote, str)
-        self.translation: str = checked_type(translation, str)
-
-    def __str__(self):
-        return f"{self.quote} -- {self.translation}"
-
-    def __repr__(self):
-        return self.__str__()
-
+class QuoteAndTranslationParser:
     @staticmethod
     def from_element(tag: Tag) -> 'list[QuoteAndTranslation]':
         sub_tags = [t for t in tag.contents if isinstance(t, Tag)]
@@ -124,11 +116,7 @@ class QuoteAndTranslation:
         return result
 
 
-class VerbDefinition:
-    def __init__(self, meaning: str, quotes: list[QuoteAndTranslation]):
-        self.meaning: str = checked_type(meaning, str)
-        self.quotes: list[QuoteAndTranslation] = checked_list_type(quotes, QuoteAndTranslation)
-
+class VerbDefinitionParser:
     @staticmethod
     def from_tag(tag: Tag):
         contents = tag.contents
@@ -144,19 +132,27 @@ class VerbDefinition:
             texts = [t.text for t in contents[:i_new_lines[0]]]
             text = "".join(texts)
             quote_tags = [t for t in contents[i_new_lines[0] + 1:] if isinstance(t, Tag)]
-            quotes_and_translations = flatten([QuoteAndTranslation.from_element(tag) for tag in quote_tags])
+            quotes_and_translations = flatten([QuoteAndTranslationParser.from_element(tag) for tag in quote_tags])
             return VerbDefinition(text, list(quotes_and_translations))
 
 
-class VerbDefinitionAndExamples(VerbSubSection):
+class VerbDefinitionAndExamplesParser(VerbSubSection):
     def __init__(self, heading: Tag, section: list[PageElement]):
         super().__init__(heading, section)
         if not self.section_name.startswith("Verb"):
             raise ValueError("Expected verb section")
 
+    def parse(self) -> VerbDefinitionAndExamples:
+        return VerbDefinitionAndExamples(
+            self.infinitive,
+            self.aspect,
+            self.correspondents,
+            self.definitions
+        )
+
     @property
     def infinitive(self) -> str:
-        potential_matches = flatten(s.find_all(class_="Cyrl") for s in self.section)
+        potential_matches = flatten(s.find_all(class_="Cyrl") for s in self.section if isinstance(s, Tag))
 
         exact_matches = [c for c in potential_matches
                          if ParserUtils.is_tag_of_class(c, ["Cyrl", "headword"])
@@ -167,7 +163,7 @@ class VerbDefinitionAndExamples(VerbSubSection):
 
     @property
     def aspect(self) -> str:
-        matches = list(flatten(s.find_all(class_="gender") for s in self.section))
+        matches = list(flatten(s.find_all(class_="gender") for s in self.section if isinstance(s, Tag)))
         if len(matches) > 0:
             return matches[0].text
         raise ValueError("No aspect found")
@@ -179,9 +175,9 @@ class VerbDefinitionAndExamples(VerbSubSection):
         return [c.text.strip() for c in exact_matches]
 
     @property
-    def definitions(self):
+    def definitions(self) -> list[VerbDefinition]:
         defs = self.section[1].find_all('li', recursive=False)
-        return [VerbDefinition.from_tag(f) for f in defs]
+        return [VerbDefinitionParser.from_tag(f) for f in defs]
 
 
 class VerbDerivedTerms(VerbSubSection):
@@ -204,7 +200,7 @@ class VerbRelatedTerms(VerbSubSection):
                               for e in s.find_all(lang="ru")]
 
 
-class VerbConjugation(VerbSubSection):
+class VerbConjugationParser(VerbSubSection):
     def __init__(self, heading: Tag, section: list[PageElement]):
         super().__init__(heading, section)
         frames = []
@@ -213,12 +209,14 @@ class VerbConjugation(VerbSubSection):
                 frames.append(s)
             elif isinstance(s, Tag):
                 frames += s.find_all("div", {"class", 'NavFrame'})
-        # frames = list(flatten(s.find_all("div", {"class": 'NavFrame'}) for s in section if isinstance(s, Tag)))
         matching_frames = [f for f in frames if
                            "Conjugation of" in f.text and "fective" in f.text and "class" in f.text and "reform" not in f.text]
         self.conjugation_frame = matching_frames[0]
         parser = ConjugationParser(self.conjugation_frame)
         self.conjugation: Conjugation = parser.parse_conjugation_from_soup
+
+    def parse(self) -> Conjugation:
+        return self.conjugation
 
 
 class VerbParser:
@@ -241,70 +239,94 @@ class VerbParser:
         for item in russian_heading.next_siblings:
             if item in language_headings:
                 break
-            if self.is_heading(item, level=3) and item.text.startswith("Etymology 2"):
+            if self.verb in ["навести.html", "вырасти.html", "есть.html", "расти.html"] and self.is_heading(item,
+                                                                                              level=3) and item.text.startswith(
+                    "Etymology 2"):
                 break
             russian_stuff.append(item)
         return russian_stuff
 
-    def group_into_sections(self, elements: list[PageElement]) -> list[VerbSubSection]:
+    def group_into_sections(self, elements: list[PageElement]) -> 'list[VerbAndDefinitions]':
+        from language.verb_and_definitions import VerbAndDefinitions
+        conjugations: list[Conjugation] = []
+        definitions: list[VerbDefinitionAndExamples] = []
+        derived_terms: list[list[str]] = []
+        related_terms: list[list[str]] = []
         checked_list_type(elements, PageElement)
         current_section = []
         current_heading: Optional[Tag] = None
-        subsections = []
+
         for element in elements:
-            if self.is_heading(element, level=3) or self.is_heading(element, level=4):
+            if self.is_heading(element, level=3) or self.is_heading(element, level=4) or self.is_heading(element,
+                                                                                                         level=5):
                 if current_heading is not None:
-                    subsections.append(
-                        VerbSubSection.build(current_heading, current_section)
-                    )
+                    heading_title = VerbSubSection.heading_title(current_heading)
+                    if heading_title == "Verb" or heading_title.startswith("Verb_"):
+                        if len(derived_terms) < len(definitions):
+                            derived_terms.append([])
+                        if len(related_terms) < len(definitions):
+                            related_terms.append([])
+                        definitions.append(VerbDefinitionAndExamplesParser(current_heading, current_section).parse())
+                    if heading_title == "Derived terms":
+                        derived_terms.append([e.text
+                                              for s in current_section if isinstance(s, Tag)
+                                              for e in s.find_all(lang="ru")])
+                    if heading_title == "Related terms":
+                        related_terms.append([e.text
+                                              for s in current_section if isinstance(s, Tag)
+                                              for e in s.find_all(lang="ru")])
+                    if heading_title == "Conjugation":
+                        conjugations.append(VerbConjugationParser(current_heading, current_section).parse())
                 current_heading = element
                 current_section = []
                 continue
             if ParserUtils.is_new_line(element):
                 continue
             current_section.append(element)
-        if current_heading is not None:
-            subsections.append(
-                VerbSubSection.build(current_heading, current_section)
-            )
-        return subsections
 
-    def parse(self) -> 'VerbAndDefinitions':
-        from language.verb_and_definitions import VerbAndDefinitions
+        if current_heading is not None:
+            heading_title = VerbSubSection.heading_title(current_heading)
+            if heading_title == "Verb" or heading_title.startswith("Verb_"):
+                if len(derived_terms) < len(definitions):
+                    derived_terms.append([])
+                if len(related_terms) < len(definitions):
+                    related_terms.append([])
+                definitions.append(VerbDefinitionAndExamplesParser(current_heading, current_section).parse())
+            if heading_title == "Derived terms":
+                derived_terms.append([e.text
+                                      for s in current_section if isinstance(s, Tag)
+                                      for e in s.find_all(lang="ru")])
+            if heading_title == "Related terms":
+                related_terms.append([e.text
+                                      for s in current_section if isinstance(s, Tag)
+                                      for e in s.find_all(lang="ru")])
+            if heading_title == "Conjugation":
+                conjugations.append(VerbConjugationParser(current_heading, current_section).parse())
+        if len(derived_terms) < len(definitions):
+            derived_terms.append([])
+        if len(related_terms) < len(definitions):
+            related_terms.append([])
+        assert len(conjugations) == len(definitions), "Mismatching definitions and conjugations"
+        assert len(conjugations) > 0, "No conjugations"
+        result = [
+            VerbAndDefinitions(
+                d.infinitive,
+                d.aspect,
+                d.correspondents,
+                c,
+                d.definitions,
+                derived,
+                related
+            )
+            for c, d, derived, related in zip(conjugations, definitions, derived_terms, related_terms)
+        ]
+        assert len(result) > 0, "No result"
+        return result
+
+    def parse(self) -> 'list[VerbAndDefinitions]':
         russian_stuff = self.extract_elements_from_russian_section_in_page()
-        sub_sections = self.group_into_sections(russian_stuff)
-        conjugation = ParserUtils.single_element(list(s for s in sub_sections if isinstance(s, VerbConjugation)))
-        definitions = ParserUtils.single_element(list(s for s in sub_sections if isinstance(s, VerbDefinitionAndExamples)))
-        derived_terms = ParserUtils.maybe_single_element(list(s for s in sub_sections if isinstance(s, VerbDerivedTerms)))
-        related_terms = ParserUtils.maybe_single_element(list(s for s in sub_sections if isinstance(s, VerbRelatedTerms)))
-        return VerbAndDefinitions(
-            conjugation.conjugation,
-            definitions,
-            derived_terms,
-            related_terms
-        )
-        #
-        # for ss in [s for s in sub_sections if isinstance(s, VerbDefinitionAndExamples)]:
-        #     print(f"{ss.infinitive}, {ss.aspect}, {ss.correspondents}")
-        #     for definition in ss.definitions:
-        #         print(definition.meaning)
-        #         for q in definition.quotes:
-        #             print(q)
-        #
-        # for ss in [s for s in sub_sections if isinstance(s, VerbDerivedTerms)]:
-        #     print("Derived terms")
-        #     for d in ss.derived_terms:
-        #         print(f"\t{d}")
-        # for ss in [s for s in sub_sections if isinstance(s, VerbRelatedTerms)]:
-        #     print("Related terms")
-        #     for d in ss.related_terms:
-        #         print(f"\t{d}")
-        # for ss in [s for s in sub_sections if isinstance(s, VerbConjugation)]:
-        #     print("Conjugation")
-        #     print(f"Infinitive: {ss.conjugation.infinitive}")
-        #     print(f"Participles:")
-        #     print(ss.conjugation.participles.to_table())
-        # return sub_sections
+        result = self.group_into_sections(russian_stuff)
+        return result
 
     @staticmethod
     def from_file(path: Path):
@@ -321,4 +343,5 @@ if __name__ == '__main__':
         print("\n\n*****************")
         print(f"Parsing {i_path}, {path.name}")
         parsed = parser.parse()
-        print(f"Parsed {parsed.conjugation.infinitive}")
+        infs = [p.conjugation.infinitive for p in parsed]
+        print(f"Parsed {infs}")

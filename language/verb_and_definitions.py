@@ -1,18 +1,22 @@
-from typing import Optional
-
 from grammar.conjugation import Conjugation
-from scraper.verb_parser import VerbDefinitionAndExamples, VerbRelatedTerms, VerbDerivedTerms
-from utils.types import checked_type, checked_optional_type
+from language.verb.verb_info import VerbDefinition
+from utils.types import checked_type, checked_list_type
 
 
 class VerbAndDefinitions:
     def __init__(
             self,
+            infinitive: str,
+            aspect: str,
+            correspondents: list[str],
             conjugation: Conjugation,
-            definitions: VerbDefinitionAndExamples,
-            derivedTerms: Optional[VerbDerivedTerms],
-            relatedTerms: Optional[VerbRelatedTerms]):
+            definitions: list[VerbDefinition],
+            derivedTerms: list[str],
+            relatedTerms: list[str]):
+        self.infinitive: str = checked_type(infinitive, str)
+        self.aspect: str = checked_type(aspect, str)
+        self.correspondents: list[str] = checked_list_type(correspondents, str)
         self.conjugation: Conjugation = checked_type(conjugation, Conjugation)
-        self.definitions: VerbDefinitionAndExamples = checked_type(definitions, VerbDefinitionAndExamples)
-        self.derivedTerms: Optional[VerbDerivedTerms] = checked_optional_type(derivedTerms, VerbDerivedTerms)
-        self.relatedTerms: Optional[VerbRelatedTerms] = checked_optional_type(relatedTerms, VerbRelatedTerms)
+        self.definitions: list[VerbDefinition] = checked_list_type(definitions, VerbDefinition)
+        self.derivedTerms: list[str] = checked_list_type(derivedTerms, str)
+        self.relatedTerms: list[str] = checked_list_type(relatedTerms, str)
