@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup, Tag, PageElement, NavigableString
 from more_itertools.recipes import flatten
 
 from grammar.conjugation import Conjugation
+from language.verb.verb_identifier import VerbIdentifier
 from language.verb.verb_info import QuoteAndTranslation, VerbDefinition, VerbDefinitionAndExamples
 from language.verb_and_definitions import VerbAndDefinitions
 from scraper.conjugation_parser import ConjugationParser
@@ -133,23 +134,17 @@ class VerbDefinitionParser:
             return VerbDefinition(text, list(quotes_and_translations))
 
 
-class VerbDefinitionAndExamplesParser(VerbSubSection):
-    def __init__(self, heading: Tag, section: list[PageElement]):
-        super().__init__(heading, section)
-        if not self.section_name.startswith("Verb"):
-            raise ValueError("Expected verb section")
-
-    def parse(self) -> VerbDefinitionAndExamples:
-        return VerbDefinitionAndExamples(
-            self.infinitive,
-            self.aspect,
-            self.correspondents,
-            self.definitions
+class VerbIdentifierParser:
+    @staticmethod
+    def identifier(section: list[PageElement]) -> VerbIdentifier:
+        return VerbIdentifier(
+            VerbIdentifierParser.infinitive(section),
+            VerbIdentifierParser.aspect(section)
         )
 
-    @property
-    def infinitive(self) -> str:
-        potential_matches = flatten(s.find_all(class_="Cyrl") for s in self.section if isinstance(s, Tag))
+    @staticmethod
+    def infinitive(section: list[PageElement]) -> str:
+        potential_matches = flatten(s.find_all(class_="Cyrl") for s in section if isinstance(s, Tag))
 
         exact_matches = [c for c in potential_matches
                          if ParserUtils.is_tag_of_class(c, ["Cyrl", "headword"])
@@ -158,23 +153,38 @@ class VerbDefinitionAndExamplesParser(VerbSubSection):
             raise ValueError(f"Couldn't find infinitive, exact matches is {exact_matches}")
         return exact_matches[0].text.strip()
 
-    @property
-    def aspect(self) -> str:
-        matches = list(flatten(s.find_all(class_="gender") for s in self.section if isinstance(s, Tag)))
+
+    @staticmethod
+    def aspect(section: list[PageElement]) -> str:
+        matches = list(flatten(s.find_all(class_="gender") for s in section if isinstance(s, Tag)))
         if len(matches) > 0:
             return matches[0].text
         raise ValueError("No aspect found")
 
-    @property
-    def correspondents(self) -> list[str]:
-        potential_matches = self.section[0].find_all(class_="Cyrl")
+
+class VerbCorrespondentsParser:
+    @staticmethod
+    def correspondents(tag: Tag) -> list[str]:
+        potential_matches = tag.find_all(class_="Cyrl")
         exact_matches = [c for c in potential_matches if ParserUtils.is_tag_of_class(c, ["Cyrl"])]
         return [c.text.strip() for c in exact_matches]
 
-    @property
-    def definitions(self) -> list[VerbDefinition]:
-        defs = self.section[1].find_all('li', recursive=False)
+class VerbDefinitionsParser:
+    @staticmethod
+    def definitions(tag: Tag) -> list[VerbDefinition]:
+        defs = tag.find_all('li', recursive=False)
         return [VerbDefinitionParser.from_tag(f) for f in defs]
+# class VerbIdentifierCorrespondentsAndDefinitionsParser:
+#     @staticmethod
+#     def correspondents(tag: Tag) -> list[str]:
+#         potential_matches = tag.find_all(class_="Cyrl")
+#         exact_matches = [c for c in potential_matches if ParserUtils.is_tag_of_class(c, ["Cyrl"])]
+#         return [c.text.strip() for c in exact_matches]
+#
+#     @staticmethod
+#     def definitions(tag: Tag) -> list[VerbDefinition]:
+#         defs = tag.find_all('li', recursive=False)
+#         return [VerbDefinitionParser.from_tag(f) for f in defs]
 
 
 class VerbDerivedTerms(VerbSubSection):
@@ -221,7 +231,10 @@ class VerbAndDefinitionCollector:
         self.collected: list[VerbAndDefinitions] = []
         self.current_heading: Optional[Tag] = None
         self.current_section: list[PageElement] = []
-        self.current_definition_and_examples: Optional[VerbDefinitionAndExamples] = None
+        self.current_identifier: Optional[VerbIdentifier] = None
+        self.current_correspondents: list[str] = []
+        self.current_definitions: list[VerbDefinition] = []
+
         self.current_conjugation: Optional[Conjugation] = None
         self.current_derived_terms: list[str] = []
         self.current_related_terms: list[str] = []
@@ -231,10 +244,11 @@ class VerbAndDefinitionCollector:
             heading_title = VerbSubSection.heading_title(self.current_heading)
             print(heading_title)
             if heading_title == "Verb" or heading_title.startswith("Verb_"):
-                if self.current_definition_and_examples is not None:
+                if self.current_identifier is not None:
                     self.collect()
-                self.set_current_definition(
-                    VerbDefinitionAndExamplesParser(self.current_heading, self.current_section).parse())
+                self.set_current_identifier(VerbIdentifierParser.identifier(self.current_section))
+                self.current_correspondents = VerbCorrespondentsParser.correspondents(self.current_section[0])
+                self.current_definitions = VerbDefinitionsParser.definitions(self.current_section[1])
             if heading_title == "Conjugation":
                 self.set_current_conjugation(VerbConjugationParser(self.current_heading, self.current_section).parse())
             if heading_title == "Derived terms":
@@ -258,28 +272,29 @@ class VerbAndDefinitionCollector:
             self.current_section.append(element)
 
     def collect(self):
-        assert self.current_definition_and_examples is not None, "Have no current definition"
+        assert self.current_identifier is not None, "Have no current identifier"
         assert self.current_conjugation is not None, "Have no current conjugation"
         self.collected.append(
             VerbAndDefinitions(
-                self.current_definition_and_examples.infinitive,
-                self.current_definition_and_examples.aspect,
-                self.current_definition_and_examples.correspondents,
+                self.current_identifier,
+                self.current_correspondents,
                 self.current_conjugation,
-                self.current_definition_and_examples.definitions,
+                self.current_definitions,
                 self.current_derived_terms,
                 self.current_related_terms
             )
         )
-        self.current_definition_and_examples = None
+        self.current_identifier = None
+        self.current_correspondents = []
         self.current_conjugation = None
+        self.current_definitions = []
         self.current_derived_terms = []
         self.current_related_terms = []
 
-    def set_current_definition(self, definition: VerbDefinitionAndExamples):
-        if self.current_definition_and_examples is not None:
+    def set_current_identifier(self, identifier: VerbIdentifier):
+        if self.current_identifier is not None:
             self.collect()
-        self.current_definition_and_examples = definition
+        self.current_identifier = identifier
 
     def set_current_conjugation(self, conjugation: Conjugation):
         assert self.current_conjugation is None, "Already have conjugation"
