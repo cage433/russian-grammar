@@ -5,6 +5,8 @@ from typing import Optional
 from bs4 import BeautifulSoup, Tag, PageElement, NavigableString
 from more_itertools.recipes import flatten
 
+from grammar.conjugation import Conjugation
+from scraper.conjugation_parser import ConjugationParser
 from utils.types import checked_type, checked_list_type, checked_optional_type
 
 
@@ -85,6 +87,8 @@ class VerbSubSection:
             return VerbDerivedTerms(tag, section)
         if heading_title == "Related terms":
             return VerbRelatedTerms(tag, section)
+        if heading_title == "Conjugation":
+            return VerbConjugation(tag, section)
         return VerbSubSection(tag, section)
 
 
@@ -181,14 +185,7 @@ class VerbDerivedTerms(VerbSubSection):
         self.derived_terms = [e.text
                               for s in section if isinstance(s, Tag)
                               for e in s.find_all(lang="ru")]
-        # # Ignore (e.g.) any notes sections
-        # if len(section) == 1:
-        #     wrapper = section[0]
-        # else:
-        #     wrapper = ParserUtils.single_element(
-        #         list(s for s in section if ParserUtils.is_tag_with_class(s, "list-switcher-wrapper"))
-        #     )
-        # self.derived_terms = [e.text for e in wrapper.find_all(lang="ru")]
+
 
 class VerbRelatedTerms(VerbSubSection):
     def __init__(self, heading: Tag, section: list[PageElement]):
@@ -198,6 +195,24 @@ class VerbRelatedTerms(VerbSubSection):
         self.related_terms = [e.text
                               for s in section if isinstance(s, Tag)
                               for e in s.find_all(lang="ru")]
+
+
+class VerbConjugation(VerbSubSection):
+    def __init__(self, heading: Tag, section: list[PageElement]):
+        super().__init__(heading, section)
+        frames = []
+        for s in self.section:
+            if ParserUtils.is_tag_of_class(s, ["NavFrame"]):
+                frames.append(s)
+            elif isinstance(s, Tag):
+                frames += s.find_all("div", {"class", 'NavFrame'})
+        # frames = list(flatten(s.find_all("div", {"class": 'NavFrame'}) for s in section if isinstance(s, Tag)))
+        matching_frames = [f for f in frames if
+                           "Conjugation of" in f.text and "fective" in f.text and "class" in f.text and "reform" not in f.text]
+        self.conjugation_frame = matching_frames[0]
+        parser = ConjugationParser(self.conjugation_frame)
+        self.conjugation: Conjugation = parser.parse_conjugation_from_soup
+
 
 class VerbParser:
     def __init__(self, verb: str, html: str):
@@ -213,13 +228,6 @@ class VerbParser:
     def extract_elements_from_russian_section_in_page(self) -> list[PageElement]:
         soup = BeautifulSoup(self.html, 'html.parser')
         content = ParserUtils.single_element(soup.find_all(class_="mw-content-ltr mw-parser-output"))
-        def get_language_headings():
-            headings = content.find_all(class_="mw-heading mw-heading2")
-            parent = ParserUtils.single_element(list(set(l.parent for l in headings))).extract()
-            headings_check = [c for c in parent.contents if self.is_heading(c, level=2)]
-            if headings != headings_check:
-                raise ValueError(f"Unexpected headings")
-            return headings
         language_headings = content.find_all(class_="mw-heading mw-heading2")
         russian_heading = ParserUtils.single_element([h for h in language_headings if h.contents[0].text == "Russian"])
         russian_stuff = []
@@ -272,6 +280,11 @@ class VerbParser:
             print("Related terms")
             for d in ss.related_terms:
                 print(f"\t{d}")
+        for ss in [s for s in sub_sections if isinstance(s, VerbConjugation)]:
+            print("Conjugation")
+            print(f"Infinitive: {ss.conjugation.infinitive}")
+            print(f"Participles:")
+            print(ss.conjugation.participles.to_table())
         return sub_sections
 
     @staticmethod

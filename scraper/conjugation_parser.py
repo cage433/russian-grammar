@@ -15,17 +15,8 @@ from utils.types import checked_type
 class ConjugationParser:
     zaliznyak_class_re = re.compile(r'class (.*) (?:im)?perfective')
 
-    def __init__(self, soup: BeautifulSoup):
-        self.soup: BeautifulSoup = checked_type(soup, BeautifulSoup)
-
-    @cached_property
-    def conjugation_frame(self) -> Optional[BeautifulSoup]:
-        frames = self.soup.body.find_all("div", {"class": 'NavFrame'})
-        matching_frames = [f for f in frames if
-                           "Conjugation of" in f.text and "fective" in f.text and "class" in f.text]
-        if matching_frames == []:
-            return None
-        return matching_frames[0]
+    def __init__(self, conjugation_frame: Tag):
+        self.conjugation_frame: Tag = checked_type(conjugation_frame, Tag)
 
     @cached_property
     def table_header(self):
