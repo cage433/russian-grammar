@@ -1,3 +1,4 @@
+import shelve
 from pathlib import Path
 from typing import Optional
 
@@ -7,7 +8,7 @@ from more_itertools.recipes import flatten
 from grammar.conjugation import Conjugation
 from language.verb.verb_identifier import VerbIdentifier
 from language.verb.verb_info import QuoteAndTranslation, VerbDefinition, VerbDefinitionAndExamples
-from language.verb_and_definitions import VerbAndDefinitions
+from language.wikipedia_verb_info import WikipediaVerbInfo
 from scraper.conjugation_parser import ConjugationParser
 from utils.types import checked_type, checked_list_type
 
@@ -84,20 +85,9 @@ class ParserUtils:
     def is_heading_in_range(element: PageElement, low_level: int, high_level: int) -> bool:
         return any(ParserUtils.is_heading(element, level) for level in range(low_level, high_level + 1))
 
-
-class VerbSubSection:
-    def __init__(self, heading: Tag, section: list[PageElement]):
-        self.heading: Tag = checked_type(heading, Tag)
-        self.section = checked_list_type(section, PageElement)
-
-    @property
-    def section_name(self) -> str:
-        return self.heading.contents[0].text
-
     @staticmethod
     def heading_title(tag: Tag):
         return tag.contents[0].text
-
 
 class QuoteAndTranslationParser:
     @staticmethod
@@ -174,61 +164,28 @@ class VerbDefinitionsParser:
     def definitions(tag: Tag) -> list[VerbDefinition]:
         defs = tag.find_all('li', recursive=False)
         return [VerbDefinitionParser.from_tag(f) for f in defs]
-# class VerbIdentifierCorrespondentsAndDefinitionsParser:
-#     @staticmethod
-#     def correspondents(tag: Tag) -> list[str]:
-#         potential_matches = tag.find_all(class_="Cyrl")
-#         exact_matches = [c for c in potential_matches if ParserUtils.is_tag_of_class(c, ["Cyrl"])]
-#         return [c.text.strip() for c in exact_matches]
-#
-#     @staticmethod
-#     def definitions(tag: Tag) -> list[VerbDefinition]:
-#         defs = tag.find_all('li', recursive=False)
-#         return [VerbDefinitionParser.from_tag(f) for f in defs]
 
 
-class VerbDerivedTerms(VerbSubSection):
-    def __init__(self, heading: Tag, section: list[PageElement]):
-        super().__init__(heading, section)
-        if not self.section_name == "Derived terms":
-            raise ValueError("Expected derived terms")
-        self.derived_terms = [e.text
-                              for s in section if isinstance(s, Tag)
-                              for e in s.find_all(lang="ru")]
 
-
-class VerbRelatedTerms(VerbSubSection):
-    def __init__(self, heading: Tag, section: list[PageElement]):
-        super().__init__(heading, section)
-        if not self.section_name == "Related terms":
-            raise ValueError("Expected related terms")
-        self.related_terms = [e.text
-                              for s in section if isinstance(s, Tag)
-                              for e in s.find_all(lang="ru")]
-
-
-class VerbConjugationParser(VerbSubSection):
-    def __init__(self, heading: Tag, section: list[PageElement]):
-        super().__init__(heading, section)
+class VerbConjugationParser:
+    @staticmethod
+    def parse(section: list[PageElement]) -> Conjugation:
         frames = []
-        for s in self.section:
+        for s in section:
             if ParserUtils.is_tag_of_class(s, ["NavFrame"]):
                 frames.append(s)
             elif isinstance(s, Tag):
                 frames += s.find_all("div", {"class", 'NavFrame'})
         matching_frames = [f for f in frames if
                            "Conjugation of" in f.text and "fective" in f.text and "class" in f.text and "reform" not in f.text]
-        self.conjugation_frame = matching_frames[0]
-        parser = ConjugationParser(self.conjugation_frame)
-        self.conjugation: Conjugation = parser.parse_conjugation_from_soup
-
-    def parse(self) -> Conjugation:
-        return self.conjugation
+        conjugation_frame = matching_frames[0]
+        parser = ConjugationParser(conjugation_frame)
+        return parser.parse_conjugation_from_soup
 
 
 class VerbAndDefinitionCollector:
     def __init__(self):
-        self.collected: list[VerbAndDefinitions] = []
+        self.collected: list[WikipediaVerbInfo] = []
         self.current_heading: Optional[Tag] = None
         self.current_section: list[PageElement] = []
         self.current_identifier: Optional[VerbIdentifier] = None
@@ -241,8 +198,7 @@ class VerbAndDefinitionCollector:
 
     def process_current_state(self):
         if self.current_heading is not None:
-            heading_title = VerbSubSection.heading_title(self.current_heading)
-            print(heading_title)
+            heading_title = ParserUtils.heading_title(self.current_heading)
             if heading_title == "Verb" or heading_title.startswith("Verb_"):
                 if self.current_identifier is not None:
                     self.collect()
@@ -250,7 +206,7 @@ class VerbAndDefinitionCollector:
                 self.current_correspondents = VerbCorrespondentsParser.correspondents(self.current_section[0])
                 self.current_definitions = VerbDefinitionsParser.definitions(self.current_section[1])
             if heading_title == "Conjugation":
-                self.set_current_conjugation(VerbConjugationParser(self.current_heading, self.current_section).parse())
+                self.set_current_conjugation(VerbConjugationParser.parse(self.current_section))
             if heading_title == "Derived terms":
                 self.set_derived_terms([e.text
                                         for s in self.current_section if isinstance(s, Tag)
@@ -275,7 +231,7 @@ class VerbAndDefinitionCollector:
         assert self.current_identifier is not None, "Have no current identifier"
         assert self.current_conjugation is not None, "Have no current conjugation"
         self.collected.append(
-            VerbAndDefinitions(
+            WikipediaVerbInfo(
                 self.current_identifier,
                 self.current_correspondents,
                 self.current_conjugation,
@@ -309,13 +265,13 @@ class VerbAndDefinitionCollector:
         self.current_related_terms += related_terms
 
 
-class VerbParser:
-    def __init__(self, verb: str, html: str):
+class WikipediaVerbInfoParser:
+    def __init__(self, verb: str, page_html: str):
         self.verb: str = checked_type(verb, str)
-        self.html: str = checked_type(html, str)
+        self.page_html: str = checked_type(page_html, str)
 
-    def extract_elements_from_russian_section_in_page(self) -> list[PageElement]:
-        soup = BeautifulSoup(self.html, 'html.parser')
+    def _russian_section_page_elements(self) -> list[PageElement]:
+        soup = BeautifulSoup(self.page_html, 'html.parser')
         content = ParserUtils.single_element(soup.find_all(class_="mw-content-ltr mw-parser-output"))
         language_headings = content.find_all(class_="mw-heading mw-heading2")
         russian_heading = ParserUtils.single_element([h for h in language_headings if h.contents[0].text == "Russian"])
@@ -336,7 +292,7 @@ class VerbParser:
             russian_stuff.append(item)
         return russian_stuff
 
-    def group_into_sections(self, elements: list[PageElement]) -> 'list[VerbAndDefinitions]':
+    def _from_page_elements(self, elements: list[PageElement]) -> 'list[WikipediaVerbInfo]':
         collector = VerbAndDefinitionCollector()
         checked_list_type(elements, PageElement)
 
@@ -347,25 +303,36 @@ class VerbParser:
 
         return collector.collected
 
-    def parse(self) -> 'list[VerbAndDefinitions]':
-        russian_stuff = self.extract_elements_from_russian_section_in_page()
-        result = self.group_into_sections(russian_stuff)
+    def parse(self) -> 'list[WikipediaVerbInfo]':
+        russian_stuff = self._russian_section_page_elements()
+        result = self._from_page_elements(russian_stuff)
         return result
 
     @staticmethod
-    def from_file(path: Path):
+    def from_file(path: Path) -> 'list[WikipediaVerbInfo]':
         with open(path) as p:
             html = p.read()
-        return VerbParser(path.stem, html)
+        return WikipediaVerbInfoParser(path.stem, html).parse()
 
+
+    SHELF_PATH = Path(__file__).parent / "_verb_info.shelf"
+
+    @staticmethod
+    def from_locally_downloaded_pages(force: bool) -> list[WikipediaVerbInfo]:
+        path = Path(__file__).parent / "wikipedia_pages"
+        key = "Verb Definitions"
+        with shelve.open(str(WikipediaVerbInfoParser.SHELF_PATH)) as shelf:
+            if key not in shelf or force:
+                html_files = list(path.glob('*.html'))
+                verbs_and_definitions = []
+                for i, f in enumerate(html_files):
+                    print(f"Processing {i}, {f.stem}")
+                    verbs_and_definitions += WikipediaVerbInfoParser.from_file(f)
+                shelf[key] = verbs_and_definitions
+            return shelf[key]
 
 if __name__ == '__main__':
-    paths = Path("/Users/alex/repos/russian-grammar/scraper/wikipedia_pages/").glob("*.html")
-    for i_path, path in enumerate(list(paths)):
-        verb = path.name
-        parser = VerbParser.from_file(path)
-        print("\n\n*****************")
-        print(f"Parsing {i_path}, {path.name}")
-        parsed = parser.parse()
-        infs = [p.conjugation.infinitive for p in parsed]
-        print(f"Parsed {infs}")
+    verbs_and_definitions = WikipediaVerbInfoParser.from_locally_downloaded_pages(force=False)
+    for p in verbs_and_definitions:
+        print(p.identifier.infinitive)
+

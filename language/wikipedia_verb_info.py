@@ -4,7 +4,7 @@ from language.verb.verb_info import VerbDefinition
 from utils.types import checked_type, checked_list_type
 
 
-class VerbAndDefinitions:
+class WikipediaVerbInfo:
     def __init__(
             self,
             identifier: VerbIdentifier,
