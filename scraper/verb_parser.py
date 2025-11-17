@@ -79,10 +79,12 @@ class VerbSubSection:
     def build(tag: Tag, section: list[PageElement]) -> 'VerbSubSection':
         heading_title = VerbSubSection.heading_title(tag)
         print(heading_title)
-        if heading_title == "Verb":
+        if heading_title == "Verb" or heading_title.startswith("Verb_"):
             return VerbAspectDefinitionAndExamples(tag, section)
         if heading_title == "Derived terms":
             return VerbDerivedTerms(tag, section)
+        if heading_title == "Related terms":
+            return VerbRelatedTerms(tag, section)
         return VerbSubSection(tag, section)
 
 
@@ -138,20 +140,26 @@ class VerbDefinition:
 class VerbAspectDefinitionAndExamples(VerbSubSection):
     def __init__(self, heading: Tag, section: list[PageElement]):
         super().__init__(heading, section)
-        if not self.section_name == "Verb":
+        if not self.section_name.startswith("Verb"):
             raise ValueError("Expected verb section")
 
     @property
     def infinitive(self) -> str:
-        potential_matches = self.section[0].find_all(class_="Cyrl")
-        exact_matches = [c for c in potential_matches if ParserUtils.is_tag_of_class(c, ["Cyrl", "headword"])]
+        potential_matches = flatten(s.find_all(class_="Cyrl") for s in self.section)
+
+        exact_matches = [c for c in potential_matches
+                         if ParserUtils.is_tag_of_class(c, ["Cyrl", "headword"])
+                         ]
         if not len(exact_matches) == 1:
             raise ValueError(f"Couldn't find infinitive, exact matches is {exact_matches}")
         return exact_matches[0].text.strip()
 
     @property
     def aspect(self) -> str:
-        return self.section[0].find(class_="gender").text
+        matches = list(flatten(s.find_all(class_="gender") for s in self.section))
+        if len(matches) > 0:
+            return matches[0].text
+        raise ValueError("No aspect found")
 
     @property
     def correspondents(self) -> list[str]:
@@ -170,15 +178,26 @@ class VerbDerivedTerms(VerbSubSection):
         super().__init__(heading, section)
         if not self.section_name == "Derived terms":
             raise ValueError("Expected derived terms")
-        if len(section) == 1:
-            wrapper = section[0]
-        else:
-            wrapper = ParserUtils.single_element(
-                list(s for s in section if ParserUtils.is_tag_with_class(s, "list-switcher-wrapper"))
-            )
-        elements2 = wrapper.find_all(lang="ru")
-        self.derived_terms = [e.text for e in elements2]
+        self.derived_terms = [e.text
+                              for s in section if isinstance(s, Tag)
+                              for e in s.find_all(lang="ru")]
+        # # Ignore (e.g.) any notes sections
+        # if len(section) == 1:
+        #     wrapper = section[0]
+        # else:
+        #     wrapper = ParserUtils.single_element(
+        #         list(s for s in section if ParserUtils.is_tag_with_class(s, "list-switcher-wrapper"))
+        #     )
+        # self.derived_terms = [e.text for e in wrapper.find_all(lang="ru")]
 
+class VerbRelatedTerms(VerbSubSection):
+    def __init__(self, heading: Tag, section: list[PageElement]):
+        super().__init__(heading, section)
+        if not self.section_name == "Related terms":
+            raise ValueError("Expected related terms")
+        self.related_terms = [e.text
+                              for s in section if isinstance(s, Tag)
+                              for e in s.find_all(lang="ru")]
 
 class VerbParser:
     def __init__(self, verb: str, html: str):
@@ -193,22 +212,21 @@ class VerbParser:
 
     def extract_elements_from_russian_section_in_page(self) -> list[PageElement]:
         soup = BeautifulSoup(self.html, 'html.parser')
-        contents = soup.find_all(class_="mw-content-ltr mw-parser-output")
-        if len(contents) != 1:
-            raise ValueError(f"Unexpected content for {self.verb}")
-        content = contents[0]
+        content = ParserUtils.single_element(soup.find_all(class_="mw-content-ltr mw-parser-output"))
+        def get_language_headings():
+            headings = content.find_all(class_="mw-heading mw-heading2")
+            parent = ParserUtils.single_element(list(set(l.parent for l in headings))).extract()
+            headings_check = [c for c in parent.contents if self.is_heading(c, level=2)]
+            if headings != headings_check:
+                raise ValueError(f"Unexpected headings")
+            return headings
         language_headings = content.find_all(class_="mw-heading mw-heading2")
-        parents = set(l.parent for l in language_headings)
-        if not len(parents) == 1:
-            raise ValueError(f"Unexpected parents")
-        parent = list(parents)[0].extract()
-        language_headings2 = [c for c in parent.contents if self.is_heading(c, level=2)]
-        if language_headings != language_headings2:
-            raise ValueError(f"Unexpected headings")
-        russian_heading = [h for h in language_headings if h.contents[0].text == "Russian"][0]
+        russian_heading = ParserUtils.single_element([h for h in language_headings if h.contents[0].text == "Russian"])
         russian_stuff = []
         for item in russian_heading.next_siblings:
             if item in language_headings:
+                break
+            if self.is_heading(item, level=3) and item.text.startswith("Etymology 2"):
                 break
             russian_stuff.append(item)
         return russian_stuff
@@ -230,6 +248,10 @@ class VerbParser:
             if ParserUtils.is_new_line(element):
                 continue
             current_section.append(element)
+        if current_heading is not None:
+            headings_and_sections.append(
+                VerbSubSection.build(current_heading, current_section)
+            )
         return headings_and_sections
 
     def parse(self):
@@ -246,6 +268,10 @@ class VerbParser:
             print("Derived terms")
             for d in ss.derived_terms:
                 print(f"\t{d}")
+        for ss in [s for s in sub_sections if isinstance(s, VerbRelatedTerms)]:
+            print("Related terms")
+            for d in ss.related_terms:
+                print(f"\t{d}")
         return sub_sections
 
     @staticmethod
@@ -257,7 +283,7 @@ class VerbParser:
 
 if __name__ == '__main__':
     paths = Path("/Users/alex/repos/russian-grammar/scraper/verbs/").glob("*.html")
-    for i_path, path in enumerate(list(paths)[:100]):
+    for i_path, path in enumerate(list(paths)):
         verb = path.name
         parser = VerbParser.from_file(path)
         print("\n\n*****************")
