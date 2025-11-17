@@ -6,6 +6,7 @@ from more_itertools.recipes import flatten
 
 from grammar.conjugation import Conjugation
 from language.verb.verb_info import QuoteAndTranslation, VerbDefinition, VerbDefinitionAndExamples
+from language.verb_and_definitions import VerbAndDefinitions
 from scraper.conjugation_parser import ConjugationParser
 from utils.types import checked_type, checked_list_type
 
@@ -72,6 +73,13 @@ class ParserUtils:
 
         raise ValueError(f"Expected 0 or 1 elements, got {elements}")
 
+    @staticmethod
+    def is_heading(element: PageElement, level: int) -> bool:
+        if isinstance(element, Tag) and element.has_attr("class") and element.attrs["class"] == ["mw-heading",
+                                                                                                 f"mw-heading{level}"]:
+            return True
+        return False
+
 
 class VerbSubSection:
     def __init__(self, heading: Tag, section: list[PageElement]):
@@ -85,20 +93,6 @@ class VerbSubSection:
     @staticmethod
     def heading_title(tag: Tag):
         return tag.contents[0].text
-
-    @staticmethod
-    def build(tag: Tag, section: list[PageElement]) -> 'VerbSubSection':
-        heading_title = VerbSubSection.heading_title(tag)
-        print(heading_title)
-        if heading_title == "Verb" or heading_title.startswith("Verb_"):
-            return VerbDefinitionAndExamplesParser(tag, section).parse()
-        if heading_title == "Derived terms":
-            return VerbDerivedTerms(tag, section)
-        if heading_title == "Related terms":
-            return VerbRelatedTerms(tag, section)
-        if heading_title == "Conjugation":
-            return VerbConjugation(tag, section)
-        return VerbSubSection(tag, section)
 
 
 class QuoteAndTranslationParser:
@@ -219,16 +213,91 @@ class VerbConjugationParser(VerbSubSection):
         return self.conjugation
 
 
+class VerbAndDefinitionCollector:
+    def __init__(self):
+        self.collected: list[VerbAndDefinitions] = []
+        self.current_heading: Optional[Tag] = None
+        self.current_section: list[PageElement] = []
+        self.current_definition_and_examples: Optional[VerbDefinitionAndExamples] = None
+        self.current_conjugation: Optional[Conjugation] = None
+        self.current_derived_terms: list[str] = []
+        self.current_related_terms: list[str] = []
+
+    def process_current_state(self):
+        if self.current_heading is not None:
+            heading_title = VerbSubSection.heading_title(self.current_heading)
+            print(heading_title)
+            if heading_title == "Verb" or heading_title.startswith("Verb_"):
+                if self.current_definition_and_examples is not None:
+                    self.collect()
+                self.set_current_definition(
+                    VerbDefinitionAndExamplesParser(self.current_heading, self.current_section).parse())
+            if heading_title == "Conjugation":
+                self.set_current_conjugation(VerbConjugationParser(self.current_heading, self.current_section).parse())
+            if heading_title == "Derived terms":
+                self.set_derived_terms([e.text
+                                        for s in self.current_section if isinstance(s, Tag)
+                                        for e in s.find_all(lang="ru")])
+            if heading_title == "Related terms":
+                self.set_related_terms([e.text
+                                        for s in self.current_section if isinstance(s, Tag)
+                                        for e in s.find_all(lang="ru")])
+            self.current_heading = None
+            self.current_section = []
+
+    def process_element(self, element: PageElement):
+        if ParserUtils.is_heading(element, level=3) or ParserUtils.is_heading(element,
+                                                                              level=4) or ParserUtils.is_heading(
+                element,
+                level=5):
+            if self.current_heading is not None:
+                self.process_current_state()
+            self.current_heading = element
+            self.current_section = []
+        if not ParserUtils.is_new_line(element):
+            self.current_section.append(element)
+
+    def collect(self):
+        assert self.current_definition_and_examples is not None, "Have no current definition"
+        assert self.current_conjugation is not None, "Have no current conjugation"
+        self.collected.append(
+            VerbAndDefinitions(
+                self.current_definition_and_examples.infinitive,
+                self.current_definition_and_examples.aspect,
+                self.current_definition_and_examples.correspondents,
+                self.current_conjugation,
+                self.current_definition_and_examples.definitions,
+                self.current_derived_terms,
+                self.current_related_terms
+            )
+        )
+        self.current_definition_and_examples = None
+        self.current_conjugation = None
+        self.current_derived_terms = []
+        self.current_related_terms = []
+
+    def set_current_definition(self, definition: VerbDefinitionAndExamples):
+        if self.current_definition_and_examples is not None:
+            self.collect()
+        self.current_definition_and_examples = definition
+
+    def set_current_conjugation(self, conjugation: Conjugation):
+        assert self.current_conjugation is None, "Already have conjugation"
+        self.current_conjugation = conjugation
+
+    def set_derived_terms(self, derived_terms: list[str]):
+        # A few verbs have multiple derived verbs sections, so we don't fail if they already exist
+        self.current_derived_terms += derived_terms
+
+    def set_related_terms(self, related_terms: list[str]):
+        # A few verbs have multiple related verbs sections, so we don't fail if they already exist
+        self.current_related_terms += related_terms
+
+
 class VerbParser:
     def __init__(self, verb: str, html: str):
         self.verb: str = checked_type(verb, str)
         self.html: str = checked_type(html, str)
-
-    def is_heading(self, element: PageElement, level: int) -> bool:
-        if isinstance(element, Tag) and element.has_attr("class") and element.attrs["class"] == ["mw-heading",
-                                                                                                 f"mw-heading{level}"]:
-            return True
-        return False
 
     def extract_elements_from_russian_section_in_page(self) -> list[PageElement]:
         soup = BeautifulSoup(self.html, 'html.parser')
@@ -239,89 +308,27 @@ class VerbParser:
         for item in russian_heading.next_siblings:
             if item in language_headings:
                 break
-            if self.verb in ["навести.html", "вырасти.html", "есть.html", "расти.html"] and self.is_heading(item,
-                                                                                              level=3) and item.text.startswith(
-                    "Etymology 2"):
+            # For each of these the second etymology is or no interest
+            if self.verb in ["навести.html", "вырасти.html", "есть.html", "расти.html", "подать.html"] and ParserUtils.is_heading(item,
+                                                                                                                   level=3) and item.text.startswith(
+                "Etymology 2"):
+                break
+            if self.verb in ["знать.html"] and ParserUtils.is_heading(item, level=3) and item.text.startswith(
+                "Noun"):
                 break
             russian_stuff.append(item)
         return russian_stuff
 
     def group_into_sections(self, elements: list[PageElement]) -> 'list[VerbAndDefinitions]':
-        from language.verb_and_definitions import VerbAndDefinitions
-        conjugations: list[Conjugation] = []
-        definitions: list[VerbDefinitionAndExamples] = []
-        derived_terms: list[list[str]] = []
-        related_terms: list[list[str]] = []
+        collector = VerbAndDefinitionCollector()
         checked_list_type(elements, PageElement)
-        current_section = []
-        current_heading: Optional[Tag] = None
 
         for element in elements:
-            if self.is_heading(element, level=3) or self.is_heading(element, level=4) or self.is_heading(element,
-                                                                                                         level=5):
-                if current_heading is not None:
-                    heading_title = VerbSubSection.heading_title(current_heading)
-                    if heading_title == "Verb" or heading_title.startswith("Verb_"):
-                        if len(derived_terms) < len(definitions):
-                            derived_terms.append([])
-                        if len(related_terms) < len(definitions):
-                            related_terms.append([])
-                        definitions.append(VerbDefinitionAndExamplesParser(current_heading, current_section).parse())
-                    if heading_title == "Derived terms":
-                        derived_terms.append([e.text
-                                              for s in current_section if isinstance(s, Tag)
-                                              for e in s.find_all(lang="ru")])
-                    if heading_title == "Related terms":
-                        related_terms.append([e.text
-                                              for s in current_section if isinstance(s, Tag)
-                                              for e in s.find_all(lang="ru")])
-                    if heading_title == "Conjugation":
-                        conjugations.append(VerbConjugationParser(current_heading, current_section).parse())
-                current_heading = element
-                current_section = []
-                continue
-            if ParserUtils.is_new_line(element):
-                continue
-            current_section.append(element)
+            collector.process_element(element)
+        collector.process_current_state()
+        collector.collect()
 
-        if current_heading is not None:
-            heading_title = VerbSubSection.heading_title(current_heading)
-            if heading_title == "Verb" or heading_title.startswith("Verb_"):
-                if len(derived_terms) < len(definitions):
-                    derived_terms.append([])
-                if len(related_terms) < len(definitions):
-                    related_terms.append([])
-                definitions.append(VerbDefinitionAndExamplesParser(current_heading, current_section).parse())
-            if heading_title == "Derived terms":
-                derived_terms.append([e.text
-                                      for s in current_section if isinstance(s, Tag)
-                                      for e in s.find_all(lang="ru")])
-            if heading_title == "Related terms":
-                related_terms.append([e.text
-                                      for s in current_section if isinstance(s, Tag)
-                                      for e in s.find_all(lang="ru")])
-            if heading_title == "Conjugation":
-                conjugations.append(VerbConjugationParser(current_heading, current_section).parse())
-        if len(derived_terms) < len(definitions):
-            derived_terms.append([])
-        if len(related_terms) < len(definitions):
-            related_terms.append([])
-        assert len(conjugations) == len(definitions), "Mismatching definitions and conjugations"
-        assert len(conjugations) > 0, "No conjugations"
-        result = [
-            VerbAndDefinitions(
-                d.infinitive,
-                d.aspect,
-                d.correspondents,
-                c,
-                d.definitions,
-                derived,
-                related
-            )
-            for c, d, derived, related in zip(conjugations, definitions, derived_terms, related_terms)
-        ]
-        assert len(result) > 0, "No result"
-        return result
+        return collector.collected
 
     def parse(self) -> 'list[VerbAndDefinitions]':
         russian_stuff = self.extract_elements_from_russian_section_in_page()
