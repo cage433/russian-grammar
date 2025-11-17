@@ -48,10 +48,11 @@ class ParserUtils:
             return True
         return isinstance(element, NavigableString) and element.text == '.\n'
 
+
 class VerbSubSection:
-    def __init__(self, heading: Tag, section: list[Tag]):
+    def __init__(self, heading: Tag, section: list[PageElement]):
         self.heading: Tag = checked_type(heading, Tag)
-        self.section = checked_list_type(section, Tag)
+        self.section = checked_list_type(section, PageElement)
 
     @property
     def section_name(self) -> str:
@@ -62,13 +63,14 @@ class VerbSubSection:
         return tag.contents[0].text
 
     @staticmethod
-    def build(tag: Tag, section: list[Tag]) -> 'VerbSubSection':
+    def build(tag: Tag, section: list[PageElement]) -> 'VerbSubSection':
         heading_title = VerbSubSection.heading_title(tag)
         if heading_title == "Verb":
             return VerbAspectDefinitionAndExamples(tag, section)
         if heading_title == "Derived Terms":
             return VerbDerivedTerms(tag, section)
         return VerbSubSection(tag, section)
+
 
 class QuoteAndTranslation:
     def __init__(self, quote: str, translation: str):
@@ -94,6 +96,7 @@ class QuoteAndTranslation:
                 result.append(QuoteAndTranslation(quotations[0].text, translations[-1].text))
         return result
 
+
 class VerbDefinition:
     def __init__(self, meaning: str, quotes: list[QuoteAndTranslation]):
         self.meaning: str = checked_type(meaning, str)
@@ -116,7 +119,6 @@ class VerbDefinition:
             quote_tags = [t for t in contents[i_new_lines[0] + 1:] if isinstance(t, Tag)]
             quotes_and_translations = flatten([QuoteAndTranslation.from_element(tag) for tag in quote_tags])
             return VerbDefinition(text, list(quotes_and_translations))
-
 
 
 class VerbAspectDefinitionAndExamples(VerbSubSection):
@@ -155,18 +157,19 @@ class VerbDerivedTerms(VerbSubSection):
         if not self.section_name == "Derived Terms":
             raise ValueError("Expected derived terms")
 
+
 class VerbParser:
     def __init__(self, verb: str, html: str):
         self.verb: str = checked_type(verb, str)
         self.html: str = checked_type(html, str)
 
-    def is_heading(self, element, level):
+    def is_heading(self, element: PageElement, level: int) -> bool:
         if isinstance(element, Tag) and element.has_attr("class") and element.attrs["class"] == ["mw-heading",
                                                                                                  f"mw-heading{level}"]:
             return True
         return False
 
-    def extract_tags_from_russian_section_in_page(self) -> list[Tag]:
+    def extract_elements_from_russian_section_in_page(self) -> list[PageElement]:
         soup = BeautifulSoup(self.html, 'html.parser')
         contents = soup.find_all(class_="mw-content-ltr mw-parser-output")
         if len(contents) != 1:
@@ -188,9 +191,10 @@ class VerbParser:
             russian_stuff.append(item)
         return russian_stuff
 
-    def group_into_sections(self, elements: list[Tag]) -> list[VerbSubSection]:
+    def group_into_sections(self, elements: list[PageElement]) -> list[VerbSubSection]:
+        checked_list_type(elements, PageElement)
         current_section = []
-        current_heading = None
+        current_heading: Optional[Tag] = None
         headings_and_sections = []
         for element in elements:
             if self.is_heading(element, level=3) or self.is_heading(element, level=4):
@@ -206,11 +210,8 @@ class VerbParser:
                 current_section.append(element)
         return headings_and_sections
 
-    def heading_title(self, tag: Tag):
-        return tag.contents[0].text
-
     def parse(self):
-        russian_stuff = self.extract_tags_from_russian_section_in_page()
+        russian_stuff = self.extract_elements_from_russian_section_in_page()
         sub_sections = self.group_into_sections(russian_stuff)
         for ss in [s for s in sub_sections if isinstance(s, VerbAspectDefinitionAndExamples)]:
             print(f"{ss.infinitive}, {ss.aspect}, {ss.correspondents}")
