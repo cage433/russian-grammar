@@ -80,6 +80,9 @@ class ParserUtils:
             return True
         return False
 
+    def is_heading_in_range(element: PageElement, low_level: int, high_level: int) -> bool:
+        return any(ParserUtils.is_heading(element, level) for level in range(low_level, high_level + 1))
+
 
 class VerbSubSection:
     def __init__(self, heading: Tag, section: list[PageElement]):
@@ -246,10 +249,7 @@ class VerbAndDefinitionCollector:
             self.current_section = []
 
     def process_element(self, element: PageElement):
-        if ParserUtils.is_heading(element, level=3) or ParserUtils.is_heading(element,
-                                                                              level=4) or ParserUtils.is_heading(
-                element,
-                level=5):
+        if ParserUtils.is_heading_in_range(element, low_level=3, high_level=5):
             if self.current_heading is not None:
                 self.process_current_state()
             self.current_heading = element
@@ -305,16 +305,18 @@ class VerbParser:
         language_headings = content.find_all(class_="mw-heading mw-heading2")
         russian_heading = ParserUtils.single_element([h for h in language_headings if h.contents[0].text == "Russian"])
         russian_stuff = []
+
+        def is_heading_starting_with(item: PageElement, text: str) -> bool:
+            return ParserUtils.is_heading(item, level=3) and item.text.startswith(text)
+
         for item in russian_heading.next_siblings:
             if item in language_headings:
                 break
             # For each of these the second etymology is or no interest
-            if self.verb in ["навести.html", "вырасти.html", "есть.html", "расти.html", "подать.html"] and ParserUtils.is_heading(item,
-                                                                                                                   level=3) and item.text.startswith(
-                "Etymology 2"):
+            if self.verb in ["навести", "вырасти", "есть", "расти", "подать"] and is_heading_starting_with(item,
+                                                                                                           text="Etymology 2"):
                 break
-            if self.verb in ["знать.html"] and ParserUtils.is_heading(item, level=3) and item.text.startswith(
-                "Noun"):
+            if self.verb in ["знать"] and is_heading_starting_with(item, text="Noun"):
                 break
             russian_stuff.append(item)
         return russian_stuff
@@ -339,7 +341,7 @@ class VerbParser:
     def from_file(path: Path):
         with open(path) as p:
             html = p.read()
-        return VerbParser(path.name, html)
+        return VerbParser(path.stem, html)
 
 
 if __name__ == '__main__':
