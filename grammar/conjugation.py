@@ -163,6 +163,16 @@ class Participle:
                 and self.long_or_short == other.long_or_short
         )
 
+    def __hash__(self):
+        return hash(
+            (
+                self.text,
+                self.participle_type,
+                self.tense,
+                self.long_or_short
+            )
+        )
+
 
 class Participles:
     def __init__(self, participles: List[Participle]):
@@ -194,6 +204,10 @@ class Participles:
 
     def __eq__(self, other):
         return self.participles == other.participles
+
+    def __hash__(self):
+        return hash(tuple(self.participles))
+
 
 
 class PresentOrFutureConjugation:
@@ -271,6 +285,18 @@ class PresentOrFutureConjugation:
                 and self.third_person_plural == other.third_person_plural
         )
 
+    def __hash__(self):
+        return hash(
+            (
+                self.first_person_singular,
+                self.second_person_singular,
+                self.third_person_singular,
+                self.first_person_plural,
+                self.second_person_plural,
+                self.third_person_plural,
+            )
+        )
+
 
 class PastConjugation:
     PAST_M = "Past M"
@@ -331,6 +357,14 @@ class PastConjugation:
                 and self.plural == other.plural
         )
 
+    def __hash__(self):
+        return hash(
+            (
+                self.masculine, self.feminine,
+                self.neuter, self.plural
+            )
+        )
+
 
 class Imperative:
     IMP_S = "Imp S"
@@ -366,6 +400,9 @@ class Imperative:
                 self.singular == other.singular
                 and self.plural == other.plural
         )
+
+    def __hash__(self):
+        return hash((self.singular, self.plural))
 
 
 class VerbType:
@@ -411,6 +448,9 @@ class VerbType:
                 and self.transitive == other.transitive
                 and self.reflexive == other.reflexive
         )
+
+    def __hash__(self):
+        return hash((self.zaliznyak_class, self.aspect, self.transitive, self.reflexive))
 
 
 class Conjugation:
@@ -459,6 +499,17 @@ class Conjugation:
             result += f"Imperative:\n{self.imperative}\n"
         return result
 
+    def __hash__(self):
+        return hash(
+            (
+                self.infinitive,
+                self.verb_type,
+                self.participles,
+                self.present_or_future,
+                self.past,
+                self.imperative
+            )
+        )
     def to_table(self) -> List[List[str]]:
         table = [
             ["Infinitive", self.infinitive],

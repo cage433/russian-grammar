@@ -107,9 +107,23 @@ class QuoteAndTranslationParser:
 class VerbDefinitionParser:
     @staticmethod
     def from_tag(tag: Tag):
-        contents = tag.contents
-        i_new_lines = [i for i in range(len(contents)) if ParserUtils.is_new_line_ish(contents[i])]
-        if len(i_new_lines) == 0:
+        contents = []
+        for c in tag.contents:
+            if isinstance(c, Tag) and c.name == 'style':
+                continue
+            contents.append(c)
+        definition_elements = []
+        for e in contents:
+            if ParserUtils.is_new_line_ish(e):
+                break
+            if e.text.endswith('\n'):
+                definition_elements.append(e)
+                break
+            definition_elements.append(e)
+
+        quote_elements = contents[len(definition_elements):]
+
+        if len(quote_elements) == 0:
             text = tag.text
             if text.startswith("passive of"):
                 # remove transliteration
@@ -117,9 +131,9 @@ class VerbDefinitionParser:
                 text = " ".join(terms[:3])
             return VerbDefinition(text, quotes=[])
         else:
-            texts = [t.text for t in contents[:i_new_lines[0]]]
+            texts = [t.text for t in definition_elements]
             text = "".join(texts)
-            quote_tags = [t for t in contents[i_new_lines[0] + 1:] if isinstance(t, Tag)]
+            quote_tags = [t for t in quote_elements if isinstance(t, Tag)]
             quotes_and_translations = flatten([QuoteAndTranslationParser.from_element(tag) for tag in quote_tags])
             return VerbDefinition(text, list(quotes_and_translations))
 
@@ -161,8 +175,11 @@ class VerbCorrespondentsParser:
 
 class VerbDefinitionsParser:
     @staticmethod
-    def definitions(tag: Tag) -> list[VerbDefinition]:
-        defs = tag.find_all('li', recursive=False)
+    def definitions(section: list[PageElement]) -> list[VerbDefinition]:
+        defs = []
+        for element in section:
+            if isinstance(element, Tag):
+                defs += element.find_all('li', recursive=False)
         return [VerbDefinitionParser.from_tag(f) for f in defs]
 
 
@@ -204,7 +221,7 @@ class VerbAndDefinitionCollector:
                     self.collect()
                 self.set_current_identifier(VerbIdentifierParser.identifier(self.current_section))
                 self.current_correspondents = VerbCorrespondentsParser.correspondents(self.current_section[0])
-                self.current_definitions = VerbDefinitionsParser.definitions(self.current_section[1])
+                self.current_definitions = VerbDefinitionsParser.definitions(self.current_section[1:])
             if heading_title == "Conjugation":
                 self.set_current_conjugation(VerbConjugationParser.parse(self.current_section))
             if heading_title == "Derived terms":
@@ -306,6 +323,7 @@ class WikipediaVerbInfoParser:
     def parse(self) -> 'list[WikipediaVerbInfo]':
         russian_stuff = self._russian_section_page_elements()
         result = self._from_page_elements(russian_stuff)
+        result = WikipediaVerbInfo.merge(result)
         return result
 
     @staticmethod
@@ -332,7 +350,12 @@ class WikipediaVerbInfoParser:
             return shelf[key]
 
 if __name__ == '__main__':
-    verbs_and_definitions = WikipediaVerbInfoParser.from_locally_downloaded_pages(force=False)
-    for p in verbs_and_definitions:
-        print(p.identifier.infinitive)
+    path = Path(__file__).parent / "wikipedia_pages" / "жать.html"
+    verb_and_def = WikipediaVerbInfoParser.from_file(path)
+    from scripts.write_verb_anki_deck import verb_as_text_row
+    text_row = verb_as_text_row(verb_and_def[0])
+    print(text_row)
+    # verbs_and_definitions = WikipediaVerbInfoParser.from_locally_downloaded_pages(force=False)
+    # for p in verbs_and_definitions:
+    #     print(p.identifier.infinitive)
 
