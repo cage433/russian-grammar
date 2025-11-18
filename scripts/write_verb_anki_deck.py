@@ -115,37 +115,16 @@ def write_anki_import_file(file_path: Path, verbs: list[WikipediaVerbInfo]):
             f.write(verb_as_text_row(infinitive, aspect, short_class, short_stress, present_or_future, vs) + "\n")
 
 
-def create_deck(z_class: any):
+def create_deck(z_class: Optional[any]):
     verbs = WikipediaVerbInfoParser.from_locally_downloaded_pages(force=False)
-    verbs = [v for v in verbs if v.conjugation.short_class == f"{z_class}"]
-    path = Path(f"/Users/alex/tmp/verbs_{z_class}.csv")
+    if z_class is not None:
+        verbs = [v for v in verbs if v.conjugation.short_class == f"{z_class}"]
+        path = Path(f"/Users/alex/tmp/verbs_{z_class}.csv")
+    else:
+        path = Path(f"/Users/alex/tmp/verbs.csv")
     write_anki_import_file(path, verbs)
 
 
-def analyse_classes():
-    verbs = WikipediaVerbInfoParser.from_locally_downloaded_pages(force=False)
-    classes = set()
-    for v in verbs:
-        zc = v.conjugation.verb_type.zaliznyak_class
-        vc = f"{zc.short_class}-{zc.short_stress}"
-        classes.add(vc)
-    for c in sorted(list(classes)):
-        print(c)
-
-
-# def analyse_groups():
-#     verbs = WikipediaVerbInfoParser.from_locally_downloaded_pages(force=False)
-#
-#     def short_group(verb):
-#         zc = verb.conjugation.verb_type.zaliznyak_class
-#         return f"{verb.conjugation.infinitive}: {zc.short_class}-{zc.short_stress}"
-#
-#     grouped = group_into_dict(verbs, short_group)
-#     multis = {k: v for k, v in grouped.items() if len(v) > 1}
-#     for k, v in multis.items():
-#         print(f"{k} - {len(v)}")
-
 
 if __name__ == '__main__':
-    create_deck(z_class=16)
-    # analyse_groups()
+    create_deck(z_class=None)
