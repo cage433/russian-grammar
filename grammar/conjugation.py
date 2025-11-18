@@ -9,6 +9,14 @@ class Aspect(StrEnum):
     PERFECTIVE = "perfective"
     IMPERFECTIVE = "imperfective"
 
+    @staticmethod
+    def short_aspect(aspect: str):
+        if aspect == Aspect.PERFECTIVE:
+            return "perf."
+        if aspect == Aspect.IMPERFECTIVE:
+            return "impf."
+        raise ValueError(f"Unexpected long aspect {aspect}")
+
 
 SHORT_CLASS_1_RE = re.compile(r"(\d+[abc])")
 SHORT_CLASS_2_RE = re.compile(r"(\d+[abc][']*/[abc][']*)")

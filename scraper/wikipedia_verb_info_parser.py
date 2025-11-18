@@ -249,9 +249,8 @@ class VerbAndDefinitionCollector:
         assert self.current_conjugation is not None, "Have no current conjugation"
         self.collected.append(
             WikipediaVerbInfo(
-                self.current_identifier,
-                self.current_correspondents,
                 self.current_conjugation,
+                self.current_correspondents,
                 self.current_definitions,
                 self.current_derived_terms,
                 self.current_related_terms
