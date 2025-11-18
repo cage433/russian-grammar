@@ -220,7 +220,7 @@ class VerbAndDefinitionCollector:
                 if self.current_identifier is not None:
                     self.collect()
                 self.set_current_identifier(VerbIdentifierParser.identifier(self.current_section))
-                self.current_correspondents = VerbCorrespondentsParser.correspondents(self.current_section[0])
+                self.current_correspondents = VerbCorrespondentsParser.correspondents(self.current_section[1])
                 self.current_definitions = VerbDefinitionsParser.definitions(self.current_section[1:])
             if heading_title == "Conjugation":
                 self.set_current_conjugation(VerbConjugationParser.parse(self.current_section))

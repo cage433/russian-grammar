@@ -1,6 +1,11 @@
 from pathlib import Path
 
+from more_itertools import flatten
+
 from scraper.wikipedia_verb_info_parser import WikipediaVerbInfoParser
+from utils.utils import group_into_dict
+from wikipedia.verb.verb_definition import VerbDefinition
+from wikipedia.verb.verb_identifier import VerbIdentifier
 from wikipedia.wikipedia_verb_info import WikipediaVerbInfo
 
 def remove_new_lines(text: str) -> str:
@@ -17,30 +22,46 @@ def ordered_list(terms: list[str]) -> str:
     li_term = "".join(li_elements)
     return f"<ul>{li_term}</ul>"
 
-def definitions_field(verb: WikipediaVerbInfo)-> str:
-    return ordered_list([d.meaning for d in verb.definitions])
+def definitions_field(definitions: list[VerbDefinition])-> str:
+    return ordered_list([d.meaning for d in definitions])
 
-def examples_field(verb: WikipediaVerbInfo)-> str:
+def examples_field(definitions: list[VerbDefinition])-> str:
     terms = []
-    for d in verb.definitions:
+    for d in definitions:
         for q in d.quotes:
             quote_and_trans = f"{q.quote} - {q.translation}"
             terms.append(quote_and_trans)
     if len(terms) == 0:
         return ""
-    return f"<hr>{ordered_list(terms)}"
+    heading = """<p style="text-align:left"><strong>Examples:</strong></p>"""
+    return f"{heading}{ordered_list(terms)}"
 
-def verb_as_text_row(verb: WikipediaVerbInfo):
-    verb_class = verb.conjugation.short_class + verb.conjugation.short_stress
-    deck = f"Verbs::{verb.conjugation.short_class}::{verb.conjugation.short_stress}"
+def correspondents_field(verb_aspect: str, correspondents: list[str])-> str:
+    if len(correspondents) == 0:
+        return ""
+    list_text = ", ".join([f"<em>{c}</em>" for c in correspondents])
+    if verb_aspect == "pf":
+        correspondent_aspect = "impf."
+    elif verb_aspect == "impf":
+        correspondent_aspect = "perf."
+    else:
+        raise ValueError(f"Unexpected aspect {verb_aspect}")
+    return f"({correspondent_aspect} {list_text})"
+
+def verb_as_text_row(id: VerbIdentifier, short_class: str, short_stress: str, verbs: list[WikipediaVerbInfo]):
+    verb_class = short_class + short_stress
+    deck = f"Verbs::{short_class}::{short_stress}"
+    merged_definitions = list(flatten(v.definitions for v in verbs))
+    merged_correspondents = list(set(flatten(v.correspondents for v in verbs)))
     terms = [
         "Verbs",
         deck,
-        verb.identifier.infinitive,
-        verb.identifier.aspect,
+        id.infinitive,
+        id.aspect,
         verb_class,
-        definitions_field(verb),
-        examples_field(verb)
+        definitions_field(merged_definitions),
+        examples_field(merged_definitions),
+        correspondents_field(id.aspect, merged_correspondents)
     ]
     return ";".join(terms)
 
@@ -50,8 +71,9 @@ def write_anki_import_file(file_path: Path, verbs: list[WikipediaVerbInfo]):
         f.write("#separator:;\n")
         f.write("#notetype column:1\n")
         f.write("#deck column:2\n")
-        for v in verbs:
-            f.write(verb_as_text_row(v) + "\n")
+        grouped_verbs = group_into_dict(verbs, lambda verb: (verb.identifier, verb.conjugation.short_class, verb.conjugation.short_stress))
+        for (id, short_class, short_stress), vs in grouped_verbs.items():
+            f.write(verb_as_text_row(id, short_class, short_stress, vs) + "\n")
 
 
 def create_deck():
