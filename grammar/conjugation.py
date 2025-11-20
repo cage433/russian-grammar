@@ -77,7 +77,7 @@ class ZaliznyakClass:
         return "a"
 
     @property
-    def short_class(self):
+    def short_class(self) -> str:
         scs = self.short_class_and_stress
         if scs.startswith("irreg"):
             return "irreg"
@@ -491,7 +491,7 @@ class Conjugation:
         return self.verb_type.zaliznyak_class.short_stress
 
     @property
-    def short_class(self):
+    def short_class(self) -> str:
         return self.verb_type.zaliznyak_class.short_class
 
     def __str__(self):

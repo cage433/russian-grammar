@@ -3,11 +3,10 @@ from typing import Optional
 
 from more_itertools import flatten
 
-from grammar.conjugation import Aspect, Conjugation, PresentOrFutureConjugation
+from grammar.conjugation import Aspect, PresentOrFutureConjugation
 from scraper.wikipedia_verb_info_parser import WikipediaVerbInfoParser
 from utils.utils import group_into_dict
 from wikipedia.verb.verb_definition import VerbDefinition
-from wikipedia.verb.verb_identifier import VerbIdentifier
 from wikipedia.wikipedia_verb_info import WikipediaVerbInfo
 
 
@@ -70,9 +69,6 @@ def conjugation_field(tense: PresentOrFutureConjugation) -> str:
         for n, s in [
             ("1s ", tense.first_person_singular),
             ("2s ", tense.second_person_singular),
-            ("3s ", tense.third_person_singular),
-            ("1p ", tense.first_person_plural),
-            ("2p ", tense.second_person_plural),
             ("3p ", tense.third_person_plural)
         ]
     ]
@@ -83,13 +79,17 @@ def conjugation_field(tense: PresentOrFutureConjugation) -> str:
 
 def verb_as_text_row(infinitive: str, aspect: str, short_class: str, short_stress: str,
                      tense: PresentOrFutureConjugation, verbs: list[WikipediaVerbInfo]):
+    if short_class == "irreg":
+        short_class_for_deck = short_class
+    else:
+        short_class_for_deck = f"{int(short_class):02d}"
     verb_class = short_class + short_stress
-    deck = f"Verbs::{short_class}::{short_stress}"
+    deck = f"3000 Verbs::{short_class_for_deck}::{short_stress}"
     merged_definitions = list(flatten(v.definitions for v in verbs))
     merged_correspondents = list(set(flatten(v.correspondents for v in verbs)))
 
     terms = [
-        "Verbs",
+        "3000 Verbs",
         deck,
         infinitive,
         Aspect.short_aspect(aspect),
